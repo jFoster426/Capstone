@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=SD_MISO Pin=TP39-1
+Removed Pin From Net: NetName=SD_CS Pin=TP40-1
+Removed Pin From Net: NetName=SD_MOSI Pin=TP41-1
+Removed Pin From Net: NetName=SD_CLK Pin=TP42-1
+Removed Pin From Net: NetName=SD_CD Pin=TP43-1
+Added Pin To Net: NetName=SD_CD Pin=TP39-1
+Added Pin To Net: NetName=SD_MISO Pin=TP40-1
+Added Pin To Net: NetName=SD_CLK Pin=TP41-1
+Added Pin To Net: NetName=SD_MOSI Pin=TP42-1
+Added Pin To Net: NetName=SD_CS Pin=TP43-1
+Change Net Name : Old Net Name=SD_WP New Net Name=NetTP44_1

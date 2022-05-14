@@ -1,0 +1,6 @@
+Remove Pin=J6-6 From Net=AVR_PB7
+Remove Pin=J8-2 From Net=AVR_PC2
+Remove Pin=J8-6 From Net=AVR_PB6
+Add Pin To Net: Pin=J6-6 Old Net=AVR_PB7 New Net=AVR_PC4
+Add Pin To Net: Pin=J8-2 Old Net=AVR_PC2 New Net=AVR_PD7
+Add Pin To Net: Pin=J8-6 Old Net=NetJ8_6 New Net=AVR_PD1

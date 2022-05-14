@@ -1,0 +1,26 @@
+Remove Pin=J5-3 From Net=AVR_PB5
+Remove Pin=J5-4 From Net=AVR_PB6
+Remove Pin=J5-5 From Net=AVR_PB7
+Remove Pin=J6-3 From Net=AVR_PC2
+Remove Pin=J6-5 From Net=AVR_PC5
+Remove Pin=J6-7 From Net=AVR_PC7
+Remove Pin=J8-2 From Net=AVR_PD0
+Remove Pin=J8-4 From Net=AVR_PD4
+Remove Pin=J8-5 From Net=AVR_PD5
+Remove Pin=J8-6 From Net=AVR_PD6
+Add Pin To Net: Pin=J5-3 Old Net=AVR_PB5 New Net=AVR_PD4
+Add Pin To Net: Pin=J5-4 Old Net=AVR_PB6 New Net=AVR_PD5
+Add Pin To Net: Pin=J5-5 Old Net=AVR_PB7 New Net=AVR_PD6
+Add Pin To Net: Pin=J6-3 Old Net=AVR_PC2 New Net=AVR_PB5
+Add Pin To Net: Pin=J6-4 Old Net=AVR_PC4 New Net=AVR_PB7
+Add Pin To Net: Pin=J6-7 Old Net=AVR_PC7 New Net=AVR_PD0
+Add Pin To Net: Pin=J8-3 Old Net=AVR_PD1 New Net=AVR_PB6
+Add Pin To Net: Pin=J8-4 Old Net=AVR_PD4 New Net=AVR_PC7
+Add Pin To Net: Pin=J8-5 Old Net=AVR_PD5 New Net=AVR_PC5
+Add Pin To Net: Pin=J8-7 Old Net=AVR_PD7 New Net=AVR_PC2
+Change Pin Designator/Name:  Old Designator=J5-6 Old Name=6 New Designator =7 New Name=7
+Change Pin Designator/Name:  Old Designator=J5-7 Old Name=7 New Designator =6 New Name=6
+Change Pin Designator/Name:  Old Designator=J6-4 Old Name=4 New Designator =6 New Name=6
+Change Pin Designator/Name:  Old Designator=J6-6 Old Name=6 New Designator =5 New Name=5
+Change Pin Designator/Name:  Old Designator=J8-3 Old Name=3 New Designator =6 New Name=6
+Change Pin Designator/Name:  Old Designator=J8-7 Old Name=7 New Designator =2 New Name=2

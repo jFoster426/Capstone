@@ -1,0 +1,5 @@
+Change Pin Designator/Name:  Old Designator=U1C-5 Old Name=GPIO0 New Designator =GPIO5 New Name=10
+Change Pin Designator/Name:  Old Designator=U1C-13 Old Name=GPIO8 New Designator =GPIO12 New Name=17
+Change Pin Designator/Name:  Old Designator=U1C-14 Old Name=GPIO9 New Designator =GPIO11 New Name=16
+Change Pin Designator/Name:  Old Designator=U1C-16 Old Name=GPIO11 New Designator =GPIO8 New Name=13
+Change Pin Designator/Name:  Old Designator=U1C-17 Old Name=GPIO12 New Designator =GPIO9 New Name=14

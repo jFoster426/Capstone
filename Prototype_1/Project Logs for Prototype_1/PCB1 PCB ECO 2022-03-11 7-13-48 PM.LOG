@@ -1,0 +1,44 @@
+Removed Pin From Net: NetName=AVR_PD4 Pin=J5-3
+Removed Pin From Net: NetName=AVR_PD5 Pin=J5-4
+Removed Pin From Net: NetName=AVR_PD6 Pin=J5-5
+Removed Pin From Net: NetName=ESP32_UART_RTS Pin=J5-6
+Removed Pin From Net: NetName=ESP32_UART_CTS Pin=J5-7
+Removed Pin From Net: NetName=AVR_PB5 Pin=J6-3
+Removed Pin From Net: NetName=AVR_PB7 Pin=J6-4
+Removed Pin From Net: NetName=AVR_PC6 Pin=J6-5
+Removed Pin From Net: NetName=AVR_PC4 Pin=J6-6
+Removed Pin From Net: NetName=AVR_PD0 Pin=J6-7
+Removed Pin From Net: NetName=AVR_PD7 Pin=J8-2
+Removed Pin From Net: NetName=AVR_PB6 Pin=J8-3
+Removed Pin From Net: NetName=AVR_PC7 Pin=J8-4
+Removed Pin From Net: NetName=AVR_PC5 Pin=J8-5
+Removed Pin From Net: NetName=AVR_PD1 Pin=J8-6
+Removed Pin From Net: NetName=AVR_PC2 Pin=J8-7
+Added Pin To Net: NetName=VDD_3V3 Pin=C43-2
+Added Pin To Net: NetName=VDD_3V3 Pin=C44-2
+Added Pin To Net: NetName=VDD_3V3 Pin=C45-2
+Added Pin To Net: NetName=AVR_PB5 Pin=J5-3
+Added Pin To Net: NetName=AVR_PB6 Pin=J5-4
+Added Pin To Net: NetName=AVR_PB7 Pin=J5-5
+Added Pin To Net: NetName=ESP32_UART_CTS Pin=J5-6
+Added Pin To Net: NetName=ESP32_UART_RTS Pin=J5-7
+Added Pin To Net: NetName=VDD_3V3 Pin=J6-1
+Added Pin To Net: NetName=VDD_3V3 Pin=J6-2
+Added Pin To Net: NetName=AVR_PC2 Pin=J6-3
+Added Pin To Net: NetName=AVR_PC4 Pin=J6-4
+Added Pin To Net: NetName=AVR_PC5 Pin=J6-5
+Added Pin To Net: NetName=AVR_PC6 Pin=J6-6
+Added Pin To Net: NetName=AVR_PC7 Pin=J6-7
+Added Pin To Net: NetName=VDD_3V3 Pin=J7-1
+Added Pin To Net: NetName=AVR_PD0 Pin=J8-2
+Added Pin To Net: NetName=AVR_PD1 Pin=J8-3
+Added Pin To Net: NetName=AVR_PD4 Pin=J8-4
+Added Pin To Net: NetName=AVR_PD5 Pin=J8-5
+Added Pin To Net: NetName=AVR_PD6 Pin=J8-6
+Added Pin To Net: NetName=AVR_PD7 Pin=J8-7
+Added Pin To Net: NetName=VDD_3V3 Pin=L7-2
+Added Pin To Net: NetName=VDD_3V3 Pin=TP51-1
+Added Pin To Net: NetName=VDD_3V3 Pin=U12-7
+Change Net Name : Old Net Name=5V New Net Name=VDD_5V
+Change Net Name : Old Net Name=5VA New Net Name=VDD_5VA
+Added Member To Class: ClassName=Sheet3 Member=Component J4 Micro SD Card

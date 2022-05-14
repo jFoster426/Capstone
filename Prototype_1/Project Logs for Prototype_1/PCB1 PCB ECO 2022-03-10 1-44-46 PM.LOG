@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=ESP32_USB_DP Pin=R20-2
+Removed Pin From Net: NetName=ESP32_USB_DM Pin=R21-2
+Change Net Name : Old Net Name=NetC20_2 New Net Name=USB1_P
+Change Net Name : Old Net Name=NetC21_2 New Net Name=USB1_N
+Change Net Name : Old Net Name=NetC24_2 New Net Name=USB2_P
+Change Net Name : Old Net Name=NetC25_2 New Net Name=USB2_N
+Change Net Name : Old Net Name=NetR13_2 New Net Name=CP2102_USB_P
+Change Net Name : Old Net Name=NetR15_2 New Net Name=CP2102_USB_N
+Added Pin To Net: NetName=ESP32_USB_N Pin=R21-2
+Added Net: Name=ESP32_USB_N
+Added Pin To Net: NetName=ESP32_USB_P Pin=R20-2
+Added Net: Name=ESP32_USB_P
+Added Differential Pair: Name=CP2102_USB
+Added Differential Pair: Name=ESP32_USB
+Added Differential Pair: Name=USB1
+Added Differential Pair: Name=USB2

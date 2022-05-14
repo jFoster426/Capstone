@@ -1,0 +1,16 @@
+Add Pin To Net: Pin=J5-3 Old Net=NetJ5_3 New Net=AVR_PD4
+Add Pin To Net: Pin=J5-4 Old Net=NetJ5_4 New Net=AVR_PD5
+Add Pin To Net: Pin=J5-5 Old Net=NetJ5_5 New Net=AVR_PD6
+Add Pin To Net: Pin=J5-6 Old Net=NetJ5_6 New Net=ESP32_UART_RTS
+Add Pin To Net: Pin=J5-7 Old Net=NetJ5_7 New Net=ESP32_UART_CTS
+Add Pin To Net: Pin=J6-3 Old Net=NetJ6_3 New Net=AVR_PB5
+Add Pin To Net: Pin=J6-4 Old Net=NetJ6_4 New Net=AVR_PB7
+Add Pin To Net: Pin=J6-5 Old Net=NetJ6_5 New Net=AVR_PC6
+Add Pin To Net: Pin=J6-6 Old Net=NetJ6_6 New Net=AVR_PC4
+Add Pin To Net: Pin=J6-7 Old Net=NetJ6_7 New Net=AVR_PD0
+Add Pin To Net: Pin=J8-2 Old Net=NetJ8_2 New Net=AVR_PD7
+Add Pin To Net: Pin=J8-3 Old Net=NetJ8_3 New Net=AVR_PB6
+Add Pin To Net: Pin=J8-4 Old Net=NetJ8_4 New Net=AVR_PC7
+Add Pin To Net: Pin=J8-5 Old Net=NetJ8_5 New Net=AVR_PC5
+Add Pin To Net: Pin=J8-6 Old Net=NetJ8_6 New Net=AVR_PD1
+Add Pin To Net: Pin=J8-7 Old Net=NetJ8_7 New Net=AVR_PC2

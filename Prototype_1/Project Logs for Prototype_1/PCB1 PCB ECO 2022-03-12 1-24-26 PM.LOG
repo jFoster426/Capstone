@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=TP? NewDesignator=TP7
+Change Component Designator: OldDesignator=TP? NewDesignator=TP8
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR3_1
+Added Member To Class: ClassName=Sheet3 Member=Component TP8 TESTPOINT

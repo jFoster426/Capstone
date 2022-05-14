@@ -1,0 +1,10 @@
+Added Component: Designator=C59(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c03e.ashx?la=en-us"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GCM1555C1H101JA16D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "490-10669-1-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C59-1
+Added Pin To Net: NetName=VDD_3V3 Pin=C59-2
+Added Member To Class: ClassName=Sheet1 Member=Component C59 100pF

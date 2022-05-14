@@ -1,0 +1,114 @@
+Removed Pin From Net: NetName=GND Pin=C7-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=C7-2
+Removed Pin From Net: NetName=GND Pin=C13-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=C13-2
+Removed Pin From Net: NetName=UART_ESP32RX_AVRTX Pin=R3-2
+Removed Pin From Net: NetName=UART_ESP32TX_AVRRX Pin=TP7-1
+Removed Pin From Net: NetName=UART_ESP32RX_AVRTX Pin=TP8-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=U1-1
+Removed Pin From Net: NetName=NetC3_2 Pin=U1-2
+Removed Pin From Net: NetName=NetC11_2 Pin=U1-4
+Removed Pin From Net: NetName=VDD_3V3 Pin=U1-27
+Removed Pin From Net: NetName=I2C_SDA Pin=U1-28
+Removed Pin From Net: NetName=SPICS1 Pin=U1-29
+Removed Pin From Net: NetName=VDD_3V3 Pin=U1-30
+Removed Pin From Net: NetName=SPIHD Pin=U1-31
+Removed Pin From Net: NetName=SPIWP Pin=U1-32
+Removed Pin From Net: NetName=SPICS0 Pin=U1-33
+Removed Pin From Net: NetName=SPICLK Pin=U1-34
+Removed Pin From Net: NetName=SPIQ Pin=U1-35
+Removed Pin From Net: NetName=SPID Pin=U1-36
+Removed Pin From Net: NetName=I2C_SCL Pin=U1-37
+Removed Pin From Net: NetName=SD_CD Pin=U1-38
+Removed Pin From Net: NetName=SD_MISO Pin=U1-39
+Removed Pin From Net: NetName=SD_CLK Pin=U1-40
+Removed Pin From Net: NetName=SD_MOSI Pin=U1-41
+Removed Pin From Net: NetName=SD_CS Pin=U1-42
+Removed Pin From Net: NetName=ESP32_UART_MTCK Pin=U1-43
+Removed Pin From Net: NetName=ESP32_UART_MTDO Pin=U1-44
+Removed Pin From Net: NetName=VDD_3V3 Pin=U1-45
+Removed Pin From Net: NetName=ESP32_MTDI Pin=U1-46
+Removed Pin From Net: NetName=ESP32_MTMS Pin=U1-47
+Removed Pin From Net: NetName=NetR2_1 Pin=U1-48
+Removed Pin From Net: NetName=ESP32_UART_RXD Pin=U1-49
+Removed Pin From Net: NetName=NetTP44_1 Pin=U1-50
+Removed Pin From Net: NetName=VDD_3V3 Pin=U1-51
+Removed Pin From Net: NetName=NetC18_1 Pin=U1-52
+Removed Pin From Net: NetName=NetC17_1 Pin=U1-53
+Removed Pin From Net: NetName=VDD_3V3 Pin=U1-54
+Removed Pin From Net: NetName=NetR55_2 Pin=U1-55
+Removed Pin From Net: NetName=NetC19_2 Pin=U1-56
+Removed Member From Class: ClassName=Sheet1 Member=C7
+Removed Member From Class: ClassName=Sheet1 Member=C13
+Removed Member From Class: ClassName=Sheet1 Member=R3
+Removed Member From Class: ClassName=Sheet1 Member=TP7
+Removed Member From Class: ClassName=Sheet1 Member=TP8
+Change Component Comment : Designator=U1 Old Comment=ESP32-S2 New Comment=ESP32-S3R8
+Change component parameters: Designator = "U1" ("U1"); Footprint = "IC,QFN-56,7X7,P0.4MM"; UniqueID = "\SFNUIIML" ("\SFNUIIML")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Espressif Systems"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "ESP32-S3R8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "1904-ESP32-S3R8-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402FT499R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402FT499RCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(testpoint,smd,round,1mm)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(testpoint,smd,round,1mm)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=UART_ESP32RX_AVRTX Pin=R?-2
+Added Pin To Net: NetName=UART_ESP32RX_AVRTX Pin=TP?-1
+Added Pin To Net: NetName=UART_ESP32TX_AVRRX Pin=TP?-1
+Added Pin To Net: NetName=NetC3_2 Pin=U1-1
+Added Pin To Net: NetName=NetC11_2 Pin=U1-2
+Added Pin To Net: NetName=NetC19_2 Pin=U1-4
+Added Pin To Net: NetName=I2C_SDA Pin=U1-27
+Added Pin To Net: NetName=SPICS1 Pin=U1-28
+Added Pin To Net: NetName=VDD_3V3 Pin=U1-29
+Added Pin To Net: NetName=SPIHD Pin=U1-30
+Added Pin To Net: NetName=SPIWP Pin=U1-31
+Added Pin To Net: NetName=SPICS0 Pin=U1-32
+Added Pin To Net: NetName=SPICLK Pin=U1-33
+Added Pin To Net: NetName=SPIQ Pin=U1-34
+Added Pin To Net: NetName=SPID Pin=U1-35
+Added Pin To Net: NetName=I2C_SCL Pin=U1-38
+Added Pin To Net: NetName=SD_CD Pin=U1-39
+Added Pin To Net: NetName=SD_MISO Pin=U1-40
+Added Pin To Net: NetName=SD_CLK Pin=U1-41
+Added Pin To Net: NetName=SD_MOSI Pin=U1-42
+Added Pin To Net: NetName=SD_CS Pin=U1-43
+Added Pin To Net: NetName=ESP32_UART_MTCK Pin=U1-44
+Added Pin To Net: NetName=ESP32_UART_MTDO Pin=U1-45
+Added Pin To Net: NetName=VDD_3V3 Pin=U1-46
+Added Pin To Net: NetName=ESP32_MTDI Pin=U1-47
+Added Pin To Net: NetName=ESP32_MTMS Pin=U1-48
+Added Pin To Net: NetName=NetR2_1 Pin=U1-49
+Added Pin To Net: NetName=ESP32_UART_RXD Pin=U1-50
+Added Pin To Net: NetName=NetTP44_1 Pin=U1-51
+Added Pin To Net: NetName=NetR55_2 Pin=U1-52
+Added Pin To Net: NetName=NetC18_1 Pin=U1-53
+Added Pin To Net: NetName=NetC17_1 Pin=U1-54
+Added Pin To Net: NetName=VDD_3V3 Pin=U1-55
+Added Pin To Net: NetName=VDD_3V3 Pin=U1-56
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=U1-24
+Added Net: Name=NetR?_1
+Added Member To Class: ClassName=Sheet3 Member=Component R? 499R
+Added Member To Class: ClassName=Sheet3 Member=Component TP? TESTPOINT
+Added Member To Class: ClassName=Sheet3 Member=Component TP? TESTPOINT

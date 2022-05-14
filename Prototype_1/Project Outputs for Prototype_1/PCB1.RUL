@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: C:\Users\juddf\Documents\Capstone\Capstone\Prototype_1\PCB1.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_All|Scope=Board|Minimum=3.50
+RuleKind=ShortCircuit|RuleName=ShortCircuit_1|Scope=Board|Allowed=0
+RuleKind=Width|RuleName=Width_50R|Scope=Board|Minimum=5.78
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.50
+RuleKind=Clearance|RuleName=Clearance_Ant1|Scope=Board|Minimum=0.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit_Ant|Scope=Board|Allowed=1

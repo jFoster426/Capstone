@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=Sheet3 Member=TP33
+Removed Member From Class: ClassName=Sheet3 Member=TP34
+Added Pin To Net: NetName=ESP32_USB_N Pin=U1-18
+Added Pin To Net: NetName=ESP32_USB_P Pin=U1-19

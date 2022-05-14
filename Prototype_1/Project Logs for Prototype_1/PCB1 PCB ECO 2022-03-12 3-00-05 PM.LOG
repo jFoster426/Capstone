@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=MCP3561_CS Pin=TP30-1
+Removed Pin From Net: NetName=PCM1780_LRCK Pin=TP32-1
+Removed Pin From Net: NetName=MCP3561_CS Pin=U1-11
+Removed Pin From Net: NetName=PCM1780_LRCK Pin=U1-15
+Added Pin To Net: NetName=PCM1780_LRCK Pin=TP30-1
+Added Pin To Net: NetName=MCP3561_CS Pin=TP32-1
+Added Pin To Net: NetName=PCM1780_LRCK Pin=U1-11
+Added Pin To Net: NetName=MCP3561_CS Pin=U1-15
