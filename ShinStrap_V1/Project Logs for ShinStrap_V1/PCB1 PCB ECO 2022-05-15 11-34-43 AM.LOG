@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=ISM330_INT2 Pin=U4-9
+Removed Pin From Net: NetName=ISM330_INT1 Pin=U4-10
+Added Pin To Net: NetName=ISM330_INT1 Pin=U4-9
+Added Pin To Net: NetName=ISM330_INT2 Pin=U4-10

@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=C11-2
+Removed Pin From Net: NetName=GND Pin=C12-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=C12-2
+Removed Pin From Net: NetName=GND Pin=C14-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=L3-2
+Removed Pin From Net: NetName=VDD_5V Pin=R9-2
+Removed Pin From Net: NetName=GND Pin=R10-2
+Removed Pin From Net: NetName=VDD_5V Pin=U5-1
+Removed Pin From Net: NetName=VDD_5V Pin=U5-2
+Removed Pin From Net: NetName=VDD_5V Pin=U5-4
+Removed Pin From Net: NetName=VDD_3V3 Pin=U5-7
+Removed Pin From Net: NetName=GND Pin=U5-8
+Removed Pin From Net: NetName=GND Pin=U5-10
+Removed Pin From Net: NetName=GND Pin=U5-11
+Removed Member From Class: ClassName=Sheet1 Member=C11
+Removed Member From Class: ClassName=Sheet1 Member=C12
+Removed Member From Class: ClassName=Sheet1 Member=C14
+Removed Member From Class: ClassName=Sheet1 Member=L3
+Removed Member From Class: ClassName=Sheet1 Member=R9
+Removed Member From Class: ClassName=Sheet1 Member=R10
+Change Component Footprint: Designator=U5 Old Footprint=IC,DFN-10_3x3,P0.5mm New Footprint=SOT223
+Change Component Comment : Designator=U5 Old Comment=RP506K331B-TR New Comment=TLV1117LV33DCYR
+Change component parameters: Designator = "U5" ("U5"); Footprint = "IC,DFN-10_3x3,P0.5mm"; UniqueID = "\EIRAENFG" ("\EIRAENFG")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "http://www.ti.com/lit/ds/symlink/tlv1117lv.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "TLV1117LV33DCYR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "296-28778-1-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U5-1
+Added Pin To Net: NetName=VDD_3V3 Pin=U5-2
+Added Pin To Net: NetName=VDD_5V Pin=U5-3
+Added Pin To Net: NetName=VDD_3V3 Pin=U5-4
+Added Room: Name=Sheet1

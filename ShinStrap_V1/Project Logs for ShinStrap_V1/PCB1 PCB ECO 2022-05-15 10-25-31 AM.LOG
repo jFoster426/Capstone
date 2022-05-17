@@ -1,0 +1,14 @@
+Change Component Designator: OldDesignator=R? NewDesignator=R11
+Change Component Designator: OldDesignator=R? NewDesignator=R12
+Added Component: Designator=C15(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A106MP5NUNC_Spec.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CL05A106MP5NUNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "1276-1450-1-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=VDD_5V Pin=C15-2
+Added Member To Class: ClassName=Sheet1 Member=Component C15 10uF
+Added Member To Class: ClassName=Sheet1 Member=Component R12 10k
+Added Room: Name=Sheet1

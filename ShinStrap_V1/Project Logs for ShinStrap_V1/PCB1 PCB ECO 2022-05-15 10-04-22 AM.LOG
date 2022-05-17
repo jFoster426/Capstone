@@ -1,0 +1,21 @@
+Added Component: Designator=R?(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=I2C_SCL Pin=R?-1
+Added Pin To Net: NetName=I2C_SDA Pin=R?-1
+Added Pin To Net: NetName=VDD_3V3 Pin=R?-2
+Added Pin To Net: NetName=VDD_3V3 Pin=R?-2
+Added Member To Class: ClassName=Sheet1 Member=Component R? 10k
+Added Member To Class: ClassName=Sheet1 Member=Component R? 10k
+Added Room: Name=Sheet1
