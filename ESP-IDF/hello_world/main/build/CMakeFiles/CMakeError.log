@@ -1,0 +1,115 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+Access is denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/cygwin64/bin/cc 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+Access is denied
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/juddf/Documents/Capstone/ESP-IDF/hello_world/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/juddf/.espressif/tools/ninja/1.10.2/ninja.exe cmTC_5cf25 && 
+CreateProcess failed. Command attempted:
+"C:\cygwin64\bin\cc    -o CMakeFiles\cmTC_5cf25.dir\CMakeCCompilerABI.c.obj -c C:\Users\juddf\.espressif\tools\cmake\3.20.3\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+ninja: fatal: CreateProcess: Access is denied.
+
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/juddf/Documents/Capstone/ESP-IDF/hello_world/main/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/juddf/.espressif/tools/ninja/1.10.2/ninja.exe cmTC_6b15a && 
+CreateProcess failed. Command attempted:
+"C:\cygwin64\bin\cc    -o CMakeFiles\cmTC_6b15a.dir\testCCompiler.c.obj -c testCCompiler.c"
+ninja: fatal: CreateProcess: Access is denied.
+
+
+
+
