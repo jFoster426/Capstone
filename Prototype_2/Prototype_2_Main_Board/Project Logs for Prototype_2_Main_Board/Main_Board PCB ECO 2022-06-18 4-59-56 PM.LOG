@@ -1,0 +1,72 @@
+Removed Pin From Net: NetName=NetANT1_1 Pin=C2-2
+Removed Pin From Net: NetName=NetANT1_1 Pin=L1-2
+Added Component: Designator=J6(CONN,UFL,50Ohm,SMD)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.hirose.com/product/document?clcode=CL0311-0300-2-40&productname=HRMP-U.FLJ(40)&series=U.FL&documenttype=Catalog&lang=en&documentid=D31697_en"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Hirose Electric Co Ltd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "U.FL-R-SMT-1(40)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "H125761CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=Q3(SOT1123)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.onsemi.com/pdf/datasheet/nst3904f3-d.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "NST3904F3T5G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "NST3904F3T5GOSCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R64(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R65(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=U16(IC,DFN-6,P0.5,1.5x1.5)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.skyworksinc.com/search?q=sky13446_374lf_201843c#documents"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Skyworks Solutions Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "SKY13446-374LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "863-1601-1-ND"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin ANT1-2
+Added Pin To Net: NetName=GND Pin=J6-2
+Added Pin To Net: NetName=GND Pin=J6-2
+Added Pin To Net: NetName=GND Pin=Q3-2
+Added Pin To Net: NetName=VDD_3V3 Pin=R64-2
+Added Pin To Net: NetName=NetANT1_1 Pin=U16-4
+Added Pin To Net: NetName=GND Pin=U16-7
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=L1-2
+Added Pin To Net: NetName=NetC2_2 Pin=U16-6
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=NetJ6_1 Pin=U16-3
+Added Net: Name=NetJ6_1
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R65-1
+Added Net: Name=NetQ3_1
+Added Pin To Net: NetName=NetQ3_3 Pin=Q3-3
+Added Pin To Net: NetName=NetQ3_3 Pin=R64-1
+Added Pin To Net: NetName=NetQ3_3 Pin=U16-2
+Added Net: Name=NetQ3_3
+Added Pin To Net: NetName=RF_CTRL Pin=R65-2
+Added Pin To Net: NetName=RF_CTRL Pin=U1-51
+Added Pin To Net: NetName=RF_CTRL Pin=U16-5
+Added Net: Name=RF_CTRL
+Added Member To Class: ClassName=Processor Member=Component J6 U.FL 50 Ohm
+Added Member To Class: ClassName=Processor Member=Component Q3 NST3904F3T5G
+Added Member To Class: ClassName=Processor Member=Component R64 10k
+Added Member To Class: ClassName=Processor Member=Component R65 10k
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component TP10 TESTPOINT
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component U6 NS5B1G384DFT2G
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component U11 NS5B1G384DFT2G
+Added Member To Class: ClassName=Processor Member=Component U16 SKY13446-374LF
+Added Member To Class: ClassName=50R Member=Wire NetC2_2
+Added Member To Class: ClassName=50R Member=Wire NetJ6_1

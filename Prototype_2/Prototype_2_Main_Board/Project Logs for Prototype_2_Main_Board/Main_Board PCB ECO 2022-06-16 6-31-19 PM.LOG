@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=B1 Old Footprint=Holder,Cell,CR2032,PCB,SMD New Footprint=Holder,Cell,LR44,PCB,Thru
+Change Component Comment : Designator=B1 Old Comment=CR2032 New Comment=LR44
+Change component parameters: Designator = "B1" ("B1"); Footprint = "Holder,Cell,CR2032,PCB,SMD"; UniqueID = "\KXWBUTUO" ("\KXWBUTUO")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.keyelco.com/userAssets/file/M65p7.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "2997"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "36-2997-ND"; VariantName = "[No Variations]"

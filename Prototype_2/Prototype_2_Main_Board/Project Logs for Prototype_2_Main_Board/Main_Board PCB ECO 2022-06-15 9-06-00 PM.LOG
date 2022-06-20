@@ -1,0 +1,10 @@
+Added Component: Designator=BT1(HOLDER,CELL,18650,SMD)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.keyelco.com/userAssets/file/M65p27.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "1042"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "36-1042-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=V_BATT Pin=BT1-1
+Added Pin To Net: NetName=NetBT1_2 Pin=BT1-2
+Added Member To Class: ClassName=Regulation_Charging Member=Component BT1 Holder,Cell,18650,SMD

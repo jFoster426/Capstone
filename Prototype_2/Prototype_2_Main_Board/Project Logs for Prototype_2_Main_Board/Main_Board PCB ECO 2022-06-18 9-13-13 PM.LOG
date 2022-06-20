@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=DETECT_2 Pin=U1-8
+Removed Pin From Net: NetName=RF_CTRL Pin=U1-51
+Added Pin To Net: NetName=RF_CTRL Pin=U1-8
+Added Pin To Net: NetName=DETECT_2 Pin=U1-51

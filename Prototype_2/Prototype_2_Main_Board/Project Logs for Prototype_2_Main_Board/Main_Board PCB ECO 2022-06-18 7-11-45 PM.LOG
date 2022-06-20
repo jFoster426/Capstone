@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=PCM1780_nMS Pin=U1-27
+Removed Pin From Net: NetName=PCM1780_MD Pin=U1-39
+Added Pin To Net: NetName=PCM1780_MD Pin=U1-27
+Added Pin To Net: NetName=PCM1780_nMS Pin=U1-39

@@ -1,0 +1,156 @@
+Removed Pin From Net: NetName=VDD_3V3 Pin=Q3-2
+Removed Pin From Net: NetName=BTN1 Pin=R60-1
+Removed Pin From Net: NetName=VDD_5V Pin=R60-2
+Removed Pin From Net: NetName=BTN1 Pin=R61-1
+Removed Pin From Net: NetName=VDD_5V Pin=R61-2
+Removed Pin From Net: NetName=GND Pin=R65-1
+Removed Pin From Net: NetName=GND Pin=R67-1
+Removed Pin From Net: NetName=nLCD_RESET Pin=R69-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=R69-2
+Removed Pin From Net: NetName=VDD_3V3 Pin=R70-2
+Removed Pin From Net: NetName=VDD_3V3 Pin=R71-2
+Removed Pin From Net: NetName=GND Pin=SW5-1
+Removed Pin From Net: NetName=GND Pin=SW5-2
+Removed Pin From Net: NetName=BTN1 Pin=SW5-3
+Removed Pin From Net: NetName=BTN1 Pin=SW5-4
+Removed Pin From Net: NetName=GND Pin=SW6-1
+Removed Pin From Net: NetName=GND Pin=SW6-2
+Removed Pin From Net: NetName=BTN2 Pin=SW6-3
+Removed Pin From Net: NetName=BTN2 Pin=SW6-4
+Removed Pin From Net: NetName=LCD_WRX Pin=U1-9
+Removed Pin From Net: NetName=LCD_D_CX Pin=U1-10
+Removed Pin From Net: NetName=LCD_CSX Pin=U1-11
+Added Component: Designator=BT1(HOLDER,CELL,18650,SMD/THRU)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.keyelco.com/userAssets/file/M65p27.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "1042"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "36-1042-ND"; VariantName = "[No Variations]"
+Added Component: Designator=J2(Conn,Spring,Piston,8Pos,Thru)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.mill-max.com/catalog/download/2019-08%3A013.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Mill-Max Manufacturing Corp."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "823-22-008-10-002101"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "ED8177-08-ND"; VariantName = "[No Variations]"
+Added Component: Designator=J3(Conn,FFC,Bottom,24Pos,0.5mm)
+Add component (AddParameter): Name = "Created By"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://app.adam-tech.com/products/download/data_sheet/198704/pca-6-la-xx-hl-3-data-sheet.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Adam Tech"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "PCA-6-LA-24-HL-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "2057-PCA-6-LA-24-HL-3-ND"; VariantName = "[No Variations]"
+Added Component: Designator=L5(IND,1008)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.we-online.com/katalog/datasheet/74438323010.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "74438323010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "732-4843-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=U12(IC,QFN-16,3x3)
+Add component (AddParameter): Name = "Created by"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq25303j"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "BQ25303JRTER"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor part number"; Value = "296-BQ25303JRTERCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=U15(SOT23-6)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.diodes.com/assets/Datasheets/AP9101C.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "AP9101CAK6-ANTRG1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "AP9101CAK6-ANTRG1DICT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=V_BATT Pin=BT1-1
+Added Pin To Net: NetName=V_BATT Pin=BT1-1
+Added Pin To Net: NetName=VDD_5VA Pin=J2-1
+Added Pin To Net: NetName=A_GND Pin=J2-4
+Added Pin To Net: NetName=LOAD_CELL_4 Pin=J2-5
+Added Pin To Net: NetName=LOAD_CELL_3 Pin=J2-6
+Added Pin To Net: NetName=LOAD_CELL_2 Pin=J2-7
+Added Pin To Net: NetName=LOAD_CELL_1 Pin=J2-8
+Added Pin To Net: NetName=GND Pin=J3-0
+Added Pin To Net: NetName=GND Pin=J3-0
+Added Pin To Net: NetName=VDD_5V Pin=J3-1
+Added Pin To Net: NetName=VDD_5V Pin=J3-2
+Added Pin To Net: NetName=VDD_5V Pin=J3-3
+Added Pin To Net: NetName=GND Pin=J3-4
+Added Pin To Net: NetName=VDD_3V3 Pin=J3-5
+Added Pin To Net: NetName=VDD_3V3 Pin=J3-6
+Added Pin To Net: NetName=VDD_3V3 Pin=J3-7
+Added Pin To Net: NetName=GND Pin=J3-8
+Added Pin To Net: NetName=nLCD_RESET Pin=J3-9
+Added Pin To Net: NetName=GND Pin=J3-10
+Added Pin To Net: NetName=LCD_SDO Pin=J3-11
+Added Pin To Net: NetName=GND Pin=J3-12
+Added Pin To Net: NetName=LCD_SDI Pin=J3-13
+Added Pin To Net: NetName=GND Pin=J3-14
+Added Pin To Net: NetName=LCD_WRX Pin=J3-15
+Added Pin To Net: NetName=LCD_D_CX Pin=J3-16
+Added Pin To Net: NetName=LCD_CSX Pin=J3-17
+Added Pin To Net: NetName=GND Pin=J3-18
+Added Pin To Net: NetName=I2C_SCL Pin=J3-19
+Added Pin To Net: NetName=I2C_SDA Pin=J3-20
+Added Pin To Net: NetName=GND Pin=J3-21
+Added Pin To Net: NetName=ESP32_GPIO0 Pin=J3-22
+Added Pin To Net: NetName=BTN2 Pin=J3-23
+Added Pin To Net: NetName=BTN1 Pin=J3-24
+Added Pin To Net: NetName=NetC39_2 Pin=L5-1
+Added Pin To Net: NetName=V_BATT Pin=L5-2
+Added Pin To Net: NetName=A_GND Pin=R60-1
+Added Pin To Net: NetName=A_GND Pin=R61-1
+Added Pin To Net: NetName=LCD_WRX Pin=U1-8
+Added Pin To Net: NetName=LCD_D_CX Pin=U1-9
+Added Pin To Net: NetName=LCD_CSX Pin=U1-10
+Added Pin To Net: NetName=USB_VBUS Pin=U12-1
+Added Pin To Net: NetName=NetR80_1 Pin=U12-2
+Added Pin To Net: NetName=CHG_STAT Pin=U12-3
+Added Pin To Net: NetName=NetR77_2 Pin=U12-4
+Added Pin To Net: NetName=GND Pin=U12-5
+Added Pin To Net: NetName=CHG_EN Pin=U12-6
+Added Pin To Net: NetName=NetR80_1 Pin=U12-7
+Added Pin To Net: NetName=NetR79_2 Pin=U12-9
+Added Pin To Net: NetName=V_BATT Pin=U12-10
+Added Pin To Net: NetName=GND Pin=U12-11
+Added Pin To Net: NetName=GND Pin=U12-12
+Added Pin To Net: NetName=NetC39_2 Pin=U12-13
+Added Pin To Net: NetName=NetC39_2 Pin=U12-14
+Added Pin To Net: NetName=NetC39_1 Pin=U12-15
+Added Pin To Net: NetName=NetC44_2 Pin=U12-16
+Added Pin To Net: NetName=GND Pin=U12-17
+Added Pin To Net: NetName=NetQ5_2 Pin=U15-1
+Added Pin To Net: NetName=NetR93_2 Pin=U15-2
+Added Pin To Net: NetName=NetQ6_2 Pin=U15-3
+Added Pin To Net: NetName=NetC53_2 Pin=U15-5
+Added Pin To Net: NetName=DETECT_1 Pin=J2-2
+Added Pin To Net: NetName=DETECT_1 Pin=R60-2
+Added Pin To Net: NetName=DETECT_1 Pin=U1-11
+Added Net: Name=DETECT_1
+Added Pin To Net: NetName=DETECT_2 Pin=J2-3
+Added Pin To Net: NetName=DETECT_2 Pin=R61-2
+Added Pin To Net: NetName=DETECT_2 Pin=U1-12
+Added Net: Name=DETECT_2
+Added Pin To Net: NetName=NetBT1_2 Pin=BT1-2
+Added Pin To Net: NetName=NetBT1_2 Pin=BT1-2
+Added Pin To Net: NetName=NetBT1_2 Pin=C53-1
+Added Pin To Net: NetName=NetBT1_2 Pin=Q5-3
+Added Pin To Net: NetName=NetBT1_2 Pin=Q5-3
+Added Pin To Net: NetName=NetBT1_2 Pin=U15-6
+Added Net: Name=NetBT1_2
+Added Class: Name=Peripherals_Main_Board
+Added Member To Class: ClassName=Regulation_Charging Member=Component BT1 Holder,Cell,18650,SMD
+Added Member To Class: ClassName=Load_Cell_Biasing Member=Component J2 Conn,Spring,Piston,8Pos,Thru
+Added Member To Class: ClassName=Regulation_Charging Member=Component L5 1uH
+Added Member To Class: ClassName=Load_Cell_Biasing Member=Component R60 10k
+Added Member To Class: ClassName=Load_Cell_Biasing Member=Component R61 10k
+Added Member To Class: ClassName=Regulation_Charging Member=Component U12 BQ25303JRTER
+Added Member To Class: ClassName=Regulation_Charging Member=Component U15 AP9101CAK6-ANTRG1
+Added Room: Name=Inertial_Measurement_RTC
+Added Room: Name=Load_Cell_Acquisition
+Added Room: Name=Load_Cell_Biasing
+Added Room: Name=Peripherals_Main_Board
+Added Room: Name=Processor
+Added Room: Name=Regulation_Charging
+Added Room: Name=ShinStrap_Interface
+Added Room: Name=USB_Serial

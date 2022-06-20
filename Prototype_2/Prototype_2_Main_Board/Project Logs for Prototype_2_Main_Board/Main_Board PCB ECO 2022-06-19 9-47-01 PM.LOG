@@ -1,0 +1,10 @@
+Added Component: Designator=NT1(Net Tie,20x60mil)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Makan Mousavi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=NT1-1
+Added Pin To Net: NetName=A_GND Pin=NT1-2
+Added Member To Class: ClassName=Load_Cell_Acquisition Member=Component NT1 Net Tie

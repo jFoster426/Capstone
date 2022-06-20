@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LCD_WRX Pin=U1-9
+Removed Pin From Net: NetName=CHG_EN Pin=U1-13
+Added Pin To Net: NetName=CHG_EN Pin=U1-9
+Added Pin To Net: NetName=LCD_WRX Pin=U1-13

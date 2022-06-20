@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VDD_5V_FB Pin=U17-4
+Removed Pin From Net: NetName=VDD_3V3_PGOOD Pin=U17-5
+Removed Pin From Net: NetName=VDD_3V3_CE Pin=U17-6
+Added Pin To Net: NetName=VDD_3V3_PGOOD Pin=U17-4
+Added Pin To Net: NetName=VDD_3V3_CE Pin=U17-5
+Added Pin To Net: NetName=VDD_5V_FB Pin=U17-6

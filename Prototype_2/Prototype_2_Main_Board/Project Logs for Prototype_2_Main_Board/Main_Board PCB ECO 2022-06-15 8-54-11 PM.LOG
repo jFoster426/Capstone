@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=NetC26_2 Pin=R18-1
+Removed Pin From Net: NetName=LOAD_CELL_BIAS_12 Pin=R18-2
+Removed Pin From Net: NetName=NetC29_2 Pin=R28-1
+Removed Pin From Net: NetName=LOAD_CELL_BIAS_34 Pin=R28-2
+Change Component Footprint: Designator=U2 Old Footprint=IC,SOIC-8,1.27mm,W3.9 New Footprint=IC,SOIC-8,1.27mm,W5.28
+Added Pin To Net: NetName=LOAD_CELL_BIAS_12 Pin=R18-1
+Added Pin To Net: NetName=NetC26_2 Pin=R18-2
+Added Pin To Net: NetName=LOAD_CELL_BIAS_34 Pin=R28-1
+Added Pin To Net: NetName=NetC29_2 Pin=R28-2
+Change Net Name : Old Net Name=MCP3561_CS New Net Name=MCP3561_nCS
+Change Net Name : Old Net Name=MCP3561_IRQ New Net Name=MCP3561_nIRQ
+Change Net Name : Old Net Name=PCM1780_M\S\ New Net Name=PCM1780_nMS
+Added Room: Name=Inertial_Measurement_RTC
+Added Room: Name=Load_Cell_Acquisition
+Added Room: Name=Load_Cell_Biasing
+Added Room: Name=Peripherals_Main_Board
+Added Room: Name=Processor
+Added Room: Name=Regulation_Charging
+Added Room: Name=ShinStrap_Interface
+Added Room: Name=USB_Serial

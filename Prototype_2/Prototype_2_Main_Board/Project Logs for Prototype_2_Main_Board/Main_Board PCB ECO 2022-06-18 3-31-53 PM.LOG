@@ -1,0 +1,61 @@
+Removed Pin From Net: NetName=DATAN/PGC Pin=C57-1
+Removed Pin From Net: NetName=DATAP/PGD Pin=C58-1
+Removed Pin From Net: NetName=DATAP/PGD Pin=R96-1
+Removed Pin From Net: NetName=DATAN/PGC Pin=R98-1
+Removed Pin From Net: NetName=GND Pin=U16-1
+Removed Pin From Net: NetName=NetC58_2 Pin=U16-2
+Removed Pin From Net: NetName=NetC57_2 Pin=U16-3
+Removed Member From Class: ClassName=ShinStrap_Interface Member=U16
+Added Component: Designator=J16(CONN,JACK,TRS,3.5MM,THRU)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.cuidevices.com/product/resource/sj1-352xn.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "CUI Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "SJ1-3525N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "CP1-3525N-ND"; VariantName = "[No Variations]"
+Added Component: Designator=TP10(testpoint,smd,round,1mm)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Component: Designator=U6(SC70-5)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.onsemi.com/pdf/datasheet/ns5b1g384-d.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "NS5B1G384DFT2G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "NS5B1G384DFT2GOSCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=U11(SC70-5)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.onsemi.com/pdf/datasheet/ns5b1g384-d.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "onsemi"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "NS5B1G384DFT2G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "NS5B1G384DFT2GOSCT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J16-1
+Added Pin To Net: NetName=NetC58_2 Pin=J16-2
+Added Pin To Net: NetName=NetC57_2 Pin=J16-3
+Added Pin To Net: NetName=DATAP/PGD Pin=U6-2
+Added Pin To Net: NetName=GND Pin=U6-3
+Added Pin To Net: NetName=VDD_5V Pin=U6-5
+Added Pin To Net: NetName=DATAN/PGC Pin=U11-2
+Added Pin To Net: NetName=GND Pin=U11-3
+Added Pin To Net: NetName=VDD_5V Pin=U11-5
+Added Pin To Net: NetName=NetC57_1 Pin=C57-1
+Added Pin To Net: NetName=NetC57_1 Pin=R98-1
+Added Pin To Net: NetName=NetC57_1 Pin=U11-1
+Added Net: Name=NetC57_1
+Added Pin To Net: NetName=NetC58_1 Pin=C58-1
+Added Pin To Net: NetName=NetC58_1 Pin=R96-1
+Added Pin To Net: NetName=NetC58_1 Pin=U6-1
+Added Net: Name=NetC58_1
+Added Pin To Net: NetName=NetTP10_1 Pin=TP10-1
+Added Pin To Net: NetName=NetTP10_1 Pin=U6-4
+Added Pin To Net: NetName=NetTP10_1 Pin=U11-4
+Added Net: Name=NetTP10_1
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component J16 Conn,Jack,TRS,3.5mm,Thru
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component TP10 TESTPOINT
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component U6 NS5B1G384DFT2G
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component U11 NS5B1G384DFT2G

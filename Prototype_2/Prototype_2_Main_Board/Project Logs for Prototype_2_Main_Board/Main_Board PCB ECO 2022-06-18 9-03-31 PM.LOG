@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=LCD_D_CX Pin=R62-2
+Removed Pin From Net: NetName=LCD_D_CX Pin=U1-8
+Removed Pin From Net: NetName=DETECT_2 Pin=U1-12
+Added Pin To Net: NetName=DETECT_2 Pin=R62-2
+Added Pin To Net: NetName=DETECT_2 Pin=U1-8
+Added Pin To Net: NetName=LCD_D_CX Pin=U1-12

@@ -1,0 +1,9 @@
+Change Footprint: Cannot match pads with new footprint in component :BT1 Footprint:HOLDER,CELL,18650,SMD
+Added Room: Name=Inertial_Measurement_RTC
+Added Room: Name=Load_Cell_Acquisition
+Added Room: Name=Load_Cell_Biasing
+Added Room: Name=Peripherals_Main_Board
+Added Room: Name=Processor
+Added Room: Name=Regulation_Charging
+Added Room: Name=ShinStrap_Interface
+Added Room: Name=USB_Serial

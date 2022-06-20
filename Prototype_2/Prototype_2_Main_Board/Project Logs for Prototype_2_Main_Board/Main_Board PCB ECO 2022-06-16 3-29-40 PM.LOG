@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=GND Pin=C51-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=C51-2
+Removed Pin From Net: NetName=CHG_EN Pin=U1-51
+Removed Pin From Net: NetName=NetR80_1 Pin=U12-7
+Change Component Footprint: Designator=C51 Old Footprint=CAP,SMD,0402 New Footprint=Cap,Alum,SMD,D5,H5.8
+Change Component Comment : Designator=C51 Old Comment=10uF New Comment=100uF
+Change component parameters: Designator = "C51" ("C51"); Footprint = "CAP,SMD,0402"; UniqueID = "\TBXTVRPF" ("\TBXTVRPF")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "EEE-1AA101WR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "PCE3867CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R62(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R63(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDD_3V3 Pin=C51-1
+Added Pin To Net: NetName=GND Pin=C51-2
+Added Pin To Net: NetName=GND Pin=R62-1
+Added Pin To Net: NetName=LCD_WRX Pin=R62-2
+Added Pin To Net: NetName=CHG_EN Pin=R63-1
+Added Pin To Net: NetName=USB_VBUS Pin=R63-2
+Added Pin To Net: NetName=CHG_EN Pin=U1-13
+Added Pin To Net: NetName=NetR80_2 Pin=U12-7
+Added Member To Class: ClassName=Processor Member=Component R62 10k
+Added Member To Class: ClassName=Regulation_Charging Member=Component R63 10k

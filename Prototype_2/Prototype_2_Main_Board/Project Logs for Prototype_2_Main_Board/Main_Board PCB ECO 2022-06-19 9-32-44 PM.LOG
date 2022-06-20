@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VDD_5V_FB Pin=U17-6
+Removed Pin From Net: NetName=I2C_SDA Pin=U17-7
+Removed Pin From Net: NetName=I2C_SCL Pin=U17-8
+Added Pin To Net: NetName=I2C_SDA Pin=U17-6
+Added Pin To Net: NetName=I2C_SCL Pin=U17-7
+Added Pin To Net: NetName=VDD_5V_FB Pin=U17-8
