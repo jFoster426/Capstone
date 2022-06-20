@@ -1,13 +1,13 @@
 #include <MPU9250_WE.h>
 #include <Wire.h>
 
-#define HX711_C   6
-#define HX711_D   7
+#define HX711_C   A0
+#define HX711_D   A1
 #define LED_GRN   9
 #define LED_RED   10
 #define BUTTON    11
-#define SHIN_ADDR 0x69
-#define FOOT_ADDR 0x68
+#define SHIN_ADDR 0x68
+#define FOOT_ADDR 0x69
 
 MPU9250_WE foot = MPU9250_WE(FOOT_ADDR);
 MPU9250_WE shin = MPU9250_WE(SHIN_ADDR);

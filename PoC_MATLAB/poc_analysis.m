@@ -45,7 +45,7 @@ for i = 1:size(load)
 end
 
 %% Calibrate the load cell data to measure torque in ft-lbs
-loadCellPounds = (load - 8240000) ./ 24400;
+loadCellPounds = (load - 8065000) ./ 24400;
 
 momentArm = 5/12; % feet, moment arm along base of foot plate
 torque = momentArm*loadCellPounds; % Calculated torque in ft-lbs
@@ -57,7 +57,7 @@ fh = figure(1);
 fh.WindowState = 'maximized';
 tiledlayout(2, 2);
 nexttile;
-p = plot(time, calibratedLoad, 'LineWidth', 2);
+p = plot(time, -calibratedLoad, 'LineWidth', 2);
 p.Color = '#A2142F';
 title("Torque vs. Time");
 xlabel("Time (ms)");
@@ -115,6 +115,9 @@ fRoll = fRoll * 180 / pi;
 sPitch = sPitch * 180 / pi;
 sRoll = sRoll * 180 / pi;
 
+fRoll = fRoll + 90;
+sRoll = sRoll - 90;
+
 %% Draw the individual pitch and roll angles vs. time plot.
 nexttile;
 p = plot(time, fRoll, 'Linewidth', 2);
@@ -133,7 +136,7 @@ xlabel("Time (ms)");
 ylabel("Angle (degrees)");
 
 %% Calculate the joint angle in degrees.
-roll = -(fRoll + sRoll - 180); % SHIT CHANGING HERE
+roll = fRoll - sRoll; % SHIT CHANGING HERE
 pitch = fPitch - sPitch;
 
 %% Plot the joint angle for both pitch and roll.
