@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=MCP3561_nIRQ Pin=R46-1
+Removed Pin From Net: NetName=MCP3561_MCLK Pin=R49-1
+Removed Member From Class: ClassName=Load_Cell_Acquisition Member=R46
+Removed Member From Class: ClassName=Load_Cell_Acquisition Member=R49
+Added Pin To Net: NetName=MCP3561_nIRQ Pin=U7-17
+Added Pin To Net: NetName=MCP3561_MCLK Pin=U7-18

@@ -1,0 +1,158 @@
+Removed Pin From Net: NetName=NetC39_2 Pin=L5-1
+Removed Pin From Net: NetName=V_BATT Pin=L5-2
+Removed Pin From Net: NetName=CHG_EN Pin=R63-1
+Removed Pin From Net: NetName=USB_VBUS Pin=R63-2
+Removed Pin From Net: NetName=GND Pin=R77-1
+Removed Pin From Net: NetName=GND Pin=R79-1
+Removed Pin From Net: NetName=GND Pin=R81-2
+Removed Pin From Net: NetName=CHG_STAT Pin=R83-1
+Removed Pin From Net: NetName=NetD7_2 Pin=R83-2
+Removed Pin From Net: NetName=USB_VBUS Pin=U12-1
+Removed Pin From Net: NetName=CHG_STAT Pin=U12-3
+Removed Pin From Net: NetName=CHG_EN Pin=U12-6
+Removed Pin From Net: NetName=V_BATT Pin=U12-10
+Removed Pin From Net: NetName=GND Pin=U12-11
+Removed Pin From Net: NetName=GND Pin=U12-12
+Removed Pin From Net: NetName=NetC39_2 Pin=U12-13
+Removed Pin From Net: NetName=NetC39_2 Pin=U12-14
+Removed Pin From Net: NetName=NetC39_1 Pin=U12-15
+Removed Pin From Net: NetName=GND Pin=U12-17
+Removed Member From Class: ClassName=Regulation_Charging Member=R77
+Removed Member From Class: ClassName=Regulation_Charging Member=R79
+Removed Member From Class: ClassName=Regulation_Charging Member=R80
+Removed Member From Class: ClassName=Regulation_Charging Member=R81
+Change Component Footprint: Designator=U12 Old Footprint=IC,QFN-16,3X3 New Footprint=IC,QFN-16,3x3,P5x3
+Change Component Footprint: Designator=L5 Old Footprint=IND,1008 New Footprint=IND,WIREWOUND,4.9x4.9,SMD
+Change Component Footprint: Designator=R63 Old Footprint=RES,0402 New Footprint=RES,1206
+Change Component Comment : Designator=L5 Old Comment=1uH New Comment=4.7uH
+Change Component Comment : Designator=R63 Old Comment=10k New Comment=50m
+Change Component Comment : Designator=C39 Old Comment=47nF New Comment=100nF
+Change Component Comment : Designator=U12 Old Comment=BQ25303JRTER New Comment=MP2615AGQ-Z
+Change component parameters: Designator = "C39" ("C39"); Footprint = "CAP,SMD,0402"; UniqueID = "\DQGCLERY" ("\DQGCLERY")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM155R71E104KE14J"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "490-14603-1-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L5" ("L5"); Footprint = "IND,1008"; UniqueID = "\CCYZQEBR" ("\CCYZQEBR")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=NRS5030T4R7MMGJV%20%20&u=M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "NRS5030T4R7MMGJV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "587-3605-1-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R63" ("R63"); Footprint = "RES,0402"; UniqueID = "\UVXLTPJB" ("\UVXLTPJB")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.ohmite.com/assets/docs/res_kdv.pdf?r=false"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Ohmite"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "KDV12FR050ET"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "273-KDV12FR050ETCT-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U12" ("U12"); Footprint = "IC,QFN-16,3X3"; UniqueID = "\KVBDRQII" ("\KVBDRQII")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2615AGQ-Z/document_id/1433/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Monolithic Power Systems Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "MP2615AGQ-Z"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "1589-MP2615AGQ-ZCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C59(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A106MP5NUNC_Spec.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CL05A106MP5NUNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "1276-1450-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C60(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TDK Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C1005X5R1V105K050BC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "445-9073-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C61(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TDK Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C1005X5R1V105K050BC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "445-9073-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=D10(LED,0603)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "http://www.stanley-components.com/php/downloaddatafile.php?rp=0,THG1111C-0005_e.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stanley Electric Co"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "THG1111C-0005-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "404-1286-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R69(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R70(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R71(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity Passive Product"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CRGCQ0402F560R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "A129624CT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=USB_VBUS Pin=C44-2
+Added Pin To Net: NetName=GND Pin=C59-1
+Added Pin To Net: NetName=V_BATT Pin=C59-2
+Added Pin To Net: NetName=GND Pin=C60-2
+Added Pin To Net: NetName=GND Pin=C61-1
+Added Pin To Net: NetName=USB_VBUS Pin=D10-1
+Added Pin To Net: NetName=NetC39_1 Pin=L5-1
+Added Pin To Net: NetName=V_BATT Pin=R63-2
+Added Pin To Net: NetName=USB_VBUS Pin=R69-1
+Added Pin To Net: NetName=NetD7_2 Pin=R83-1
+Added Pin To Net: NetName=NetC39_1 Pin=U12-1
+Added Pin To Net: NetName=USB_VBUS Pin=U12-2
+Added Pin To Net: NetName=GND Pin=U12-4
+Added Pin To Net: NetName=GND Pin=U12-8
+Added Pin To Net: NetName=V_BATT Pin=U12-9
+Added Pin To Net: NetName=NetC39_2 Pin=U12-15
+Added Pin To Net: NetName=GND Pin=U12-16
+Added Pin To Net: NetName=MP2615_VCC Pin=C61-2
+Added Pin To Net: NetName=MP2615_VCC Pin=R70-1
+Added Pin To Net: NetName=MP2615_VCC Pin=U12-3
+Added Net: Name=MP2615_VCC
+Added Pin To Net: NetName=nAC_OK Pin=R71-2
+Added Pin To Net: NetName=nAC_OK Pin=U12-12
+Added Net: Name=nAC_OK
+Added Pin To Net: NetName=nCHG_EN Pin=R69-2
+Added Pin To Net: NetName=nCHG_EN Pin=U12-6
+Added Net: Name=nCHG_EN
+Added Pin To Net: NetName=nCHG_OK Pin=R83-2
+Added Pin To Net: NetName=nCHG_OK Pin=U12-11
+Added Net: Name=nCHG_OK
+Added Pin To Net: NetName=NetC60_1 Pin=C60-1
+Added Pin To Net: NetName=NetC60_1 Pin=U12-14
+Added Net: Name=NetC60_1
+Added Pin To Net: NetName=NetD10_2 Pin=D10-2
+Added Pin To Net: NetName=NetD10_2 Pin=R71-1
+Added Net: Name=NetD10_2
+Added Pin To Net: NetName=NetL5_2 Pin=L5-2
+Added Pin To Net: NetName=NetL5_2 Pin=R63-1
+Added Pin To Net: NetName=NetL5_2 Pin=U12-10
+Added Net: Name=NetL5_2
+Added Pin To Net: NetName=NetR70_2 Pin=R70-2
+Added Pin To Net: NetName=NetR70_2 Pin=R84-1
+Added Pin To Net: NetName=NetR70_2 Pin=U12-13
+Added Net: Name=NetR70_2
+Added Member To Class: ClassName=Regulation_Charging Member=Component C59 10uF
+Added Member To Class: ClassName=Regulation_Charging Member=Component C60 1uF
+Added Member To Class: ClassName=Regulation_Charging Member=Component C61 1uF
+Added Member To Class: ClassName=Regulation_Charging Member=Component D10 Green
+Added Member To Class: ClassName=Regulation_Charging Member=Component R69 10k
+Added Member To Class: ClassName=Regulation_Charging Member=Component R70 10k
+Added Member To Class: ClassName=Regulation_Charging Member=Component R71 560R

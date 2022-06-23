@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=USB_VBUS_FB Pin=U17-2
+Removed Pin From Net: NetName=V_BATT_FB Pin=U17-3
+Added Pin To Net: NetName=V_BATT_FB Pin=U17-2
+Added Pin To Net: NetName=USB_VBUS_FB Pin=U17-3

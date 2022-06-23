@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=LOAD_CELL_1 Pin=TP1-1
+Removed Pin From Net: NetName=LOAD_CELL_2 Pin=TP2-1
+Removed Pin From Net: NetName=LOAD_CELL_3 Pin=TP3-1
+Removed Pin From Net: NetName=LOAD_CELL_4 Pin=TP4-1
+Removed Member From Class: ClassName=Load_Cell_Board Member=TP1
+Removed Member From Class: ClassName=Load_Cell_Board Member=TP2
+Removed Member From Class: ClassName=Load_Cell_Board Member=TP3
+Removed Member From Class: ClassName=Load_Cell_Board Member=TP4

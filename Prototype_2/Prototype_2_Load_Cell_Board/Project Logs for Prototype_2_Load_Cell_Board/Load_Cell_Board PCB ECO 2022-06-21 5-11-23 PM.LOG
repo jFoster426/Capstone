@@ -1,0 +1,123 @@
+Added Component: Designator=C1(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A106MP5NUNC_Spec.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CL05A106MP5NUNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "1276-1450-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=J1(Term,Header,3Pin,2.54mm)
+Add component (AddParameter): Name = "Created By"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "61300311121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "732-5316-ND"; VariantName = "[No Variations]"
+Added Component: Designator=J2(Term,Header,3Pin,2.54mm)
+Add component (AddParameter): Name = "Created By"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "61300311121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "732-5316-ND"; VariantName = "[No Variations]"
+Added Component: Designator=J3(Term,Header,3Pin,2.54mm)
+Add component (AddParameter): Name = "Created By"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "61300311121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "732-5316-ND"; VariantName = "[No Variations]"
+Added Component: Designator=J4(Term,Header,3Pin,2.54mm)
+Add component (AddParameter): Name = "Created By"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "61300311121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "732-5316-ND"; VariantName = "[No Variations]"
+Added Component: Designator=J5(Conn,Spring,Target,8Pos,Thru)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.mill-max.com/catalog/download/2017-11%3A021.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Mill-Max Manufacturing Corp."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "419-10-208-00-006000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "ED1377-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT1K00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT1K00CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT1K00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT1K00CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=TP1(testpoint,smd,round,1mm)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Component: Designator=TP2(testpoint,smd,round,1mm)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Component: Designator=TP3(testpoint,smd,round,1mm)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Component: Designator=TP4(testpoint,smd,round,1mm)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=A_GND Pin=C1-1
+Added Pin To Net: NetName=A_GND Pin=J1-3
+Added Pin To Net: NetName=A_GND Pin=J2-3
+Added Pin To Net: NetName=A_GND Pin=J3-3
+Added Pin To Net: NetName=A_GND Pin=J4-3
+Added Pin To Net: NetName=A_GND Pin=J5-4
+Added Pin To Net: NetName=A_GND Pin=R2-1
+Added Net: Name=A_GND
+Added Pin To Net: NetName=LOAD_CELL_1 Pin=J1-2
+Added Pin To Net: NetName=LOAD_CELL_1 Pin=J5-8
+Added Pin To Net: NetName=LOAD_CELL_1 Pin=TP1-1
+Added Net: Name=LOAD_CELL_1
+Added Pin To Net: NetName=LOAD_CELL_2 Pin=J2-2
+Added Pin To Net: NetName=LOAD_CELL_2 Pin=J5-7
+Added Pin To Net: NetName=LOAD_CELL_2 Pin=TP2-1
+Added Net: Name=LOAD_CELL_2
+Added Pin To Net: NetName=LOAD_CELL_3 Pin=J3-2
+Added Pin To Net: NetName=LOAD_CELL_3 Pin=J5-6
+Added Pin To Net: NetName=LOAD_CELL_3 Pin=TP3-1
+Added Net: Name=LOAD_CELL_3
+Added Pin To Net: NetName=LOAD_CELL_4 Pin=J4-2
+Added Pin To Net: NetName=LOAD_CELL_4 Pin=J5-5
+Added Pin To Net: NetName=LOAD_CELL_4 Pin=TP4-1
+Added Net: Name=LOAD_CELL_4
+Added Pin To Net: NetName=NetJ5_2 Pin=J5-2
+Added Pin To Net: NetName=NetJ5_2 Pin=R1-2
+Added Net: Name=NetJ5_2
+Added Pin To Net: NetName=NetJ5_3 Pin=J5-3
+Added Pin To Net: NetName=NetJ5_3 Pin=R2-2
+Added Net: Name=NetJ5_3
+Added Pin To Net: NetName=VDD_5VA Pin=C1-2
+Added Pin To Net: NetName=VDD_5VA Pin=J1-1
+Added Pin To Net: NetName=VDD_5VA Pin=J2-1
+Added Pin To Net: NetName=VDD_5VA Pin=J3-1
+Added Pin To Net: NetName=VDD_5VA Pin=J4-1
+Added Pin To Net: NetName=VDD_5VA Pin=J5-1
+Added Pin To Net: NetName=VDD_5VA Pin=R1-1
+Added Net: Name=VDD_5VA
+Added Class: Name=Load_Cell_Board

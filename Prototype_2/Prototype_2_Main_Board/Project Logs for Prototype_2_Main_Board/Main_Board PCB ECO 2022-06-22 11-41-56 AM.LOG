@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=nCHG_OK Pin=U1-43
+Removed Pin From Net: NetName=DETECT_1 Pin=U1-44
+Added Pin To Net: NetName=DETECT_1 Pin=U1-43
+Added Pin To Net: NetName=nCHG_OK Pin=U1-44

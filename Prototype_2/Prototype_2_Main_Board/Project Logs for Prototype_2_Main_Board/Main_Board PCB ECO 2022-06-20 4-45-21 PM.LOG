@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=NetB1_1 Pin=TP9-1
+Removed Pin From Net: NetName=NetB1_1 Pin=U10-10
+Added Component: Designator=D?(SOD523)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://rocelec.widen.net/view/pdf/bnxdzepaue/ONSM-S-A0003584797-1.pdf?t.download=true&u=5oefqw"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "1N4148WT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "1N4148WTCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=Q?(SOT23-3)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/DMP2160U.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "DMP2160U-7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "DMP2160UDICT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDD_3V3 Pin=D?-2
+Added Pin To Net: NetName=VDD_3V3 Pin=Q?-1
+Added Pin To Net: NetName=NetB1_1 Pin=Q?-3
+Added Pin To Net: NetName=NetD?_1 Pin=D?-1
+Added Pin To Net: NetName=NetD?_1 Pin=Q?-2
+Added Pin To Net: NetName=NetD?_1 Pin=TP9-1
+Added Pin To Net: NetName=NetD?_1 Pin=U10-10
+Added Net: Name=NetD?_1
+Added Member To Class: ClassName=Regulation_Charging Member=Component BT1 Holder,Cell,18650,SMD
+Added Member To Class: ClassName=Inertial_Measurement_RTC Member=Component D? 1N4148WT
+Added Member To Class: ClassName=Inertial_Measurement_RTC Member=Component Q? DMP2160U-7

@@ -43,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Headers Not Fitted
 
 [Preferences]
 PrefsVaultGUID=
@@ -50,6 +51,23 @@ PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=Load_Cell_Board.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LUUGGJVT
+
+[Document2]
+DocumentPath=Load_Cell_Board.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -63,7 +81,19 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=LUUGGJVT
+DocumentUniqueId=CRCEMFKC
+
+[ProjectVariant1]
+UniqueID=392B8C1D-459A-4029-9CD7-17468993557F
+Description=Headers Not Fitted
+AllowFabrication=0
+ParameterCount=0
+VariationCount=4
+Variation1=Designator=J1|UniqueId=\XLFWDRVT|Kind=1|AlternatePart= 
+Variation2=Designator=J3|UniqueId=\NURJXGKG|Kind=1|AlternatePart= 
+Variation3=Designator=J2|UniqueId=\KFXMZAPP|Kind=1|AlternatePart= 
+Variation4=Designator=J4|UniqueId=\MVLJHUNP|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [Configuration1]
 Name=Sources

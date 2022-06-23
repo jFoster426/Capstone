@@ -1,12 +1,12 @@
 Board Information Report
 Filename     : C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_Main_Board\Main_Board.PcbDoc
-Date         : 2022-06-19
-Time         : 6:47:17 PM
+Date         : 2022-06-22
+Time         : 11:31:56 AM
 Time Elapsed : 00:00:00
 
 Routing Information
-    Routing completion, 100.00%
-    Connections, 530
-    Connections routed, 530
-    Connections remaining, 0
+    Routing completion, 99.63%
+    Connections, 536
+    Connections routed, 534
+    Connections remaining, 2
 count : 4

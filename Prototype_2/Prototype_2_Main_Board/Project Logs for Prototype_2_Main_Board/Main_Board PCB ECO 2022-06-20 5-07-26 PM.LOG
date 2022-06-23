@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=DETECT_1 Pin=J2-2
+Removed Pin From Net: NetName=DETECT_2 Pin=J2-3
+Removed Pin From Net: NetName=DETECT_1 Pin=R60-2
+Removed Pin From Net: NetName=DETECT_2 Pin=R61-2
+Added Component: Designator=R67(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ERJ-2RKF10R0X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "P10.0LCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R68(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ERJ-2RKF10R0X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "P10.0LCT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DETECT_1 Pin=R67-1
+Added Pin To Net: NetName=DETECT_2 Pin=R68-1
+Added Pin To Net: NetName=NetJ2_2 Pin=J2-2
+Added Pin To Net: NetName=NetJ2_2 Pin=R60-2
+Added Pin To Net: NetName=NetJ2_2 Pin=R67-2
+Added Net: Name=NetJ2_2
+Added Pin To Net: NetName=NetJ2_3 Pin=J2-3
+Added Pin To Net: NetName=NetJ2_3 Pin=R61-2
+Added Pin To Net: NetName=NetJ2_3 Pin=R68-2
+Added Net: Name=NetJ2_3
+Added Member To Class: ClassName=Load_Cell_Biasing Member=Component R67 10R
+Added Member To Class: ClassName=Load_Cell_Biasing Member=Component R68 10R

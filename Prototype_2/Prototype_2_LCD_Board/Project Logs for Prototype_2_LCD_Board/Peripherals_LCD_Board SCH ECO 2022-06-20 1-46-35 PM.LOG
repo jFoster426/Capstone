@@ -1,0 +1,28 @@
+Replace Part C1 CAP,Cer,10uF,10VDC,X5R,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with CAP,Cer,10uF,10VDC,X5R,0402 from symbols.SchLib
+Replace Part C2 CAP,Cer,10uF,10VDC,X5R,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with CAP,Cer,10uF,10VDC,X5R,0402 from symbols.SchLib
+Replace Part C3 CAP,Cer,10uF,10VDC,X5R,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with CAP,Cer,10uF,10VDC,X5R,0402 from symbols.SchLib
+Replace Part C4 CAP,Cer,10uF,10VDC,X5R,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with CAP,Cer,10uF,10VDC,X5R,0402 from symbols.SchLib
+Replace Part J1 Conn,FFC,Bottom,50 Pin,0.5mm in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with Conn,FFC,Bottom,50 Pin,0.5mm from symbols.SchLib
+Replace Part J2 Conn,FFC,Bottom,24 Pin,0.5mm in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with Conn,FFC,Bottom,24 Pin,0.5mm from symbols.SchLib
+Replace Part Q1 Trans,PNP,40V,200mA,SOT1123 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with Trans,PNP,40V,200mA,SOT1123 from symbols.SchLib
+Replace Part R1 RES,10k,5%,0.063W,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with RES,10k,5%,0.063W,0402 from symbols.SchLib
+Replace Part R2 RES,10k,5%,0.063W,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with RES,10k,5%,0.063W,0402 from symbols.SchLib
+Replace Part R3 RES,10k,5%,0.063W,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with RES,10k,5%,0.063W,0402 from symbols.SchLib
+Replace Part R4 RES,10R,1%,0.063W,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with RES,10R,1%,0.063W,0402 from symbols.SchLib
+Replace Part R5 RES,10R,1%,0.063W,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with RES,10R,1%,0.063W,0402 from symbols.SchLib
+Replace Part R6 RES,27R,5%,0.063W,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with RES,27R,5%,0.063W,0402 from symbols.SchLib
+Replace Part R7 RES,10R,1%,0.063W,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with RES,10R,1%,0.063W,0402 from symbols.SchLib
+Replace Part R8 RES,27R,5%,0.063W,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with RES,27R,5%,0.063W,0402 from symbols.SchLib
+Replace Part R9 RES,10R,1%,0.063W,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with RES,10R,1%,0.063W,0402 from symbols.SchLib
+Replace Part R10 RES,10k,5%,0.063W,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with RES,10k,5%,0.063W,0402 from symbols.SchLib
+Replace Part R11 RES,10k,5%,0.063W,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with RES,10k,5%,0.063W,0402 from symbols.SchLib
+Replace Part R12 RES,10k,5%,0.063W,0402 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with RES,10k,5%,0.063W,0402 from symbols.SchLib
+Replace Part SW1 Switch,Tactile,SPST-NO,Thru,12x12,H7,5 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with Switch,Tactile,SPST-NO,Thru,12x12,H7,5 from symbols.SchLib
+Replace Part SW2 Switch,Tactile,SPST-NO,Thru,12x12,H7,5 in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with Switch,Tactile,SPST-NO,Thru,12x12,H7,5 from symbols.SchLib
+Replace Part SW3 Switch,Tactile,SPST-NO,Thru in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with Switch,Tactile,SPST-NO,Thru from symbols.SchLib
+Replace Part SW4 Switch,Tactile,SPST-NO,Thru in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with Switch,Tactile,SPST-NO,Thru from symbols.SchLib
+Replace Part TP1 TESTPOINT in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with TESTPOINT from symbols.SchLib
+Replace Part TP2 TESTPOINT in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with TESTPOINT from symbols.SchLib
+Replace Part TP3 TESTPOINT in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with TESTPOINT from symbols.SchLib
+Replace Part TP4 TESTPOINT in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with TESTPOINT from symbols.SchLib
+Replace Part U1 NCR320UX in C:\Users\juddf\Documents\Capstone\Prototype_2\Prototype_2_LCD_Board\Peripherals_LCD_Board.SchDoc with NCR320UX from symbols.SchLib

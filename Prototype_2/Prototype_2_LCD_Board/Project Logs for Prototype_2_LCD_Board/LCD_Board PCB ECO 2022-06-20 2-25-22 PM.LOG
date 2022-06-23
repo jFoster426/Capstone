@@ -1,0 +1,39 @@
+Added Component: Designator=J1(Conn,FFC,Top,50Pos,0.5mm)
+Add component (AddParameter): Name = "Created By"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/flex/ffc_fpc_050mm_f32r_f32q.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Amphenol ICC (FCI)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "F32Q-1A7H1-11050"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "609-F32Q-1A7H1-11050CT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J1-0
+Added Pin To Net: NetName=GND Pin=J1-0
+Added Pin To Net: NetName=VDD_5V Pin=J1-1
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Pin To Net: NetName=NetJ1_3 Pin=J1-3
+Added Pin To Net: NetName=NetJ1_4 Pin=J1-4
+Added Pin To Net: NetName=NetJ1_5 Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-6
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-7
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-8
+Added Pin To Net: NetName=GND Pin=J1-9
+Added Pin To Net: NetName=nLCD_RESET Pin=J1-10
+Added Pin To Net: NetName=LCD_SDO Pin=J1-33
+Added Pin To Net: NetName=LCD_SDI Pin=J1-34
+Added Pin To Net: NetName=LCD_RD Pin=J1-35
+Added Pin To Net: NetName=LCD_WRX Pin=J1-36
+Added Pin To Net: NetName=LCD_D_CX Pin=J1-37
+Added Pin To Net: NetName=LCD_CSX Pin=J1-38
+Added Pin To Net: NetName=LCD_TE Pin=J1-39
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-40
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-41
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-42
+Added Pin To Net: NetName=GND Pin=J1-43
+Added Pin To Net: NetName=I2C_SCL Pin=J1-44
+Added Pin To Net: NetName=I2C_SDA Pin=J1-45
+Added Pin To Net: NetName=nTOUCH_INT Pin=J1-46
+Added Pin To Net: NetName=nTOUCH_RST Pin=J1-47
+Added Pin To Net: NetName=GND Pin=J1-48
+Added Pin To Net: NetName=GND Pin=J1-49
+Added Pin To Net: NetName=GND Pin=J1-50
+Added Member To Class: ClassName=Peripherals_LCD_Board Member=Component J1 Conn,FFC,Top,50 Pin,0.5mm
+Added Room: Name=Peripherals_LCD_Board

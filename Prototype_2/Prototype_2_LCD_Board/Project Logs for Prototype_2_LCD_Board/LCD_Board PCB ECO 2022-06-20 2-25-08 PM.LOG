@@ -1,0 +1,10 @@
+Change Footprint: Cannot match pads with new footprint in component :J1 Footprint:Conn,FFC,Top,50Pos,0.5mm
+Change Component Comment : Designator=J1 Old Comment=Conn,FFC,Bottom,50 Pin,0.5mm New Comment=Conn,FFC,Top,50 Pin,0.5mm
+Change component parameters: Designator = "J1" ("J1"); Footprint = "Conn,FFC,Bottom,50Pos,0.5mm"; UniqueID = "\HHKHMFIY" ("\HHKHMFIY")
+Change component parameters (AddParameter): Name = "Created By"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/flex/ffc_fpc_050mm_f32r_f32q.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Amphenol ICC (FCI)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "F32Q-1A7H1-11050"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "609-F32Q-1A7H1-11050CT-ND"; VariantName = "[No Variations]"
+Added Room: Name=Peripherals_LCD_Board
