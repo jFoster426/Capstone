@@ -1,0 +1,23 @@
+Change Component Footprint: Designator=J16 Old Footprint=CONN,JACK,TRS,3.5MM,THRU New Footprint=Conn,Jack,TRS,3.5mm,Thru,Shielded
+Change Component Comment : Designator=J16 Old Comment=Conn,Jack,TRS,3.5mm,Thru New Comment=Conn,Jack,TRS,3.5mm,Thru,Shielded
+Change component parameters: Designator = "J16" ("J16"); Footprint = "CONN,JACK,TRS,3.5MM,THRU"; UniqueID = "\RFNXCWNM" ("\RFNXCWNM")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.cuidevices.com/product/resource/digikeypdf/sj-435107.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "CUI Devices"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "SJ-435107RS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "CP-435107RS-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R46(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J16-0
+Added Pin To Net: NetName=GND Pin=J16-0
+Added Pin To Net: NetName=NetTP10_1 Pin=J16-4
+Added Pin To Net: NetName=NetTP10_1 Pin=R46-1
+Added Pin To Net: NetName=VDD_5V Pin=R46-2
+Change Net Name : Old Net Name=NetTP10_1 New Net Name=nSS_CONN
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component R46 10k

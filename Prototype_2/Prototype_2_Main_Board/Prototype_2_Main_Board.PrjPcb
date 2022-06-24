@@ -201,6 +201,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LSCQFAYD
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Prototype_2_Main_Board\Design Rule Check - Main_Board.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
