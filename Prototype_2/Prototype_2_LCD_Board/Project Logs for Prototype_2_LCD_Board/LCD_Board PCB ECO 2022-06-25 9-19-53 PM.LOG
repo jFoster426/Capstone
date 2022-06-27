@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=GND Pin=C3-2
+Removed Pin From Net: NetName=GND Pin=C4-2
+Removed Pin From Net: NetName=GND Pin=J1-40
+Removed Pin From Net: NetName=GND Pin=J1-41
+Removed Pin From Net: NetName=GND Pin=J1-42
+Removed Pin From Net: NetName=GND Pin=J2-18
+Removed Pin From Net: NetName=GND Pin=J2-19
+Removed Pin From Net: NetName=GND Pin=J2-20
+Removed Pin From Net: NetName=GND Pin=Q1-2
+Removed Pin From Net: NetName=GND Pin=R10-2
+Removed Pin From Net: NetName=GND Pin=R11-2
+Removed Pin From Net: NetName=GND Pin=R12-2
+Removed Pin From Net: NetName=GND Pin=R14-1
+Removed Pin From Net: NetName=GND Pin=R15-1
+Change Component Designator: OldDesignator=R13 NewDesignator=R?
+Change Component Designator: OldDesignator=R14 NewDesignator=R?
+Change Component Designator: OldDesignator=R15 NewDesignator=R?
+Change Component Designator: OldDesignator=R16 NewDesignator=R?
+Added Pin To Net: NetName=VDD_3V3 Pin=C3-2
+Added Pin To Net: NetName=VDD_3V3 Pin=C4-2
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-40
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-41
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-42
+Added Pin To Net: NetName=VDD_3V3 Pin=J2-18
+Added Pin To Net: NetName=VDD_3V3 Pin=J2-19
+Added Pin To Net: NetName=VDD_3V3 Pin=J2-20
+Added Pin To Net: NetName=VDD_3V3 Pin=Q1-2
+Added Pin To Net: NetName=VDD_3V3 Pin=R10-2
+Added Pin To Net: NetName=VDD_3V3 Pin=R11-2
+Added Pin To Net: NetName=VDD_3V3 Pin=R12-2
+Added Pin To Net: NetName=VDD_3V3 Pin=R?-1
+Added Pin To Net: NetName=VDD_3V3 Pin=R?-1
+Added Net: Name=VDD_3V3

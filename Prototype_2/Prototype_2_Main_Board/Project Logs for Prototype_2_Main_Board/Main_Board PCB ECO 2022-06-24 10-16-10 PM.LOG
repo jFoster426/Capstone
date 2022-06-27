@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=J5-3
+Removed Pin From Net: NetName=nMCLR Pin=J5-4
+Removed Pin From Net: NetName=DATAP/PGD Pin=J5-6
+Added Pin To Net: NetName=GND Pin=J5-1
+Added Pin To Net: NetName=DATAP/PGD Pin=J5-4
+Added Pin To Net: NetName=nMCLR Pin=J5-6
+Added Pin To Net: NetName=NetJ5_3 Pin=J5-3
+Added Pin To Net: NetName=NetJ5_3 Pin=R94-1
+Added Net: Name=NetJ5_3

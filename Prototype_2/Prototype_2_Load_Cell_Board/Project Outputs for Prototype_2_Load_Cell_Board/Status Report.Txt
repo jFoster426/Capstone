@@ -1,0 +1,21 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [Prototype_2_Load_Cell_Board.PrjPcb]
+   Generated File[Load_Cell_Board_Copper_Signal_Top.gbr]
+   Generated File[Load_Cell_Board_Copper_Signal_Bot.gbr]
+   Generated File[Load_Cell_Board_Legend_Bot.gbr]
+   Generated File[Load_Cell_Board_Soldermask_Bot.gbr]
+   Generated File[Load_Cell_Board_Legend_Top.gbr]
+   Generated File[Load_Cell_Board_Soldermask_Top.gbr]
+   Generated File[Load_Cell_Board_Profile.gbr]
+   Generated File[Load_Cell_Board_NPTH_Drill.gbr]
+   Generated File[Load_Cell_Board_PTH_Drill.gbr]
+   Generated File[Load_Cell_Board.RUL]
+   Generated File[Load_Cell_Board.EXTREP]
+   Generated File[Load_Cell_Board.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 9:19:56 PM On 2022-06-26

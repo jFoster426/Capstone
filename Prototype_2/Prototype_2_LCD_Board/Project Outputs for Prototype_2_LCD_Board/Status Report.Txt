@@ -1,0 +1,21 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [Prototype_2_LCD_Board.PrjPcb]
+   Generated File[LCD_Board_Copper_Signal_Top.gbr]
+   Generated File[LCD_Board_Copper_Signal_Bot.gbr]
+   Generated File[LCD_Board_Legend_Bot.gbr]
+   Generated File[LCD_Board_Soldermask_Bot.gbr]
+   Generated File[LCD_Board_Legend_Top.gbr]
+   Generated File[LCD_Board_Soldermask_Top.gbr]
+   Generated File[LCD_Board_Profile.gbr]
+   Generated File[LCD_Board_NPTH_Drill.gbr]
+   Generated File[LCD_Board_PTH_Drill.gbr]
+   Generated File[LCD_Board.RUL]
+   Generated File[LCD_Board.EXTREP]
+   Generated File[LCD_Board.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 9:15:55 PM On 2022-06-26
