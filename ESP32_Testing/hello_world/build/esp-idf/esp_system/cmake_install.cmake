@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/juddf/.espressif/tools/xtensa-esp32s3-elf/esp-2021r2-patch2-8.4.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/juddf/.espressif/tools/xtensa-esp32s3-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/juddf/Documents/Capstone/ESP-IDF/hello_world/build/esp-idf/esp_system/port/cmake_install.cmake")
+  include("C:/Users/juddf/Documents/Capstone/ESP32_Testing/hello_world/build/esp-idf/esp_system/port/cmake_install.cmake")
 
 endif()
 

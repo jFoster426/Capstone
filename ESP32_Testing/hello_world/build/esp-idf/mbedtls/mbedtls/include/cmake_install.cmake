@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/juddf/.espressif/tools/xtensa-esp32s3-elf/esp-2021r2-patch2-8.4.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/juddf/.espressif/tools/xtensa-esp32s3-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-objdump.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -60,6 +60,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cmac.h"
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/compat-1.3.h"
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config_psa.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/constant_time.h"
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h"
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/debug.h"
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/des.h"
@@ -97,6 +99,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h"
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h"
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/poly1305.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/psa_util.h"
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ripemd160.h"
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h"
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa_internal.h"
@@ -117,6 +120,26 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h"
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_csr.h"
     "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/xtea.h"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/psa" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_builtin_composites.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_builtin_primitives.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_compat.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_config.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_driver_common.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_driver_contexts_composites.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_driver_contexts_primitives.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_extra.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_platform.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_se_driver.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_sizes.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_struct.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_types.h"
+    "C:/Users/juddf/esp/esp-idf/components/mbedtls/mbedtls/include/psa/crypto_values.h"
     )
 endif()
 

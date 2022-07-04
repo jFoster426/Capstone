@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/juddf/Documents/Capstone/ESP-IDF/hello_world/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/juddf/Documents/Capstone/ESP32_Testing/hello_world/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded
