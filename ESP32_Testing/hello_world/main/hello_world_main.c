@@ -39,14 +39,16 @@ void app_main(void)
     gpio_config(&led_pin);
     gpio_set_direction(GPIO_NUM_9, GPIO_MODE_OUTPUT);
 
-    for (int i = 10; i >= 0; i--) {
-        printf("Restarting in %d seconds...\n", i);
+    //gpio_config_t nCHG_EN_pin = { GPIO_NUM_17, GPIO_MODE_OUTPUT, 0, 0, 0 };
+    //gpio_config(&nCHG_EN_pin);
+    //gpio_set_direction(GPIO_NUM_17, GPIO_MODE_OUTPUT);
+    //gpio_set_level(GPIO_NUM_17, 0);
+
+    while (1)
+    {
         gpio_set_level(GPIO_NUM_9, 1);
-        vTaskDelay(500 / portTICK_PERIOD_MS);
+        vTaskDelay(100 / portTICK_PERIOD_MS);
         gpio_set_level(GPIO_NUM_9, 0);
-        vTaskDelay(500 / portTICK_PERIOD_MS);
+        vTaskDelay(100 / portTICK_PERIOD_MS);
     }
-    printf("Restarting now.\n");
-    fflush(stdout);
-    esp_restart();
 }

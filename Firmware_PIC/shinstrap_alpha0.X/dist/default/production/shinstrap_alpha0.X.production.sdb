@@ -3,37 +3,31 @@
 [d edition pro ]
 [d chip 18F16Q40 ]
 [d frameptr 1249 ]
-"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\fleq.c
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
-"62 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\float.c
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
 [v ___ftpack __ftpack `(f  1 e 4 0 ]
-"86 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftadd.c
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 4 0 ]
-"54 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftdiv.c
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
 [v ___ftdiv __ftdiv `(f  1 e 4 0 ]
-"62 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftmul.c
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
-"19 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftsub.c
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
-"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcadd.c
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "245
 [v ___flsub __flsub `(d  1 e 4 0 ]
-"11 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcdiv.c
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
-"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcmul.c
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
-"15 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul32.c
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"91 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul64.c
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"55 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\main.c
-[v _cmp1_init cmp1_init `(v  1 e 1 0 ]
-"85
-[v _uart1_init uart1_init `(v  1 e 1 0 ]
-"112
-[v _uart1_read uart1_read `(uc  1 e 1 0 ]
-"120
+"120 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\main.c
 [v _main main `(v  1 e 1 0 ]
 [s S24 . 1 `uc 1 SYNC 1 0 :1:0 
 `uc 1 HYS 1 0 :1:1 
@@ -43,7 +37,7 @@
 `uc 1 OUT 1 0 :1:6 
 `uc 1 EN 1 0 :1:7 
 ]
-"1978 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-Q_DFP/1.11.185/xc8\pic\include\proc\pic18f16q40.h
+"1978 C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic18f16q40.h
 [s S32 . 1 `uc 1 C1SYNC 1 0 :1:0 
 `uc 1 C1HYS 1 0 :1:1 
 `uc 1 . 1 0 :2:2 
@@ -102,9 +96,18 @@
 `uc 1 ANSELA4 1 0 :1:4 
 `uc 1 ANSELA5 1 0 :1:5 
 ]
-"30803
+"30857
 [u S86 . 1 `S79 1 . 1 0 ]
 [v _ANSELAbits ANSELAbits `VES86  1 e 1 @1024 ]
+[s S255 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 ANSELB4 1 0 :1:4 
+`uc 1 ANSELB5 1 0 :1:5 
+`uc 1 ANSELB6 1 0 :1:6 
+`uc 1 ANSELB7 1 0 :1:7 
+]
+"31241
+[u S261 . 1 `S255 1 . 1 0 ]
+[v _ANSELBbits ANSELBbits `VES261  1 e 1 @1032 ]
 [s S161 . 1 `uc 1 U1RXIF 1 0 :1:0 
 `uc 1 U1TXIF 1 0 :1:1 
 `uc 1 U1EIF 1 0 :1:2 
@@ -114,12 +117,23 @@
 `uc 1 PWM1PIF 1 0 :1:6 
 `uc 1 PWM1IF 1 0 :1:7 
 ]
-"35540
+"35594
 [u S170 . 1 `S161 1 . 1 0 ]
-"35540
-"35540
+"35594
+"35594
 [v _PIR4bits PIR4bits `VES170  1 e 1 @1207 ]
-[s S204 . 1 `uc 1 LATC0 1 0 :1:0 
+[s S240 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"36043
+[u S246 . 1 `S240 1 . 1 0 ]
+"36043
+"36043
+[v _LATBbits LATBbits `VES246  1 e 1 @1215 ]
+[s S219 . 1 `uc 1 LATC0 1 0 :1:0 
 `uc 1 LATC1 1 0 :1:1 
 `uc 1 LATC2 1 0 :1:2 
 `uc 1 LATC3 1 0 :1:3 
@@ -128,11 +142,11 @@
 `uc 1 LATC6 1 0 :1:6 
 `uc 1 LATC7 1 0 :1:7 
 ]
-"36031
-[u S213 . 1 `S204 1 . 1 0 ]
-"36031
-"36031
-[v _LATCbits LATCbits `VES213  1 e 1 @1216 ]
+"36085
+[u S228 . 1 `S219 1 . 1 0 ]
+"36085
+"36085
+[v _LATCbits LATCbits `VES228  1 e 1 @1216 ]
 [s S62 . 1 `uc 1 TRISA0 1 0 :1:0 
 `uc 1 TRISA1 1 0 :1:1 
 `uc 1 TRISA2 1 0 :1:2 
@@ -140,12 +154,23 @@
 `uc 1 TRISA4 1 0 :1:4 
 `uc 1 TRISA5 1 0 :1:5 
 ]
-"36091
+"36145
 [u S69 . 1 `S62 1 . 1 0 ]
-"36091
-"36091
+"36145
+"36145
 [v _TRISAbits TRISAbits `VES69  1 e 1 @1222 ]
-[s S183 . 1 `uc 1 TRISC0 1 0 :1:0 
+[s S183 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"36194
+[u S189 . 1 `S183 1 . 1 0 ]
+"36194
+"36194
+[v _TRISBbits TRISBbits `VES189  1 e 1 @1223 ]
+[s S198 . 1 `uc 1 TRISC0 1 0 :1:0 
 `uc 1 TRISC1 1 0 :1:1 
 `uc 1 TRISC2 1 0 :1:2 
 `uc 1 TRISC3 1 0 :1:3 
@@ -154,11 +179,22 @@
 `uc 1 TRISC6 1 0 :1:6 
 `uc 1 TRISC7 1 0 :1:7 
 ]
-"36182
-[u S192 . 1 `S183 1 . 1 0 ]
-"36182
-"36182
-[v _TRISCbits TRISCbits `VES192  1 e 1 @1224 ]
+"36236
+[u S207 . 1 `S198 1 . 1 0 ]
+"36236
+"36236
+[v _TRISCbits TRISCbits `VES207  1 e 1 @1224 ]
+[s S270 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"36345
+[u S276 . 1 `S270 1 . 1 0 ]
+"36345
+"36345
+[v _PORTBbits PORTBbits `VES276  1 e 1 @1231 ]
 [s S135 . 1 `uc 1 INT0EDG 1 0 :1:0 
 `uc 1 INT1EDG 1 0 :1:1 
 `uc 1 INT2EDG 1 0 :1:2 
@@ -167,36 +203,21 @@
 `uc 1 GIEL 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
-"36398
+"36452
 [s S143 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 GIEH 1 0 :1:7 
 ]
-"36398
+"36452
 [u S146 . 1 `S135 1 . 1 0 `S143 1 . 1 0 ]
-"36398
-"36398
+"36452
+"36452
 [v _INTCON0bits INTCON0bits `VES146  1 e 1 @1238 ]
 "120 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
 "144
-[v main@i_293 i `ul  1 a 4 4 ]
-"141
-[v main@i i `ul  1 a 4 0 ]
-"147
-} 0
-"112
-[v _uart1_read uart1_read `(uc  1 e 1 0 ]
-{
-"118
-} 0
-"85
-[v _uart1_init uart1_init `(v  1 e 1 0 ]
-{
-"110
-} 0
-"55
-[v _cmp1_init cmp1_init `(v  1 e 1 0 ]
-{
-"83
+[v main@i_370 i `VEul  1 a 4 4 ]
+"142
+[v main@i i `VEul  1 a 4 0 ]
+"173
 } 0

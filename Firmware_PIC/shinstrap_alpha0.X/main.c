@@ -119,31 +119,57 @@ uint8_t uart1_read(void)
 
 void main(void)
 {
-    TRISCbits.TRISC3 = 0;
-    TRISCbits.TRISC4 = 0;
+    // PIC_LED.
+    TRISBbits.TRISB4 = 0;
     
-    LATCbits.LATC3 = 0;
-    LATCbits.LATC4 = 0;
+    // VDD_3V3_CE.
+    TRISCbits.TRISC7 = 0;
+    LATCbits.LATC7 = 1;
     
-    cmp1_init();
-    uart1_init();
+    // VDD_5V_EN.
+    TRISBbits.TRISB5 = 0;
+    LATBbits.LATB5 = 1;
+    
+    // VDD_3V3_PGOOD.
+    ANSELBbits.ANSELB7 = 0;
+    TRISBbits.TRISB7 = 1;
     
     while (1)
     {
-        if (uart1_read() == 'G')
+        if (PORTBbits.RB7 == 1)
         {
-            LATCbits.LATC4 = 1;
+            LATBbits.LATB4 = 1;
+            for (volatile uint32_t i = 0; i < 50000; i++) Nop();
+            LATBbits.LATB4 = 0;
+            for (volatile uint32_t i = 0; i < 50000; i++) Nop();
         }
-        else
-        {
-            LATCbits.LATC3 = 1;
-        }
-        for (uint32_t i = 0; i < 100000; i++) Nop();
-        LATCbits.LATC3 = 0;
-        LATCbits.LATC4 = 0;
-        for (uint32_t i = 0; i < 100000; i++) Nop();
     }
-    return;
+    
+//    TRISCbits.TRISC3 = 0;
+//    TRISCbits.TRISC4 = 0;
+//    
+//    LATCbits.LATC3 = 0;
+//    LATCbits.LATC4 = 0;
+//    
+//    cmp1_init();
+//    uart1_init();
+//    
+//    while (1)
+//    {
+//        if (uart1_read() == 'G')
+//        {
+//            LATCbits.LATC4 = 1;
+//        }
+//        else
+//        {
+//            LATCbits.LATC3 = 1;
+//        }
+//        for (uint32_t i = 0; i < 100000; i++) Nop();
+//        LATCbits.LATC3 = 0;
+//        LATCbits.LATC4 = 0;
+//        for (uint32_t i = 0; i < 100000; i++) Nop();
+//    }
+//    return;
 }
 
 /*

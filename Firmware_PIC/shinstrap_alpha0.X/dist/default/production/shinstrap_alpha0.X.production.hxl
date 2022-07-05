@@ -10,13 +10,13 @@
 ### Memory Usage ###
  Intel Hex-file ranges:
   0h - 3h		(dist/default/production\shinstrap_alpha0.X.production.hex)
-  FEDAh - FFFFh		(dist/default/production\shinstrap_alpha0.X.production.hex)
-  200000h - 20001Fh		(dist/default/production\shinstrap_alpha0.X.production.hex)
+  FF18h - FFFFh		(dist/default/production\shinstrap_alpha0.X.production.hex)
+  200000h - 20003Fh		(dist/default/production\shinstrap_alpha0.X.production.hex)
   300000h - 300009h		(dist/default/production\shinstrap_alpha0.X.production.hex)
  Unused ranges:
-  4h - FED9h
+  4h - FF17h
   10000h - 1FFFFFh
-  200020h - 2FFFFFh
+  200040h - 2FFFFFh
 
 ### Hex Memory Map ###
  Legend:
@@ -27,11 +27,7 @@
 ----------------------------------------------------------
 00000000 | H1 H1 H1 H1 -- -- -- -- -- -- -- -- -- -- -- --
 ----------------------------------------------------------
-0000FED0 | -- -- -- -- -- -- -- -- -- -- H1 H1 H1 H1 H1 H1
-0000FEE0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-0000FEF0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-0000FF00 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-0000FF10 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+0000FF10 | -- -- -- -- -- -- -- -- H1 H1 H1 H1 H1 H1 H1 H1
 0000FF20 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 0000FF30 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 0000FF40 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
@@ -49,6 +45,8 @@
 ----------------------------------------------------------
 00200000 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00200010 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00200020 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00200030 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 ----------------------------------------------------------
 00300000 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- --
 00300010 | --
