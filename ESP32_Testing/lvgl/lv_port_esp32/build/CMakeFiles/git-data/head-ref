@@ -1,1 +1,14 @@
-c192eac1d90ed2b32b98a4964c7d05973b7a5b7e
+0bb2f72840f075e51747114d7a8158ac72fa4550 06920da69ab505f092250ad8c71ed4dc90f7de33 jFoster426 <juddf@sfu.ca> 1652560331 -0700	commit: sync before working on revb electronics
+06920da69ab505f092250ad8c71ed4dc90f7de33 354712f04a054f262b869b547562bb893272b39d jFoster426 <juddf@sfu.ca> 1652757761 -0700	commit: shin strap v1 addition
+354712f04a054f262b869b547562bb893272b39d d999a93e5a83832f2099bbe71a8640da083f9b46 jFoster426 <juddf@sfu.ca> 1653359480 -0700	pull: Fast-forward
+d999a93e5a83832f2099bbe71a8640da083f9b46 f58363ea1ce15a87c12bb8da8f4e86e64bb62d1a jFoster426 <juddf@sfu.ca> 1654144562 -0700	commit: working on prototype 2
+f58363ea1ce15a87c12bb8da8f4e86e64bb62d1a 7665ba700e9a178f837c0c94abfe96208c093b68 jFoster426 <juddf@sfu.ca> 1654967318 -0700	commit: reorganized prototype 2, created 3 board design
+7665ba700e9a178f837c0c94abfe96208c093b68 a4fbfb01c041beea48dacceef65a31c309f6b136 jFoster426 <juddf@sfu.ca> 1654967336 -0700	pull: Merge made by the 'recursive' strategy.
+a4fbfb01c041beea48dacceef65a31c309f6b136 08dbd4a25bcc3986565f3a47ce637477fae136c6 jFoster426 <juddf@sfu.ca> 1655703057 -0700	commit: sync before going to school
+08dbd4a25bcc3986565f3a47ce637477fae136c6 b84986984c999d6156608ab6d5553c3254c60bb6 jFoster426 <juddf@sfu.ca> 1655757543 -0700	pull: Fast-forward
+b84986984c999d6156608ab6d5553c3254c60bb6 ab8259053f91b617b73ff094525b510b2d3eba1b jFoster426 <juddf@sfu.ca> 1655958861 -0700	commit: sync before going to school
+ab8259053f91b617b73ff094525b510b2d3eba1b b06f1ab1771073a65d26a67e466383a6b1d2101d jFoster426 <juddf@sfu.ca> 1656045504 -0700	commit: fix some issues in shin strap
+b06f1ab1771073a65d26a67e466383a6b1d2101d f44b80ef7b7ce041cbe72fd9ec92f028cf59d8cd jFoster426 <juddf@sfu.ca> 1656363151 -0700	commit: syncing after placing jlcpcb order for all three boards in prototype 2
+f44b80ef7b7ce041cbe72fd9ec92f028cf59d8cd 0ea5ba1576250bab4c1cf9786b858ea052f1d08e jFoster426 <juddf@sfu.ca> 1656893797 -0700	commit: add files for lvgl and helloworld
+0ea5ba1576250bab4c1cf9786b858ea052f1d08e 01e514a57bb85c04e749c8f74709f7998ff22c9c jFoster426 <juddf@sfu.ca> 1656894149 -0700	commit: actually add lvgl
+01e514a57bb85c04e749c8f74709f7998ff22c9c ca4fdec6370849676622e183f231325bd7d19a9c jFoster426 <juddf@sfu.ca> 1656992780 -0700	commit: added pic gpio, esp32 gpio in hello world

@@ -39,10 +39,16 @@ void app_main(void)
     gpio_config(&led_pin);
     gpio_set_direction(GPIO_NUM_9, GPIO_MODE_OUTPUT);
 
+    gpio_config_t lcd_bklt_en = { GPIO_NUM_0, GPIO_MODE_OUTPUT, 0, 0, 0 };
+    gpio_config(&lcd_bklt_en);
+    gpio_set_direction(GPIO_NUM_0, GPIO_MODE_OUTPUT);
+
     //gpio_config_t nCHG_EN_pin = { GPIO_NUM_17, GPIO_MODE_OUTPUT, 0, 0, 0 };
     //gpio_config(&nCHG_EN_pin);
     //gpio_set_direction(GPIO_NUM_17, GPIO_MODE_OUTPUT);
     //gpio_set_level(GPIO_NUM_17, 0);
+
+    gpio_set_level(GPIO_NUM_0, 0);
 
     while (1)
     {

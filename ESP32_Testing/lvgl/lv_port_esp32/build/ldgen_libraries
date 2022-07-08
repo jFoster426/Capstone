@@ -28,7 +28,7 @@ C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/heap/libheap.a
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/soc/libsoc.a
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/esp_hw_support/libesp_hw_support.a
-C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/riscv/libriscv.a
+C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/xtensa/libxtensa.a
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/esp_common/libesp_common.a
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/esp_timer/libesp_timer.a
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/freertos/libfreertos.a
@@ -65,7 +65,10 @@ C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/libsodium/liblibsodium.a
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/mqtt/libmqtt.a
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/openssl/libopenssl.a
+C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/perfmon/libperfmon.a
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/spiffs/libspiffs.a
+C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/usb/libusb.a
+C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/ulp/libulp.a
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/main/libmain.a
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl/lv_port_esp32/build/esp-idf/lvgl/liblvgl.a

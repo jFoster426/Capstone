@@ -61,6 +61,11 @@ static void create_demo_application(void);
  **********************/
 void app_main() {
 
+    gpio_config_t lcd_bklt_en = { GPIO_NUM_0, GPIO_MODE_OUTPUT, 0, 0, 0 };
+    gpio_config(&lcd_bklt_en);
+    gpio_set_direction(GPIO_NUM_0, GPIO_MODE_OUTPUT);
+    gpio_set_level(GPIO_NUM_0, 0);
+
     /* If you want to use a task to create the graphic, you NEED to create a Pinned task
      * Otherwise there can be problem such as memory corruption and so on.
      * NOTE: When not using Wi-Fi nor Bluetooth you can pin the guiTask to core 0 */
