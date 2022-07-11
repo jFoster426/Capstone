@@ -1,0 +1,117 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "esp_system.h"
+#include "driver/i2c.h"
+#include <math.h>
+
+#include "adc.h"
+#include "dac.h"
+
+#define I2C_MASTER_TX_BUF_DISABLE   0                          /*!< I2C master doesn't need buffer */
+#define I2C_MASTER_RX_BUF_DISABLE   0                          /*!< I2C master doesn't need buffer */
+#define I2C_MASTER_TIMEOUT_MS       1000
+
+/**
+ * @brief Read a sequence of bytes from an I2C device's registers.
+ */
+static esp_err_t I2C_register_read(uint8_t dev_addr, uint8_t reg_addr, uint8_t *data, size_t len)
+{
+    return i2c_master_write_read_device(0, dev_addr, &reg_addr, 1, data, len, I2C_MASTER_TIMEOUT_MS / portTICK_PERIOD_MS);
+}
+
+/**
+ * @brief Write a sequence of bytes to an I2C device's registers.
+ */
+static esp_err_t I2C_register_write(uint8_t dev_addr, uint8_t reg_addr, uint8_t data)
+{
+    int ret;
+    uint8_t write_buf[2] = { reg_addr, data };
+
+    ret = i2c_master_write_to_device(0, dev_addr, write_buf, 2, I2C_MASTER_TIMEOUT_MS / portTICK_PERIOD_MS);
+
+    return ret;
+}
+
+void app_main(void)
+{
+    printf("app_main start\n");
+
+    // Initialize the I2C bus.
+    i2c_config_t conf =
+    {
+        .mode = I2C_MODE_MASTER,
+        .sda_io_num = 36,
+        .scl_io_num = 35,
+        .sda_pullup_en = GPIO_PULLUP_ENABLE,
+        .scl_pullup_en = GPIO_PULLUP_ENABLE,
+        .master.clk_speed = 400000,
+    };
+    i2c_param_config(0, &conf);
+
+    i2c_driver_install(0, conf.mode, I2C_MASTER_RX_BUF_DISABLE, I2C_MASTER_TX_BUF_DISABLE, 0);
+
+    // // Enable writing to registers?
+    // I2C_register_write(0x6B, 0x01, 0b11000000);
+    // // Enable setup mode?
+    // I2C_register_write(0x6B, 0x18, 0b11111111);
+    // // Accelerometer = 12.5 Hz update rate (power-up).
+    // I2C_register_write(0x6B, 0x10, 0b00010000);
+
+    while (1)
+    {
+        uint8_t dev_id = 0xFF;
+        printf("...%d\n", I2C_register_read(0x6B, 0x0F, &dev_id, 1));
+        printf("Device ID: 0x%02X\n", dev_id);
+
+        // uint8_t l, h;
+        // I2C_register_read(0x6B, 0x2C, &l, 1);
+        // I2C_register_read(0x6B, 0x2D, &h, 1);
+        // uint16_t val = (h << 8) | l;
+        // printf("Data received: 0x%04X\n", val);
+        vTaskDelay(250 / portTICK_RATE_MS);
+    }
+
+
+
+
+
+    /*
+    spi_device_handle_t adc1;
+    adc_init(&adc1, 7);
+
+    dac_init(25000);
+
+    // double i = -1.0;
+
+
+    dac_write(-0.2, -0.2);
+
+    while (1)
+    {
+        char ch[6];
+        int i = 0;
+        while (1)
+        {
+            ch[i] = fgetc(stdin);
+            if (ch[i] == '\n')
+            {
+                ch[i] = '\0';
+                break;
+            }
+            if (ch[i] != 0xFF) i++;
+        }
+
+        double dac_val = atof(ch);
+
+        printf("received %.2f\n", dac_val);
+
+        uint32_t x = adc_read_raw(&adc1, 7);
+        printf("%d\n", x);
+        // dac_write(i, -i);
+        // i += 0.01;
+        // if (i > 1.0) i = -1.0;
+    }
+    */
+}
