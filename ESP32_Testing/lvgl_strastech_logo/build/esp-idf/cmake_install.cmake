@@ -124,6 +124,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/main/cmake_install.cmake")
   include("C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lvgl/cmake_install.cmake")
   include("C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lv_examples/cmake_install.cmake")
+  include("C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lv_port_fs/cmake_install.cmake")
   include("C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lvgl_esp32_drivers/cmake_install.cmake")
 
 endif()

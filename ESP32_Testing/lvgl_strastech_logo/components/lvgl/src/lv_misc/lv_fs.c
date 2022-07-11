@@ -650,7 +650,7 @@ static const char * lv_fs_get_real_path(const char * path)
     path++; /*Ignore the driver letter*/
 
     while(*path != '\0') {
-        if(*path == ':' || *path == '\\' || *path == '/') {
+        if(*path == ':' || *path == '\\' /*|| *path == '/'*/) {
             path++;
         }
         else {

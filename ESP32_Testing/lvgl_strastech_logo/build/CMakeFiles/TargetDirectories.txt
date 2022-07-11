@@ -694,6 +694,13 @@ C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-id
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lv_examples/CMakeFiles/rebuild_cache.dir
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lv_examples/CMakeFiles/list_install_components.dir
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lv_examples/CMakeFiles/install/strip.dir
+C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lv_port_fs/CMakeFiles/__idf_lv_port_fs.dir
+C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lv_port_fs/CMakeFiles/install/local.dir
+C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lv_port_fs/CMakeFiles/install.dir
+C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lv_port_fs/CMakeFiles/edit_cache.dir
+C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lv_port_fs/CMakeFiles/rebuild_cache.dir
+C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lv_port_fs/CMakeFiles/list_install_components.dir
+C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lv_port_fs/CMakeFiles/install/strip.dir
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lvgl_esp32_drivers/CMakeFiles/__idf_lvgl_esp32_drivers.dir
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lvgl_esp32_drivers/CMakeFiles/install/local.dir
 C:/Users/juddf/Documents/Capstone/ESP32_Testing/lvgl_strastech_logo/build/esp-idf/lvgl_esp32_drivers/CMakeFiles/install.dir

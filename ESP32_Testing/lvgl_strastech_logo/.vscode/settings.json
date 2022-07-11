@@ -6,6 +6,7 @@
     "idf.flashType": "UART",
     "idf.portWin": "COM15",
     "files.associations": {
-        "lvgl_helpers.h": "c"
+        "lvgl_helpers.h": "c",
+        "lv_port_fs.h": "c"
     }
 }
