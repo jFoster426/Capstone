@@ -1,0 +1,12 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.flashType": "UART",
+    "idf.portWin": "COM15",
+    "files.associations": {
+        "lvgl_helpers.h": "c",
+        "lv_port_fs.h": "c"
+    }
+}
