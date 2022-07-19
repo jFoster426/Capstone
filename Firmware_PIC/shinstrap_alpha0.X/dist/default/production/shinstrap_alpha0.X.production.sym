@@ -1,8 +1,8 @@
 __S0 10000 0 ABS 0
-__S1 509 0 ABS 0
+__S1 515 0 ABS 0
 __S4 0 0 ABS 0
 __S5 0 0 ABS 0
-_main FF1E 0 CODE 0
+_main FE00 0 CODE 0
 ___sp 0 0 STACK 2
 start FFFC 0 CODE 0
 _U1RXB 2A1 0 ABS 0
@@ -65,9 +65,12 @@ __Habs1 0 0 ABS 0
 __Labs1 0 0 ABS 0
 _RA2PPS 203 0 ABS 0
 isa$xinst 0 0 ABS 0
+main@i_371 509 0 COMRAM 1
 __HnvFARRAM 0 0 FARRAM 0
 __LnvFARRAM 0 0 FARRAM 0
+main@i_372 50D 0 COMRAM 1
 ___heap_hi 0 0 ABS 0
+main@i_373 511 0 COMRAM 1
 __Hdata 0 0 ABS 0
 __Ldata 0 0 ABS 0
 isa$std 1 0 ABS 0
@@ -87,7 +90,7 @@ __Lrbss 0 0 COMRAM 1
 __Htext 0 0 ABS 0
 __Ltext 0 0 ABS 0
 ___heap_lo 0 0 ABS 0
-end_of_initialization FF18 0 CODE 0
+end_of_initialization FDFA 0 CODE 0
 _TRISAbits 4C6 0 ABS 0
 _TRISBbits 4C7 0 ABS 0
 _TRISCbits 4C8 0 ABS 0
@@ -114,10 +117,10 @@ __Htext0 0 0 ABS 0
 __Ltext0 0 0 ABS 0
 __Hbank9 0 0 ABS 0
 __Lbank9 0 0 ABS 0
-__ptext0 FF1E 0 CODE 0
+__ptext0 FE00 0 CODE 0
 __Hclrtext 0 0 ABS 0
 __Lclrtext 0 0 ABS 0
-__end_of__initialization FF18 0 CODE 0
+__end_of__initialization FDFA 0 CODE 0
 ___rparam_used 1 0 ABS 0
 _U1RXPPSbits 272 0 ABS 0
 __Hidata 0 0 CODE 0
@@ -135,7 +138,7 @@ __HcstackCOMRAM 0 0 ABS 0
 __Lspace_0 0 0 ABS 0
 __LcstackCOMRAM 0 0 ABS 0
 __pcstackCOMRAM 501 0 COMRAM 1
-__Hspace_1 509 0 ABS 0
+__Hspace_1 515 0 ABS 0
 __Lspace_1 0 0 ABS 0
 __Hsmallconst 0 0 SMALLCONST 0
 __Lsmallconst 0 0 SMALLCONST 0
@@ -145,7 +148,7 @@ __Hnvbit 0 0 COMRAM 1
 __Lnvbit 0 0 COMRAM 1
 __Hcinit 0 0 ABS 0
 __Lcinit 0 0 ABS 0
-__pcinit FF18 0 CODE 0
+__pcinit FDFA 0 CODE 0
 __ramtop 1500 0 RAM 0
 __mediumconst 0 0 MEDIUMCONST 0
 __Hconst 0 0 CONST 0
@@ -186,37 +189,43 @@ intlevel0 0 0 CODE 0
 intlevel1 0 0 CODE 0
 intlevel2 0 0 CODE 0
 intlevel3 0 0 CODE 0
-start_initialization FF18 0 CODE 0
-__initialization FF18 0 CODE 0
+start_initialization FDFA 0 CODE 0
+__initialization FDFA 0 CODE 0
 __activetblptr 0 0 ABS 0
 %segments
 reset_vec 0 3 CODE 0 0
 init FFFC FFFF CODE FFFC 0
-cstackCOMRAM 501 508 COMRAM 501 1
-text0 FF1E FFFB CODE FF1E 0
-cinit FF18 FF1D CODE FF18 0
+cstackCOMRAM 501 514 COMRAM 501 1
+text0 FE00 FFFB CODE FE00 0
+cinit FDFA FDFF CODE FDFA 0
 %locals
 dist/default/production\shinstrap_alpha0.X.production.o
 C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic18f16q40.h
-C:\Users\juddf\AppData\Local\Temp\xcAs5k0.s
-1542 FF18 0 CODE 0
-1544 FF18 0 CODE 0
-1547 FF18 0 CODE 0
-1553 FF18 0 CODE 0
-1555 FF18 0 CODE 0
-1556 FF1A 0 CODE 0
+C:\Users\juddf\AppData\Local\Temp\xcAsb20.s
+1542 FDFA 0 CODE 0
+1544 FDFA 0 CODE 0
+1547 FDFA 0 CODE 0
+1553 FDFA 0 CODE 0
+1555 FDFA 0 CODE 0
+1556 FDFC 0 CODE 0
 main.c
-120 FF1E 0 CODE 0
-123 FF1E 0 CODE 0
-126 FF20 0 CODE 0
-127 FF22 0 CODE 0
-130 FF24 0 CODE 0
-131 FF26 0 CODE 0
-134 FF28 0 CODE 0
-135 FF2C 0 CODE 0
-137 FF2E 0 CODE 0
-139 FF2E 0 CODE 0
-141 FF3C 0 CODE 0
-142 FF3E 0 CODE 0
-143 FF98 0 CODE 0
-144 FF9A 0 CODE 0
+120 FE00 0 CODE 0
+123 FE00 0 CODE 0
+126 FE02 0 CODE 0
+127 FE04 0 CODE 0
+130 FE06 0 CODE 0
+131 FE08 0 CODE 0
+134 FE0A 0 CODE 0
+135 FE0E 0 CODE 0
+137 FE10 0 CODE 0
+139 FE6E 0 CODE 0
+141 FE6E 0 CODE 0
+143 FE7C 0 CODE 0
+144 FE7E 0 CODE 0
+145 FED8 0 CODE 0
+146 FEDA 0 CODE 0
+148 FF38 0 CODE 0
+150 FF38 0 CODE 0
+151 FF3A 0 CODE 0
+152 FF94 0 CODE 0
+153 FF96 0 CODE 0

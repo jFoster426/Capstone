@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=DETECT_1 Pin=U500-43
+Removed Pin From Net: NetName=DETECT_2 Pin=U500-45
+Change Footprint: Cannot match pads with new footprint in component :Q601 Footprint:SOT23-3

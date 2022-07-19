@@ -1,0 +1,44 @@
+Added Component: Designator=J400(Term,Pad,3Pos,SMD)
+Add component (AddParameter): Name = "Created By"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Component: Designator=J401(Term,Pad,3Pos,SMD)
+Add component (AddParameter): Name = "Created By"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Component: Designator=J402(Term,Pad,3Pos,SMD)
+Add component (AddParameter): Name = "Created By"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Component: Designator=J403(Term,Pad,3Pos,SMD)
+Add component (AddParameter): Name = "Created By"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDD_5VA Pin=J400-1
+Added Pin To Net: NetName=LOAD_CELL_1 Pin=J400-2
+Added Pin To Net: NetName=A_GND Pin=J400-3
+Added Pin To Net: NetName=VDD_5VA Pin=J401-1
+Added Pin To Net: NetName=LOAD_CELL_2 Pin=J401-2
+Added Pin To Net: NetName=A_GND Pin=J401-3
+Added Pin To Net: NetName=VDD_5VA Pin=J402-1
+Added Pin To Net: NetName=LOAD_CELL_3 Pin=J402-2
+Added Pin To Net: NetName=A_GND Pin=J402-3
+Added Pin To Net: NetName=VDD_5VA Pin=J403-1
+Added Pin To Net: NetName=LOAD_CELL_4 Pin=J403-2
+Added Pin To Net: NetName=A_GND Pin=J403-3
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component J400 Term,Pad,3Pos,SMD
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component J401 Term,Pad,3Pos,SMD
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component J402 Term,Pad,3Pos,SMD
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component J403 Term,Pad,3Pos,SMD

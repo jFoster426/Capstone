@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=A_GND Pin=R622-1
+Added Component: Designator=C622(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM155R71E104KE14J"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "490-14603-1-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDD_5V_FB Pin=C622-1
+Added Pin To Net: NetName=GND Pin=C622-2
+Added Pin To Net: NetName=GND Pin=R622-1
+Added Member To Class: ClassName=Regulation_Charging Member=Component C622 100nF
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component J700 Term,Header,3x2 Pin,1.27mm,SMD

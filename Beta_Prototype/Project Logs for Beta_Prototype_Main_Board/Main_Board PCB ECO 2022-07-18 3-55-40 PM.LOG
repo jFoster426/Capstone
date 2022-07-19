@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=VDD_5V_EN Pin=U701-9
+Added Pin To Net: NetName=VDD_5V_EN Pin=U701-8
+Added Pin To Net: NetName=VDD_PIC_EN Pin=U701-9

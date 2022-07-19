@@ -176,7 +176,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 "31241
 [; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic18f16q40.h: 31241: extern volatile ANSELBbits_t ANSELBbits __attribute__((address(0x408)));
 [v _ANSELBbits `VS1484 ~T0 @X0 0 e@1032 ]
-"36337
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\include\builtins.h
+[v ___nop `(v ~T0 @X0 0 ef ]
+[p i ___nop ]
+"36337 C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic18f16q40.h
 [; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic18f16q40.h: 36337:     struct {
 [s S1730 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S1730 . . RB4 RB5 RB6 RB7 ]
@@ -187,9 +190,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 "36345
 [; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic18f16q40.h: 36345: extern volatile PORTBbits_t PORTBbits __attribute__((address(0x4CF)));
 [v _PORTBbits `VS1729 ~T0 @X0 0 e@1231 ]
-"8 C:\Program Files\Microchip\xc8\v2.36\pic\include\builtins.h
-[v ___nop `(v ~T0 @X0 0 ef ]
-[p i ___nop ]
 "2 main.c
 [p x FEXTOSC  =  OFF ]
 "3
@@ -2406,36 +2406,33 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 135:     TRISBbits.TRISB7 = 1;
 [e = . . _TRISBbits 0 4 -> -> 1 `i `uc ]
 "137
-[; ;main.c: 137:     while (1)
-[e :U 1843 ]
-"138
-[; ;main.c: 138:     {
-{
-"139
-[; ;main.c: 139:         if (PORTBbits.RB7 == 1)
-[e $ ! == -> . . _PORTBbits 0 4 `i -> 1 `i 1845  ]
-"140
-[; ;main.c: 140:         {
-{
-"141
-[; ;main.c: 141:             LATBbits.LATB4 = 1;
-[e = . . _LATBbits 0 1 -> -> 1 `i `uc ]
-"142
-[; ;main.c: 142:             for (volatile uint32_t i = 0; i < 50000; i++) __nop();
+[; ;main.c: 137:     for (volatile uint32_t i = 0; i < 500000; i++) __nop();
 {
 [v _i `Vul ~T0 @X0 1 a ]
 [e = _i -> -> -> 0 `i `l `ul ]
-[e $ < _i -> -> 50000 `l `ul 1846  ]
-[e $U 1847  ]
-[e :U 1846 ]
+[e $ < _i -> -> 500000 `l `ul 1842  ]
+[e $U 1843  ]
+[e :U 1842 ]
 [e ( ___nop ..  ]
 [e ++ _i -> -> 1 `i `Vul ]
-[e $ < _i -> -> 50000 `l `ul 1846  ]
-[e :U 1847 ]
+[e $ < _i -> -> 500000 `l `ul 1842  ]
+[e :U 1843 ]
 }
+"139
+[; ;main.c: 139:     while (1)
+[e :U 1846 ]
+"140
+[; ;main.c: 140:     {
+{
+"141
+[; ;main.c: 141:         if (PORTBbits.RB7 == 1)
+[e $ ! == -> . . _PORTBbits 0 4 `i -> 1 `i 1848  ]
+"142
+[; ;main.c: 142:         {
+{
 "143
-[; ;main.c: 143:             LATBbits.LATB4 = 0;
-[e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
+[; ;main.c: 143:             LATBbits.LATB4 = 1;
+[e = . . _LATBbits 0 1 -> -> 1 `i `uc ]
 "144
 [; ;main.c: 144:             for (volatile uint32_t i = 0; i < 50000; i++) __nop();
 {
@@ -2450,16 +2447,74 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 1850 ]
 }
 "145
-[; ;main.c: 145:         }
+[; ;main.c: 145:             LATBbits.LATB4 = 0;
+[e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
+"146
+[; ;main.c: 146:             for (volatile uint32_t i = 0; i < 50000; i++) __nop();
+{
+[v _i `Vul ~T0 @X0 1 a ]
+[e = _i -> -> -> 0 `i `l `ul ]
+[e $ < _i -> -> 50000 `l `ul 1852  ]
+[e $U 1853  ]
+[e :U 1852 ]
+[e ( ___nop ..  ]
+[e ++ _i -> -> 1 `i `Vul ]
+[e $ < _i -> -> 50000 `l `ul 1852  ]
+[e :U 1853 ]
+}
+"147
+[; ;main.c: 147:         }
+}
+[e $U 1855  ]
+"148
+[; ;main.c: 148:         else
+[e :U 1848 ]
+"149
+[; ;main.c: 149:         {
+{
+"150
+[; ;main.c: 150:             LATCbits.LATC7 = 0;
+[e = . . _LATCbits 0 7 -> -> 0 `i `uc ]
+"151
+[; ;main.c: 151:             for (volatile uint32_t i = 0; i < 50000; i++) __nop();
+{
+[v _i `Vul ~T0 @X0 1 a ]
+[e = _i -> -> -> 0 `i `l `ul ]
+[e $ < _i -> -> 50000 `l `ul 1856  ]
+[e $U 1857  ]
+[e :U 1856 ]
+[e ( ___nop ..  ]
+[e ++ _i -> -> 1 `i `Vul ]
+[e $ < _i -> -> 50000 `l `ul 1856  ]
+[e :U 1857 ]
+}
+"152
+[; ;main.c: 152:             LATCbits.LATC7 = 1;
+[e = . . _LATCbits 0 7 -> -> 1 `i `uc ]
+"153
+[; ;main.c: 153:             for (volatile uint32_t i = 0; i < 500000; i++) __nop();
+{
+[v _i `Vul ~T0 @X0 1 a ]
+[e = _i -> -> -> 0 `i `l `ul ]
+[e $ < _i -> -> 500000 `l `ul 1859  ]
+[e $U 1860  ]
+[e :U 1859 ]
+[e ( ___nop ..  ]
+[e ++ _i -> -> 1 `i `Vul ]
+[e $ < _i -> -> 500000 `l `ul 1859  ]
+[e :U 1860 ]
+}
+"154
+[; ;main.c: 154:         }
+}
+[e :U 1855 ]
+"155
+[; ;main.c: 155:     }
 }
 [e :U 1845 ]
-"146
-[; ;main.c: 146:     }
-}
-[e :U 1842 ]
-[e $U 1843  ]
-[e :U 1844 ]
-"173
-[; ;main.c: 173: }
+[e $U 1846  ]
+[e :U 1847 ]
+"182
+[; ;main.c: 182: }
 [e :UE 1841 ]
 }

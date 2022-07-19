@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=A_GND Pin=J401-4
+Removed Pin From Net: NetName=LOAD_CELL_4 Pin=J401-5
+Removed Pin From Net: NetName=LOAD_CELL_3 Pin=J401-6
+Removed Pin From Net: NetName=LOAD_CELL_2 Pin=J401-7
+Removed Pin From Net: NetName=LOAD_CELL_1 Pin=J401-8
+Removed Pin From Net: NetName=GND Pin=R407-1
+Removed Pin From Net: NetName=GND Pin=R408-1
+Removed Member From Class: ClassName=Peripherals_Main_Board Member=R405
+Removed Member From Class: ClassName=Peripherals_Main_Board Member=R406
+Removed Member From Class: ClassName=Peripherals_Main_Board Member=R407
+Removed Member From Class: ClassName=Peripherals_Main_Board Member=R408
+Change Comment: Unknown Component : J401
+Change component parameters: Component "J401" not found
+Add Pin To Net: Unknown Pin: Pin J400-1
+Add Pin To Net: Unknown Pin: Pin J400-2
+Add Pin To Net: Unknown Pin: Pin J400-3
+Add Pin To Net: Unknown Pin: Pin J401-2
+Add Pin To Net: Unknown Pin: Pin J401-3
+Add Pin To Net: Unknown Pin: Pin J402-1
+Add Pin To Net: Unknown Pin: Pin J402-2
+Add Pin To Net: Unknown Pin: Pin J402-3
+Add Pin To Net: Unknown Pin: Pin J403-1
+Add Pin To Net: Unknown Pin: Pin J403-2
+Add Pin To Net: Unknown Pin: Pin J403-3
+Add Class Member: Failed to add class member : Component J400 Term,Pad,3Pos,SMD
+Add Class Member: Failed to add class member : Component J402 Term,Pad,3Pos,SMD
+Add Class Member: Failed to add class member : Component J403 Term,Pad,3Pos,SMD

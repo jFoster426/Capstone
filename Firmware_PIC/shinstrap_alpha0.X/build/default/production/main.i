@@ -22580,6 +22580,8 @@ void main(void)
     ANSELBbits.ANSELB7 = 0;
     TRISBbits.TRISB7 = 1;
 
+    for (volatile uint32_t i = 0; i < 500000; i++) __nop();
+
     while (1)
     {
         if (PORTBbits.RB7 == 1)
@@ -22589,6 +22591,13 @@ void main(void)
             LATBbits.LATB4 = 0;
             for (volatile uint32_t i = 0; i < 50000; i++) __nop();
         }
+        else
+        {
+            LATCbits.LATC7 = 0;
+            for (volatile uint32_t i = 0; i < 50000; i++) __nop();
+            LATCbits.LATC7 = 1;
+            for (volatile uint32_t i = 0; i < 500000; i++) __nop();
+        }
     }
-# 173 "main.c"
+# 182 "main.c"
 }

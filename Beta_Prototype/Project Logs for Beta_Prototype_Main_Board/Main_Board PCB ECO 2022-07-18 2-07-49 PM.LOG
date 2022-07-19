@@ -1,0 +1,534 @@
+Removed Pin From Net: NetName=V_BATT Pin=BT1-1
+Removed Pin From Net: NetName=VDD_5V Pin=C41-1
+Removed Pin From Net: NetName=VDD_5VA Pin=C47-1
+Removed Pin From Net: NetName=A_GND Pin=C47-2
+Removed Pin From Net: NetName=VDD_5V Pin=D6-1
+Removed Pin From Net: NetName=VDD_5VA Pin=J2-1
+Removed Pin From Net: NetName=A_GND Pin=J2-4
+Removed Pin From Net: NetName=LOAD_CELL_4 Pin=J2-5
+Removed Pin From Net: NetName=LOAD_CELL_3 Pin=J2-6
+Removed Pin From Net: NetName=LOAD_CELL_2 Pin=J2-7
+Removed Pin From Net: NetName=LOAD_CELL_1 Pin=J2-8
+Removed Pin From Net: NetName=GND Pin=J3-0
+Removed Pin From Net: NetName=GND Pin=J3-0
+Removed Pin From Net: NetName=VDD_5V Pin=J3-1
+Removed Pin From Net: NetName=VDD_5V Pin=J3-2
+Removed Pin From Net: NetName=VDD_5V Pin=J3-3
+Removed Pin From Net: NetName=GND Pin=J3-4
+Removed Pin From Net: NetName=VDD_3V3 Pin=J3-5
+Removed Pin From Net: NetName=VDD_3V3 Pin=J3-6
+Removed Pin From Net: NetName=VDD_3V3 Pin=J3-7
+Removed Pin From Net: NetName=GND Pin=J3-8
+Removed Pin From Net: NetName=GND Pin=J3-10
+Removed Pin From Net: NetName=GND Pin=J3-12
+Removed Pin From Net: NetName=GND Pin=J3-14
+Removed Pin From Net: NetName=GND Pin=J3-18
+Removed Pin From Net: NetName=I2C_SCL Pin=J3-19
+Removed Pin From Net: NetName=I2C_SDA Pin=J3-20
+Removed Pin From Net: NetName=GND Pin=J3-21
+Removed Pin From Net: NetName=ESP32_GPIO0 Pin=J3-22
+Removed Pin From Net: NetName=BTN2 Pin=J3-23
+Removed Pin From Net: NetName=BTN1 Pin=J3-24
+Removed Pin From Net: NetName=GND Pin=J6-2
+Removed Pin From Net: NetName=GND Pin=J6-2
+Removed Pin From Net: NetName=NetQ5_1 Pin=Q6-1
+Removed Pin From Net: NetName=NetQ5_1 Pin=Q6-1
+Removed Pin From Net: NetName=NetQ5_1 Pin=Q6-1
+Removed Pin From Net: NetName=NetQ5_1 Pin=Q6-1
+Removed Pin From Net: NetName=GND Pin=R60-1
+Removed Pin From Net: NetName=DETECT_1 Pin=R60-2
+Removed Pin From Net: NetName=GND Pin=R61-1
+Removed Pin From Net: NetName=DETECT_2 Pin=R61-2
+Removed Pin From Net: NetName=DETECT_1 Pin=R67-1
+Removed Pin From Net: NetName=DETECT_2 Pin=R68-1
+Removed Pin From Net: NetName=VDD_5V Pin=R78-2
+Removed Pin From Net: NetName=V_BATT Pin=R92-1
+Removed Pin From Net: NetName=GND Pin=R93-1
+Removed Pin From Net: NetName=VDD_5V Pin=TP13-1
+Removed Pin From Net: NetName=VDD_5V_FB Pin=TP15-1
+Removed Pin From Net: NetName=GND Pin=U12-4
+Removed Pin From Net: NetName=GND Pin=U12-5
+Removed Pin From Net: NetName=VDD_5V Pin=U13-6
+Removed Pin From Net: NetName=VDD_5V Pin=U13-7
+Removed Pin From Net: NetName=VDD_5V_FB Pin=U17-8
+Removed Pin From Net: NetName=VDD_5V_EN Pin=U17-9
+Removed Pin From Net: NetName=DATAN/PGC Pin=U17-11
+Removed Member From Class: ClassName=Regulation_Charging Member=BT1
+Removed Member From Class: ClassName=Load_Cell_Acquisition Member=C62
+Removed Member From Class: ClassName=Regulation_Charging Member=D7
+Removed Member From Class: ClassName=Regulation_Charging Member=D10
+Removed Member From Class: ClassName=Load_Cell_Biasing Member=J2
+Removed Member From Class: ClassName=Processor Member=J6
+Removed Member From Class: ClassName=Load_Cell_Acquisition Member=R54
+Removed Member From Class: ClassName=Load_Cell_Biasing Member=R60
+Removed Member From Class: ClassName=Load_Cell_Biasing Member=R61
+Removed Member From Class: ClassName=Load_Cell_Biasing Member=R67
+Removed Member From Class: ClassName=Load_Cell_Biasing Member=R68
+Removed Member From Class: ClassName=Regulation_Charging Member=R92
+Removed Member From Class: ClassName=Regulation_Charging Member=R93
+Removed Member From Class: ClassName=Regulation_Charging Member=U15
+Removed Member From Class: ClassName=50R Member=NetC2_2
+Change Component Footprint: Designator=J3 Old Footprint=CONN,FFC,BOTTOM,24POS,0.5MM New Footprint=Conn,Spring,Piston,8Pos,Thru
+Change Footprint: Cannot match pads with new footprint in component :Q5 Footprint:SOT23-3
+Change Component Comment : Designator=J3 Old Comment=Conn,FFC,Bottom,24 Pin,0.5mm New Comment=Conn,Spring,Piston,8Pos,Thru
+Change Component Comment : Designator=Q5 Old Comment=PMPB25ENEX New Comment=DMP2160U-7
+Change Component Designator: OldDesignator=C22 NewDesignator=C23
+Change Component Designator: OldDesignator=C23 NewDesignator=C24
+Change Component Designator: OldDesignator=C24 NewDesignator=C22
+Change Component Designator: OldDesignator=C33 NewDesignator=C34
+Change Component Designator: OldDesignator=C34 NewDesignator=C35
+Change Component Designator: OldDesignator=C35 NewDesignator=C36
+Change Component Designator: OldDesignator=C36 NewDesignator=C37
+Change Component Designator: OldDesignator=C37 NewDesignator=C38
+Change Component Designator: OldDesignator=C38 NewDesignator=C39
+Change Component Designator: OldDesignator=C39 NewDesignator=C41
+Change Component Designator: OldDesignator=C40 NewDesignator=C52
+Change Component Designator: OldDesignator=C41 NewDesignator=C46
+Change Component Designator: OldDesignator=C43 NewDesignator=C49
+Change Component Designator: OldDesignator=C44 NewDesignator=C50
+Change Component Designator: OldDesignator=C45 NewDesignator=C47
+Change Component Designator: OldDesignator=C46 NewDesignator=C48
+Change Component Designator: OldDesignator=C48 NewDesignator=C55
+Change Component Designator: OldDesignator=C49 NewDesignator=C56
+Change Component Designator: OldDesignator=C50 NewDesignator=C57
+Change Component Designator: OldDesignator=C51 NewDesignator=C58
+Change Component Designator: OldDesignator=C52 NewDesignator=C62
+Change Component Designator: OldDesignator=C54 NewDesignator=C64
+Change Component Designator: OldDesignator=C55 NewDesignator=C65
+Change Component Designator: OldDesignator=C56 NewDesignator=C66
+Change Component Designator: OldDesignator=C57 NewDesignator=C67
+Change Component Designator: OldDesignator=C58 NewDesignator=C68
+Change Component Designator: OldDesignator=C59 NewDesignator=C51
+Change Component Designator: OldDesignator=C60 NewDesignator=C53
+Change Component Designator: OldDesignator=C61 NewDesignator=C54
+Change Component Designator: OldDesignator=C62 NewDesignator=C33
+Change Component Designator: OldDesignator=C63 NewDesignator=C40
+Change Component Designator: OldDesignator=D4 NewDesignator=D7
+Change Component Designator: OldDesignator=D5 NewDesignator=D8
+Change Component Designator: OldDesignator=D6 NewDesignator=D9
+Change Component Designator: OldDesignator=D7 NewDesignator=D5
+Change Component Designator: OldDesignator=D8 NewDesignator=D12
+Change Component Designator: OldDesignator=D9 NewDesignator=D4
+Change Component Designator: OldDesignator=D10 NewDesignator=D6
+Change Component Designator: OldDesignator=J4 NewDesignator=J2
+Change Component Designator: OldDesignator=J16 NewDesignator=J6
+Change Component Designator: OldDesignator=L5 NewDesignator=L6
+Change Component Designator: OldDesignator=L6 NewDesignator=L5
+Change Component Designator: OldDesignator=Q6 NewDesignator=Q8
+Change Component Designator: OldDesignator=Q7 NewDesignator=Q6
+Change Component Designator: OldDesignator=R24 NewDesignator=R25
+Change Component Designator: OldDesignator=R25 NewDesignator=R24
+Change Component Designator: OldDesignator=R26 NewDesignator=R27
+Change Component Designator: OldDesignator=R27 NewDesignator=R26
+Change Component Designator: OldDesignator=R32 NewDesignator=R34
+Change Component Designator: OldDesignator=R34 NewDesignator=R32
+Change Component Designator: OldDesignator=R35 NewDesignator=R37
+Change Component Designator: OldDesignator=R36 NewDesignator=R35
+Change Component Designator: OldDesignator=R37 NewDesignator=R36
+Change Component Designator: OldDesignator=R44 NewDesignator=R45
+Change Component Designator: OldDesignator=R45 NewDesignator=R44
+Change Component Designator: OldDesignator=R46 NewDesignator=R100
+Change Component Designator: OldDesignator=R47 NewDesignator=R48
+Change Component Designator: OldDesignator=R48 NewDesignator=R47
+Change Component Designator: OldDesignator=R49 NewDesignator=R86
+Change Component Designator: OldDesignator=R50 NewDesignator=R46
+Change Component Designator: OldDesignator=R51 NewDesignator=R52
+Change Component Designator: OldDesignator=R52 NewDesignator=R49
+Change Component Designator: OldDesignator=R53 NewDesignator=R50
+Change Component Designator: OldDesignator=R54 NewDesignator=R51
+Change Component Designator: OldDesignator=R55 NewDesignator=R53
+Change Component Designator: OldDesignator=R56 NewDesignator=R54
+Change Component Designator: OldDesignator=R57 NewDesignator=R55
+Change Component Designator: OldDesignator=R58 NewDesignator=R56
+Change Component Designator: OldDesignator=R59 NewDesignator=R57
+Change Component Designator: OldDesignator=R62 NewDesignator=R58
+Change Component Designator: OldDesignator=R63 NewDesignator=R72
+Change Component Designator: OldDesignator=R64 NewDesignator=R59
+Change Component Designator: OldDesignator=R65 NewDesignator=R60
+Change Component Designator: OldDesignator=R66 NewDesignator=R61
+Change Component Designator: OldDesignator=R69 NewDesignator=R75
+Change Component Designator: OldDesignator=R70 NewDesignator=R77
+Change Component Designator: OldDesignator=R71 NewDesignator=R70
+Change Component Designator: OldDesignator=R72 NewDesignator=R62
+Change Component Designator: OldDesignator=R73 NewDesignator=R67
+Change Component Designator: OldDesignator=R74 NewDesignator=R68
+Change Component Designator: OldDesignator=R75 NewDesignator=R71
+Change Component Designator: OldDesignator=R76 NewDesignator=R73
+Change Component Designator: OldDesignator=R77 NewDesignator=R94
+Change Component Designator: OldDesignator=R78 NewDesignator=R74
+Change Component Designator: OldDesignator=R79 NewDesignator=R97
+Change Component Designator: OldDesignator=R82 NewDesignator=R76
+Change Component Designator: OldDesignator=R83 NewDesignator=R69
+Change Component Designator: OldDesignator=R84 NewDesignator=R80
+Change Component Designator: OldDesignator=R85 NewDesignator=R78
+Change Component Designator: OldDesignator=R86 NewDesignator=R79
+Change Component Designator: OldDesignator=R87 NewDesignator=R82
+Change Component Designator: OldDesignator=R88 NewDesignator=R81
+Change Component Designator: OldDesignator=R89 NewDesignator=R83
+Change Component Designator: OldDesignator=R90 NewDesignator=R84
+Change Component Designator: OldDesignator=R91 NewDesignator=R85
+Change Component Designator: OldDesignator=R94 NewDesignator=R92
+Change Component Designator: OldDesignator=R95 NewDesignator=R96
+Change Component Designator: OldDesignator=R96 NewDesignator=R95
+Change Component Designator: OldDesignator=R97 NewDesignator=R93
+Change Component Designator: OldDesignator=TP10 NewDesignator=TP20
+Change Component Designator: OldDesignator=TP12 NewDesignator=TP10
+Change Component Designator: OldDesignator=TP13 NewDesignator=TP11
+Change Component Designator: OldDesignator=TP14 NewDesignator=TP12
+Change Component Designator: OldDesignator=TP15 NewDesignator=TP19
+Change Component Designator: OldDesignator=TP16 NewDesignator=TP13
+Change Component Designator: OldDesignator=TP17 NewDesignator=TP15
+Change Component Designator: OldDesignator=TP18 NewDesignator=TP16
+Change Component Designator: OldDesignator=TP19 NewDesignator=TP17
+Change Component Designator: OldDesignator=TP20 NewDesignator=TP14
+Change Component Designator: OldDesignator=TP21 NewDesignator=TP18
+Change Component Designator: OldDesignator=U6 NewDesignator=U15
+Change Component Designator: OldDesignator=U7 NewDesignator=U6
+Change Component Designator: OldDesignator=U8 NewDesignator=U7
+Change Component Designator: OldDesignator=U9 NewDesignator=U8
+Change Component Designator: OldDesignator=U10 NewDesignator=U9
+Change Component Designator: OldDesignator=U11 NewDesignator=U16
+Change Component Designator: OldDesignator=U12 NewDesignator=U10
+Change Component Designator: OldDesignator=U13 NewDesignator=U11
+Change Component Designator: OldDesignator=U14 NewDesignator=U12
+Change Component Designator: OldDesignator=U17 NewDesignator=U14
+Change component parameters: Designator = "J3" ("J3"); Footprint = "CONN,FFC,BOTTOM,24POS,0.5MM"; UniqueID = "\JIFTPDBF" ("\JIFTPDBF")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.mill-max.com/catalog/download/2019-08%3A013.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Mill-Max Manufacturing Corp."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "823-22-008-10-002101"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "ED8177-08-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q5" ("Q5"); Footprint = "IC,WDFN-6,P0.65"; UniqueID = "\NRAERCIG" ("\NRAERCIG")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/DMP2160U.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "DMP2160U-7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "DMP2160UDICT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=ANT1(ANT,PCB,IFA,2.45GHZ)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.ti.com/lit/an/swru120d/swru120d.pdf?ts=1646240772720&ref_url=https%253A%252F%252Fwww.google.com%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Component: Designator=C43(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM155R71E104KE14J"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "490-14603-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C44(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A106MP5NUNC_Spec.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CL05A106MP5NUNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "1276-1450-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C45(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A106MP5NUNC_Spec.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CL05A106MP5NUNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "1276-1450-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C59(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A106MP5NUNC_Spec.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CL05A106MP5NUNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "1276-1450-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C60(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A106MP5NUNC_Spec.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CL05A106MP5NUNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "1276-1450-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C61(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A106MP5NUNC_Spec.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CL05A106MP5NUNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "1276-1450-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C63(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM155R71E104KE14J"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "490-14603-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C69(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM155R71E104KE14J"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "490-14603-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C70(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM155R71E104KE14J"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "490-14603-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=D10(SOD523)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://rocelec.widen.net/view/pdf/bnxdzepaue/ONSM-S-A0003584797-1.pdf?t.download=true&u=5oefqw"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "1N4148WT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "1N4148WTCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=D11(SOD523)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://rocelec.widen.net/view/pdf/bnxdzepaue/ONSM-S-A0003584797-1.pdf?t.download=true&u=5oefqw"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "1N4148WT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "1N4148WTCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=J4(Conn,JST,2Pin,2mm,SMD)
+Add component (AddParameter): Name = "Created By"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.hirose.com/product/document?clcode=CL0543-0329-0-21&productname=DF3EA-2P-2H(21)&series=DF3&documenttype=2DDrawing&lang=en&documentid=0001258196"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Hirose Electric Co Ltd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "DF3EA-2P-2H(21)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "H125443CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=Q7(SOT1123)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.onsemi.com/pdf/datasheet/nst3904f3-d.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "NST3904F3T5G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "NST3904F3T5GOSCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R63(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ERJ-2RKF10R0X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "P10.0LCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R64(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic Electronic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ERJ-2RKF10R0X"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "P10.0LCT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R65(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R66(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R87(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R88(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R89(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R90(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R91(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=U13(sot23-5)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g240"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "SN74LVC1G240DBVT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "296-32301-1-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=ANT1-2
+Added Pin To Net: NetName=GND Pin=ANT1-2
+Added Pin To Net: NetName=GND Pin=C43-2
+Added Pin To Net: NetName=GND Pin=C44-1
+Added Pin To Net: NetName=GND Pin=C45-1
+Added Pin To Net: NetName=A_GND Pin=C59-1
+Added Pin To Net: NetName=VDD_5VA Pin=C59-2
+Added Pin To Net: NetName=A_GND Pin=C60-1
+Added Pin To Net: NetName=VDD_5VA Pin=C60-2
+Added Pin To Net: NetName=A_GND Pin=C61-1
+Added Pin To Net: NetName=VDD_5VA Pin=C61-2
+Added Pin To Net: NetName=GND Pin=C63-1
+Added Pin To Net: NetName=VDD_5V Pin=C63-2
+Added Pin To Net: NetName=VDD_5V Pin=C69-1
+Added Pin To Net: NetName=GND Pin=C69-2
+Added Pin To Net: NetName=GND Pin=C70-1
+Added Pin To Net: NetName=VDD_5V Pin=C70-2
+Added Pin To Net: NetName=nSS_CONN Pin=D10-2
+Added Pin To Net: NetName=VDD_5VA Pin=J3-1
+Added Pin To Net: NetName=A_GND Pin=J3-4
+Added Pin To Net: NetName=LOAD_CELL_4 Pin=J3-5
+Added Pin To Net: NetName=LOAD_CELL_3 Pin=J3-6
+Added Pin To Net: NetName=LOAD_CELL_2 Pin=J3-7
+Added Pin To Net: NetName=LOAD_CELL_1 Pin=J3-8
+Added Pin To Net: NetName=V_BATT Pin=J4-1
+Added Pin To Net: NetName=VDD_5V Pin=Q5-3
+Added Pin To Net: NetName=VDD_5V Pin=Q5-3
+Added Pin To Net: NetName=GND Pin=Q7-2
+Added Pin To Net: NetName=NetQ5_1 Pin=Q7-3
+Added Pin To Net: NetName=DETECT_1 Pin=R63-1
+Added Pin To Net: NetName=DETECT_2 Pin=R64-1
+Added Pin To Net: NetName=GND Pin=R65-1
+Added Pin To Net: NetName=DETECT_1 Pin=R65-2
+Added Pin To Net: NetName=GND Pin=R66-1
+Added Pin To Net: NetName=DETECT_2 Pin=R66-2
+Added Pin To Net: NetName=VDD_5V Pin=R87-2
+Added Pin To Net: NetName=NetQ5_1 Pin=R88-1
+Added Pin To Net: NetName=A_GND Pin=R89-1
+Added Pin To Net: NetName=V_BATT Pin=R91-2
+Added Pin To Net: NetName=MP2615_VCC Pin=U10-4
+Added Pin To Net: NetName=MP2615_VCC Pin=U10-5
+Added Pin To Net: NetName=DATAP/PGD Pin=U13-2
+Added Pin To Net: NetName=GND Pin=U13-3
+Added Pin To Net: NetName=DATAN/PGC Pin=U13-4
+Added Pin To Net: NetName=VDD_5V Pin=U13-5
+Change Net Name : Old Net Name=NetC33_2 New Net Name=NetC34_2
+Change Net Name : Old Net Name=NetC39_1 New Net Name=NetC41_1
+Change Net Name : Old Net Name=NetC39_2 New Net Name=NetC41_2
+Change Net Name : Old Net Name=NetC45_2 New Net Name=NetC47_2
+Change Net Name : Old Net Name=NetC52_2 New Net Name=NetC62_2
+Change Net Name : Old Net Name=NetC57_1 New Net Name=NetC67_1
+Change Net Name : Old Net Name=NetC57_2 New Net Name=NetC67_2
+Change Net Name : Old Net Name=NetC58_1 New Net Name=NetC68_1
+Change Net Name : Old Net Name=NetC58_2 New Net Name=NetC68_2
+Change Net Name : Old Net Name=NetC60_1 New Net Name=NetC53_1
+Change Net Name : Old Net Name=NetC63_1 New Net Name=NetC40_1
+Change Net Name : Old Net Name=NetD7_2 New Net Name=NetD5_2
+Change Net Name : Old Net Name=NetD8_2 New Net Name=NetD12_2
+Change Net Name : Old Net Name=NetD10_2 New Net Name=NetD6_2
+Change Net Name : Old Net Name=NetL5_2 New Net Name=NetL6_2
+Change Net Name : Old Net Name=NetQ7_1 New Net Name=NetQ6_1
+Change Net Name : Old Net Name=NetR24_2 New Net Name=NetR25_2
+Change Net Name : Old Net Name=NetR25_2 New Net Name=NetR24_2
+Change Net Name : Old Net Name=NetR26_2 New Net Name=NetR27_2
+Change Net Name : Old Net Name=NetR27_2 New Net Name=NetR26_2
+Change Net Name : Old Net Name=NetR32_1 New Net Name=NetR34_1
+Change Net Name : Old Net Name=NetR32_2 New Net Name=NetR32_1
+Change Net Name : Old Net Name=NetR36_1 New Net Name=NetR35_1
+Change Net Name : Old Net Name=NetR44_1 New Net Name=NetR45_1
+Change Net Name : Old Net Name=NetR45_2 New Net Name=NetR44_2
+Change Net Name : Old Net Name=NetR47_1 New Net Name=NetR48_1
+Change Net Name : Old Net Name=NetR47_2 New Net Name=NetR46_1
+Change Net Name : Old Net Name=NetR52_1 New Net Name=NetR49_1
+Change Net Name : Old Net Name=NetR56_2 New Net Name=NetR54_2
+Change Net Name : Old Net Name=NetR70_2 New Net Name=NetR77_2
+Change Net Name : Old Net Name=NetR91_1 New Net Name=NetR85_1
+Change Net Name : Old Net Name=NetR95_1 New Net Name=NetR95_2
+Change Net Name : Old Net Name=NetU10_1 New Net Name=NetU9_1
+Change Net Name : Old Net Name=NetU10_2 New Net Name=NetU9_2
+Change Net Name : Old Net Name=VDD_5V_EN New Net Name=VDD_PIC_EN
+Change Net Name : Old Net Name=VDD_5V_FB New Net Name=NetR74_1
+Added Pin To Net: NetName=NetANT1_1 Pin=ANT1-1
+Added Pin To Net: NetName=NetANT1_1 Pin=C2-2
+Added Pin To Net: NetName=NetANT1_1 Pin=L1-2
+Added Net: Name=NetANT1_1
+Added Pin To Net: NetName=NetD10_1 Pin=D10-1
+Added Pin To Net: NetName=NetD10_1 Pin=D11-1
+Added Pin To Net: NetName=NetD10_1 Pin=U13-1
+Added Net: Name=NetD10_1
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-2
+Added Pin To Net: NetName=NetJ3_2 Pin=R63-2
+Added Net: Name=NetJ3_2
+Added Pin To Net: NetName=NetJ3_3 Pin=J3-3
+Added Pin To Net: NetName=NetJ3_3 Pin=R64-2
+Added Net: Name=NetJ3_3
+Added Pin To Net: NetName=NetJ4_2 Pin=J4-2
+Added Pin To Net: NetName=NetJ4_2 Pin=Q8-1
+Added Pin To Net: NetName=NetJ4_2 Pin=Q8-1
+Added Pin To Net: NetName=NetJ4_2 Pin=Q8-1
+Added Pin To Net: NetName=NetJ4_2 Pin=Q8-1
+Added Net: Name=NetJ4_2
+Added Pin To Net: NetName=NetQ7_1 Pin=Q7-1
+Added Pin To Net: NetName=NetQ7_1 Pin=R90-1
+Added Net: Name=NetQ7_1
+Added Pin To Net: NetName=NetQ8_2 Pin=Q8-2
+Added Pin To Net: NetName=NetQ8_2 Pin=R91-1
+Added Net: Name=NetQ8_2
+Added Pin To Net: NetName=nSS_TX_EN Pin=D11-2
+Added Pin To Net: NetName=nSS_TX_EN Pin=U14-11
+Added Net: Name=nSS_TX_EN
+Added Pin To Net: NetName=VDD_5V_EN Pin=R90-2
+Added Pin To Net: NetName=VDD_5V_EN Pin=U14-9
+Added Net: Name=VDD_5V_EN
+Added Pin To Net: NetName=VDD_5V_FB Pin=R87-1
+Added Pin To Net: NetName=VDD_5V_FB Pin=R89-2
+Added Pin To Net: NetName=VDD_5V_FB Pin=TP19-1
+Added Net: Name=VDD_5V_FB
+Added Pin To Net: NetName=VDD_5VA_FB Pin=U1-8
+Added Net: Name=VDD_5VA_FB
+Added Pin To Net: NetName=VDD_PIC Pin=C43-1
+Added Pin To Net: NetName=VDD_PIC Pin=C44-2
+Added Pin To Net: NetName=VDD_PIC Pin=C45-2
+Added Pin To Net: NetName=VDD_PIC Pin=C46-1
+Added Pin To Net: NetName=VDD_PIC Pin=D9-1
+Added Pin To Net: NetName=VDD_PIC Pin=Q5-2
+Added Pin To Net: NetName=VDD_PIC Pin=R74-2
+Added Pin To Net: NetName=VDD_PIC Pin=R88-2
+Added Pin To Net: NetName=VDD_PIC Pin=TP11-1
+Added Pin To Net: NetName=VDD_PIC Pin=U11-6
+Added Pin To Net: NetName=VDD_PIC Pin=U11-7
+Added Net: Name=VDD_PIC
+Added Member To Class: ClassName=Processor Member=Component ANT1 2.45GHz
+Added Member To Class: ClassName=Load_Cell_Acquisition Member=Component C34 10uF
+Added Member To Class: ClassName=Regulation_Charging Member=Component C56 10uF
+Added Member To Class: ClassName=Regulation_Charging Member=Component C57 10uF
+Added Member To Class: ClassName=Regulation_Charging Member=Component C58 100uF
+Added Member To Class: ClassName=Regulation_Charging Member=Component C61 10uF
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component C63 100nF
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component C69 100nF
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component C70 100nF
+Added Member To Class: ClassName=Regulation_Charging Member=Component D8 PMEG4030EP,115
+Added Member To Class: ClassName=Regulation_Charging Member=Component D9 PMEG4030EP,115
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component D10 1N4148WT
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component D11 1N4148WT
+Added Member To Class: ClassName=Regulation_Charging Member=Component J4 Conn,JST,2Pin,2mm,SMD
+Added Member To Class: ClassName=Regulation_Charging Member=Component Q8 PMPB25ENEX
+Added Member To Class: ClassName=Load_Cell_Acquisition Member=Component R52 10k
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component R63 10R
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component R64 10R
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component R65 10k
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component R66 10k
+Added Member To Class: ClassName=Regulation_Charging Member=Component R77 10k
+Added Member To Class: ClassName=Regulation_Charging Member=Component R87 10k
+Added Member To Class: ClassName=Regulation_Charging Member=Component R88 10k
+Added Member To Class: ClassName=Regulation_Charging Member=Component R90 10k
+Added Member To Class: ClassName=Regulation_Charging Member=Component R91 10k
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component U13 SN74LVC1G240DBVT
+Added Member To Class: ClassName=50R Member=Wire NetANT1_1

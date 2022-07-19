@@ -184,17 +184,17 @@
 "36236
 "36236
 [v _TRISCbits TRISCbits `VES207  1 e 1 @1224 ]
-[s S270 . 1 `uc 1 . 1 0 :4:0 
+[s S274 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 RB4 1 0 :1:4 
 `uc 1 RB5 1 0 :1:5 
 `uc 1 RB6 1 0 :1:6 
 `uc 1 RB7 1 0 :1:7 
 ]
 "36345
-[u S276 . 1 `S270 1 . 1 0 ]
+[u S280 . 1 `S274 1 . 1 0 ]
 "36345
 "36345
-[v _PORTBbits PORTBbits `VES276  1 e 1 @1231 ]
+[v _PORTBbits PORTBbits `VES280  1 e 1 @1231 ]
 [s S135 . 1 `uc 1 INT0EDG 1 0 :1:0 
 `uc 1 INT1EDG 1 0 :1:1 
 `uc 1 INT2EDG 1 0 :1:2 
@@ -215,9 +215,15 @@
 "120 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
+"153
+[v main@i_373 i `VEul  1 a 4 16 ]
+"151
+[v main@i_372 i `VEul  1 a 4 12 ]
+"146
+[v main@i_371 i `VEul  1 a 4 8 ]
 "144
 [v main@i_370 i `VEul  1 a 4 4 ]
-"142
+"137
 [v main@i i `VEul  1 a 4 0 ]
-"173
+"182
 } 0

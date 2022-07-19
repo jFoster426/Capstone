@@ -5,10 +5,10 @@ Linker command line:
 -W-3 --edf=C:\Program Files\Microchip\xc8\v2.36\pic\dat\en_msgs.txt -cn \
   -h+dist/default/production\shinstrap_alpha0.X.production.sym \
   --cmf=dist/default/production\shinstrap_alpha0.X.production.cmf -z \
-  -Q18F16Q40 -oC:\Users\juddf\AppData\Local\Temp\xcAs5k0.4 \
+  -Q18F16Q40 -oC:\Users\juddf\AppData\Local\Temp\xcAsb20.4 \
   --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/shinstrap_alpha0.X.production.map \
-  --md=C:\Users\juddf\AppData\Local\Temp\xcAs5k0.dat -E1 -ver=XC8 Compiler \
+  --md=C:\Users\juddf\AppData\Local\Temp\xcAsb20.dat -E1 -ver=XC8 Compiler \
   --acfsm=1493 -ACODE=00h-0FFFFh -ACONST=00h-0FFFFh \
   -ASMALLCONST=01500h-015FFhx235 -AMEDIUMCONST=01500h-0FFFFh \
   -ACOMRAM=0501h-055Fh -AABS1=0500h-014FFh -ABIGRAM=0501h-014FFh \
@@ -28,7 +28,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\juddf\AppData\Local\Temp\xcAs5k0.o \
+  C:\Users\juddf\AppData\Local\Temp\xcAsb20.o \
   dist/default/production\shinstrap_alpha0.X.production.o 
 
 Object code version is 3.11
@@ -38,7 +38,7 @@ Machine type is 18F16Q40
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\juddf\AppData\Local\Temp\xcAs5k0.o
+C:\Users\juddf\AppData\Local\Temp\xcAsb20.o
                 idloc                            200000   200000       40        0       5
                 config                           300000   300000        A        0       4
                 init                               FFFC     FFFC        4     7FFE       0
@@ -46,16 +46,16 @@ C:\Users\juddf\AppData\Local\Temp\xcAs5k0.o
 dist/default/production\shinstrap_alpha0.X.production.o
                 idloc                            200000   200000       40        0       5
                 config                           300000   300000        A        0       4
-                text0                              FF1E     FF1E       DE     7F8F       0
-                cstackCOMRAM                        501      501        8      501       1
-                cinit                              FF18     FF18        6     7F8C       0
+                text0                              FE00     FE00      1FC     7F00       0
+                cstackCOMRAM                        501      501       14      501       1
+                cinit                              FDFA     FDFA        6     7EFD       0
 
 TOTAL           Name                               Link     Load   Length     Space
         CLASS   CODE           
                 init                               FFFC     FFFC        4         0
                 reset_vec                             0        0        4         0
-                text0                              FF1E     FF1E       DE         0
-                cinit                              FF18     FF18        6         0
+                text0                              FE00     FE00      1FC         0
+                cinit                              FDFA     FDFA        6         0
 
         CLASS   CONST          
 
@@ -64,7 +64,7 @@ TOTAL           Name                               Link     Load   Length     Sp
         CLASS   MEDIUMCONST    
 
         CLASS   COMRAM         
-                cstackCOMRAM                        501      501        8         1
+                cstackCOMRAM                        501      501       14         1
 
         CLASS   ABS1           
 
@@ -127,9 +127,9 @@ TOTAL           Name                               Link     Load   Length     Sp
 SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
 
                 reset_vec                      000000  000004  000004         0       0  CODE    
-                cstackCOMRAM                   000501  000008  000509       501       1  COMRAM  
-                cinit                          00FF18  000006  00FF1E      7F8C       0  CODE    
-                text0                          00FF1E  0000DE  00FFFC      7F8F       0  CODE    
+                cstackCOMRAM                   000501  000014  000515       501       1  COMRAM  
+                cinit                          00FDFA  000006  00FE00      7EFD       0  CODE    
+                text0                          00FE00  0001FC  00FFFC      7F00       0  CODE    
                 init                           00FFFC  000004  010000      7FFE       0  CODE    
 
 
@@ -152,19 +152,19 @@ UNUSED ADDRESS RANGES
         BANK7            000700-0007FF              100
         BANK8            000800-0008FF              100
         BANK9            000900-0009FF              100
-        BIGRAM           000509-0014FF              FF7
+        BIGRAM           000515-0014FF              FEB
         BIGSFR           000000-0004FF              500
                          001500-0015FF              100
-        CODE             000004-00FF17             FF14
-        COMRAM           000509-00055F               57
+        CODE             000004-00FDF9             FDF6
+        COMRAM           000515-00055F               4B
         CONFIG           30000A-300011                8
-        CONST            000004-00FF17             FF14
+        CONST            000004-00FDF9             FDF6
         EEDATA           380000-3801FF              200
-        MEDIUMCONST      001500-00FF17             EA18
+        MEDIUMCONST      001500-00FDF9             E8FA
         RAM              000560-0014FF              100
         SFR              000000-0004FF              100
                          001500-0015FF              100
-        SMALLCONST       001500-00FF17              100
+        SMALLCONST       001500-00FDF9              100
 
                                   Symbol Table
 
@@ -250,7 +250,7 @@ __Hrparam                rparam       000000
 __Hsfr                   sfr          000000
 __Hsmallconst            smallconst   000000
 __Hspace_0               (abs)        010000
-__Hspace_1               (abs)        000509
+__Hspace_1               (abs)        000515
 __Hspace_2               (abs)        000000
 __Hspace_4               (abs)        60000A
 __Hstack                 stack        000000
@@ -324,7 +324,7 @@ __Ltemp                  temp         000000
 __Ltext                  text         000000
 __Ltext0                 text0        000000
 __S0                     (abs)        010000
-__S1                     (abs)        000509
+__S1                     (abs)        000515
 __S4                     (abs)        000000
 __S5                     (abs)        000000
 ___heap_hi               (abs)        000000
@@ -336,17 +336,17 @@ ___rparam_used           (abs)        000001
 ___sp                    stack        000000
 __accesstop              (abs)        000560
 __activetblptr           (abs)        000000
-__end_of__initialization cinit        00FF18
+__end_of__initialization cinit        00FDFA
 __end_of_main            text0        00FFFC
-__initialization         cinit        00FF18
+__initialization         cinit        00FDFA
 __mediumconst            mediumconst  000000
-__pcinit                 cinit        00FF18
+__pcinit                 cinit        00FDFA
 __pcstackCOMRAM          cstackCOMRAM 000501
-__ptext0                 text0        00FF1E
+__ptext0                 text0        00FE00
 __ramtop                 ramtop       001500
 __smallconst             smallconst   000000
-_main                    text0        00FF1E
-end_of_initialization    cinit        00FF18
+_main                    text0        00FE00
+end_of_initialization    cinit        00FDFA
 intlevel0                text         000000
 intlevel1                text         000000
 intlevel2                text         000000
@@ -355,22 +355,25 @@ isa$std                  (abs)        000001
 isa$xinst                (abs)        000000
 main@i                   cstackCOMRAM 000501
 main@i_370               cstackCOMRAM 000505
+main@i_371               cstackCOMRAM 000509
+main@i_372               cstackCOMRAM 00050D
+main@i_373               cstackCOMRAM 000511
 stackhi                  (abs)        000000
 stacklo                  (abs)        000000
 start                    init         00FFFC
-start_initialization     cinit        00FF18
+start_initialization     cinit        00FDFA
 
 
 MODULE INFORMATION
 
 Module		Function		Class		Link	Load	Size
 shared
-		__initialization		CODE           	FF18	0000	1
+		__initialization		CODE           	FDFA	0000	1
 
 shared estimated size: 1
 
 main.c
-		_main          		CODE           	FF1E	0000	222
+		_main          		CODE           	FE00	0000	508
 
-main.c estimated size: 222
+main.c estimated size: 508
 

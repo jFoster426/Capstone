@@ -1,0 +1,8 @@
+Record=TopLevelDocument|FileName=Inertial_Measurement_RTC.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Inertial_Measurement_RTC.SchDoc|FileName=Load_Cell_Acquisition.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=Inertial_Measurement_RTC.SchDoc|FileName=Load_Cell_Biasing.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Inertial_Measurement_RTC.SchDoc|FileName=Peripherals_Main_Board.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Inertial_Measurement_RTC.SchDoc|FileName=Processor.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=Inertial_Measurement_RTC.SchDoc|FileName=Regulation_Charging.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=Inertial_Measurement_RTC.SchDoc|FileName=ShinStrap_Interface.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=Inertial_Measurement_RTC.SchDoc|FileName=USB_Serial.SchDoc|SheetNumber=8

@@ -1,0 +1,25 @@
+Add Pin To Net: Unknown Pin: Pin J400-1
+Add Pin To Net: Unknown Pin: Pin J400-2
+Add Pin To Net: Unknown Pin: Pin J400-3
+Add Pin To Net: Unknown Pin: Pin J401-1
+Add Pin To Net: Unknown Pin: Pin J401-2
+Add Pin To Net: Unknown Pin: Pin J401-3
+Add Pin To Net: Unknown Pin: Pin J402-1
+Add Pin To Net: Unknown Pin: Pin J402-2
+Add Pin To Net: Unknown Pin: Pin J402-3
+Add Pin To Net: Unknown Pin: Pin J403-1
+Add Pin To Net: Unknown Pin: Pin J403-2
+Add Pin To Net: Unknown Pin: Pin J403-3
+Added Pin To Net: NetName=GND Pin=SW400-1
+Added Pin To Net: NetName=GND Pin=SW400-2
+Added Pin To Net: NetName=BTN1 Pin=SW400-3
+Added Pin To Net: NetName=BTN1 Pin=SW400-4
+Added Pin To Net: NetName=GND Pin=SW401-1
+Added Pin To Net: NetName=GND Pin=SW401-2
+Added Pin To Net: NetName=BTN2 Pin=SW401-3
+Added Pin To Net: NetName=BTN2 Pin=SW401-4
+Add Class Member: Failed to add class member : Component J400 Term,Pad,3Pos,SMD
+Add Class Member: Failed to add class member : Component J401 Term,Pad,3Pos,SMD
+Add Class Member: Failed to add class member : Component J402 Term,Pad,3Pos,SMD
+Add Class Member: Failed to add class member : Component J403 Term,Pad,3Pos,SMD
+Added Member To Class: ClassName=ShinStrap_Interface Member=Component R707 10k

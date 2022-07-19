@@ -1,0 +1,49 @@
+Removed Pin From Net: NetName=SD_CS Pin=J400-2
+Removed Pin From Net: NetName=SPI_SDO Pin=J400-3
+Removed Pin From Net: NetName=VDD_3V3 Pin=J400-4
+Removed Pin From Net: NetName=SPI_SCK Pin=J400-5
+Removed Pin From Net: NetName=GND Pin=J400-6
+Removed Pin From Net: NetName=SPI_SDI Pin=J400-7
+Removed Pin From Net: NetName=SD_CD Pin=J400-9
+Removed Pin From Net: NetName=SPI_SDI Pin=R400-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=R400-2
+Removed Pin From Net: NetName=SD_CS Pin=R401-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=R401-2
+Removed Pin From Net: NetName=SPI_SDO Pin=R402-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=R402-2
+Removed Pin From Net: NetName=SPI_SCK Pin=R403-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=R403-2
+Removed Pin From Net: NetName=SD_CD Pin=R404-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=R404-2
+Removed Member From Class: ClassName=Peripherals_Main_Board Member=J400
+Removed Member From Class: ClassName=Peripherals_Main_Board Member=R400
+Removed Member From Class: ClassName=Peripherals_Main_Board Member=R401
+Removed Member From Class: ClassName=Peripherals_Main_Board Member=R402
+Removed Member From Class: ClassName=Peripherals_Main_Board Member=R403
+Removed Member From Class: ClassName=Peripherals_Main_Board Member=R404
+Added Component: Designator=Q601(SOT23-3)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/DMP2160U.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Diodes Incorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "DMP2160U-7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "DMP2160UDICT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=Q604(IC,WDFN-6,P0.65)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Ritesh Nandakumar"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://assets.nexperia.com/documents/data-sheet/PMPB25ENE.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia USA Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "PMPB25ENEX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "1727-7662-1-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetQ601_1 Pin=Q601-1
+Added Pin To Net: NetName=VDD_PIC Pin=Q601-2
+Added Pin To Net: NetName=VDD_5V Pin=Q601-3
+Added Pin To Net: NetName=NetJ600_2 Pin=Q604-1
+Added Pin To Net: NetName=NetJ600_2 Pin=Q604-1
+Added Pin To Net: NetName=NetJ600_2 Pin=Q604-1
+Added Pin To Net: NetName=NetJ600_2 Pin=Q604-1
+Added Pin To Net: NetName=NetQ604_2 Pin=Q604-2
+Added Pin To Net: NetName=GND Pin=Q604-3
+Added Pin To Net: NetName=GND Pin=Q604-3
+Added Member To Class: ClassName=Regulation_Charging Member=Component Q601 DMP2160U-7
+Added Member To Class: ClassName=Regulation_Charging Member=Component Q604 PMPB25ENEX

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=VDD_5VA Pin=J400-1
+Removed Pin From Net: NetName=A_GND Pin=J400-3
+Removed Pin From Net: NetName=A_GND Pin=J401-1
+Removed Pin From Net: NetName=VDD_5VA Pin=J401-3
+Added Pin To Net: NetName=A_GND Pin=J400-1
+Added Pin To Net: NetName=VDD_5VA Pin=J400-3
+Added Pin To Net: NetName=VDD_5VA Pin=J401-1
+Added Pin To Net: NetName=A_GND Pin=J401-3

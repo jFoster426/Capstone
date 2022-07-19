@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=DATAP/PGD Pin=J700-4
+Removed Pin From Net: NetName=DATAN/PGC Pin=J700-5
+Added Pin To Net: NetName=DATAN/PGC Pin=J700-4
+Added Pin To Net: NetName=DATAP/PGD Pin=J700-5
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component J400 Term,Pad,3Pos,SMD
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component J401 Term,Pad,3Pos,SMD
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component J402 Term,Pad,3Pos,SMD
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component J403 Term,Pad,3Pos,SMD

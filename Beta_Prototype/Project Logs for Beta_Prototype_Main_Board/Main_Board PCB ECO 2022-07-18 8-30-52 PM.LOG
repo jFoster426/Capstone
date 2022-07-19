@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=PCM1780_DATA Pin=U500-13
+Removed Pin From Net: NetName=SPI_SDO Pin=U500-16
+Added Pin To Net: NetName=SPI_SDO Pin=U500-13
+Added Pin To Net: NetName=PCM1780_DATA Pin=U500-16
