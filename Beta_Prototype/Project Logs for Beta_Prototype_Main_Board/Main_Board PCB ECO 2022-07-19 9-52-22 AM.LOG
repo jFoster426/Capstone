@@ -1,0 +1,20 @@
+Added Component: Designator=C623(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM155R71E104KE14J"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "490-14603-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=C624(Cap,SMD,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71E104KE14-01.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM155R71E104KE14J"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "490-14603-1-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=V_BATT_FB Pin=C623-1
+Added Pin To Net: NetName=GND Pin=C623-2
+Added Pin To Net: NetName=GND Pin=C624-1
+Added Pin To Net: NetName=USB_VBUS_FB Pin=C624-2
+Added Member To Class: ClassName=Regulation_Charging Member=Component C623 100nF
+Added Member To Class: ClassName=Regulation_Charging Member=Component C624 100nF

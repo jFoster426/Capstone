@@ -134,11 +134,11 @@ static void ble_transmit_buffer(TimerHandle_t ev)
         return;
     }
 
-    char *buf = "Hello, World!";
-    struct os_mbuf *om = ble_hs_mbuf_from_flat(buf, strlen(buf));
-    int rc = ble_gattc_notify_custom(conn_handle, notify_handle, om);
+    // char *buf = "miscfile\nbatteryStatus,charging,shinConnect,shinMalf,testing,deviceStatus\n63,0,0,1,0,0";
+    // struct os_mbuf *om = ble_hs_mbuf_from_flat(buf, strlen(buf));
+    // int rc = ble_gattc_notify_custom(conn_handle, notify_handle, om);
 
-    assert(rc == 0);
+    // assert(rc == 0);
 
     blehr_tx_hrate_reset();
 }

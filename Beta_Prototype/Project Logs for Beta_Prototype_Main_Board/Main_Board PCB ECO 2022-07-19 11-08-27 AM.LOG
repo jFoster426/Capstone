@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=VDD_3V3 Pin=C617-1
+Removed Pin From Net: NetName=GND Pin=C617-2
+Removed Member From Class: ClassName=Regulation_Charging Member=C617
