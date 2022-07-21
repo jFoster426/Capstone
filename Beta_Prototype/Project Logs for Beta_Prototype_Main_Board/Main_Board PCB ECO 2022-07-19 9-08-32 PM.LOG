@@ -1,0 +1,55 @@
+Removed Pin From Net: NetName=nSS_CONN Pin=J701-4
+Removed Pin From Net: NetName=VDD_5V Pin=L700-2
+Removed Pin From Net: NetName=VDD_5V Pin=L701-2
+Removed Pin From Net: NetName=GND Pin=R504-1
+Removed Pin From Net: NetName=NetD500_2 Pin=R504-2
+Removed Pin From Net: NetName=NetR703_2 Pin=R704-1
+Removed Pin From Net: NetName=VDD_5V Pin=R704-2
+Removed Pin From Net: NetName=NetR703_2 Pin=R706-2
+Removed Pin From Net: NetName=GND Pin=R707-1
+Removed Pin From Net: NetName=NetR703_2 Pin=R707-2
+Removed Member From Class: ClassName=ShinStrap_Interface Member=C704
+Removed Member From Class: ClassName=ShinStrap_Interface Member=C705
+Removed Member From Class: ClassName=ShinStrap_Interface Member=L700
+Removed Member From Class: ClassName=ShinStrap_Interface Member=L701
+Removed Member From Class: ClassName=ShinStrap_Interface Member=R706
+Removed Member From Class: ClassName=ShinStrap_Interface Member=R707
+Change Component Comment : Designator=R704 Old Comment=10k New Comment=150R
+Change Component Comment : Designator=R504 Old Comment=330R New Comment=150R
+Change Component Comment : Designator=R703 Old Comment=470k New Comment=150R
+Change component parameters: Designator = "R504" ("R504"); Footprint = "RES,0402"; UniqueID = "\YSKBRBQZ" ("\YSKBRBQZ")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity Passive Product"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CRGCQ0402F150R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "A129617CT-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R703" ("R703"); Footprint = "RES,0402"; UniqueID = "\ZQDRIUAB" ("\ZQDRIUAB")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity Passive Product"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CRGCQ0402F150R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "A129617CT-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R704" ("R704"); Footprint = "RES,0402"; UniqueID = "\ZYTPXJLZ" ("\ZYTPXJLZ")
+Change component parameters (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity Passive Product"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "CRGCQ0402F150R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vendor Part Number"; Value = "A129617CT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDD_5V Pin=J701-2
+Added Pin To Net: NetName=GND Pin=J701-5
+Added Pin To Net: NetName=nSS_CONN Pin=J701-6
+Added Pin To Net: NetName=NetD500_2 Pin=R504-1
+Added Pin To Net: NetName=GND Pin=R504-2
+Added Pin To Net: NetName=NetR703_2 Pin=U702-1
+Added Pin To Net: NetName=NetJ701_3 Pin=J701-3
+Added Pin To Net: NetName=NetJ701_3 Pin=R703-1
+Added Net: Name=NetJ701_3
+Added Pin To Net: NetName=NetJ701_4 Pin=J701-4
+Added Pin To Net: NetName=NetJ701_4 Pin=R704-1
+Added Net: Name=NetJ701_4
+Added Pin To Net: NetName=NetR704_2 Pin=R704-2
+Added Pin To Net: NetName=NetR704_2 Pin=U703-1
+Added Net: Name=NetR704_2

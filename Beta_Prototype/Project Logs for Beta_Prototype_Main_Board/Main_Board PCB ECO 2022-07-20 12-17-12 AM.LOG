@@ -1,0 +1,24 @@
+Added Component: Designator=TP500(testpoint,smd,round,1mm)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Component: Designator=TP501(testpoint,smd,round,1mm)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetTP500_1 Pin=TP500-1
+Added Pin To Net: NetName=NetTP500_1 Pin=U500-15
+Added Net: Name=NetTP500_1
+Added Pin To Net: NetName=NetTP501_1 Pin=TP501-1
+Added Pin To Net: NetName=NetTP501_1 Pin=U500-17
+Added Net: Name=NetTP501_1
+Added Member To Class: ClassName=Processor Member=Component SW500 Switch
+Added Member To Class: ClassName=Processor Member=Component TP500 TESTPOINT
+Added Member To Class: ClassName=Processor Member=Component TP501 TESTPOINT
+Added Member To Class: ClassName=Regulation_Charging Member=Component TP601 TESTPOINT

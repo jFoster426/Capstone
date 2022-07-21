@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include "esp_log.h"
+
+#include "adc_st.h"
+#include "dac_st.h"
+#include "i2c_st.h"
+#include "ism330_st.h"
+
+void app_main(void)
+{
+    ESP_ERROR_CHECK(i2c_master_init(35, 36, 400000));
+    printf("I2C initialized successfully\n");
+
+    ism330_init();
+
+    while (1)
+    {
+        float accx = ism330_get_acc_x_g();
+        float accy = ism330_get_acc_y_g();
+        float accz = ism330_get_acc_z_g();
+        float gyrx = ism330_get_gyr_x_dps();
+        float gyry = ism330_get_gyr_y_dps();
+        float gyrz = ism330_get_gyr_z_dps();
+
+        float temp = ism330_get_temp_celcius();
+        
+        printf("%8.2f,%8.2f,%8.2f,%8.2f,%8.2f,%8.2f,%8.2f\n", accx, accy, accz, gyrx, gyry, gyrz, temp);
+        vTaskDelay(10 / portTICK_RATE_MS);
+    }
+
+    ESP_ERROR_CHECK(i2c_driver_delete(0));
+    printf("I2C de-initialized successfully\n");
+}

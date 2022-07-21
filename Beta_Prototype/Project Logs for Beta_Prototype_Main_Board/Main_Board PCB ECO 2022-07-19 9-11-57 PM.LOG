@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=DATAP/PGD Pin=U702-2
+Removed Pin From Net: NetName=DATAN/PGC Pin=U703-2
+Added Pin To Net: NetName=DATAN/PGC Pin=U702-2
+Added Pin To Net: NetName=DATAP/PGD Pin=U703-2

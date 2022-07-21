@@ -1,0 +1,99 @@
+Removed Pin From Net: NetName=VDD_5V Pin=C701-2
+Removed Pin From Net: NetName=VDD_5V Pin=C702-2
+Removed Pin From Net: NetName=VDD_5V Pin=R700-2
+Removed Pin From Net: NetName=VDD_5V Pin=R702-2
+Removed Pin From Net: NetName=VDD_5V Pin=U701-18
+Added Component: Designator=D400(LED,5mm,Thru)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheets/OVLFx3C7.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TT Electronics/Optek Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "OVLFR3C7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "365-1182-ND"; VariantName = "[No Variations]"
+Added Component: Designator=D401(LED,5mm,Thru)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheets/OVLFx3C7.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TT Electronics/Optek Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "OVLFR3C7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "365-1182-ND"; VariantName = "[No Variations]"
+Added Component: Designator=D402(LED,5mm,Thru)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheets/OVLFx3C7.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TT Electronics/Optek Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "OVLFR3C7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "365-1182-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R400(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R401(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RMCF0402JT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "DIgikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "RMCF0402JT10K0CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R402(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity Passive Product"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CRGCQ0402F150R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "A129617CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R403(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity Passive Product"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CRGCQ0402F150R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "A129617CT-ND"; VariantName = "[No Variations]"
+Added Component: Designator=R404(RES,0402)
+Add component (AddParameter): Name = "CreatedBy"; Value = "Judd Foster"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity Passive Product"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CRGCQ0402F150R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor Part Number"; Value = "A129617CT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDD_PIC Pin=C701-2
+Added Pin To Net: NetName=VDD_PIC Pin=C702-2
+Added Pin To Net: NetName=VDD_PIC Pin=R400-1
+Added Pin To Net: NetName=BTN1 Pin=R400-2
+Added Pin To Net: NetName=VDD_PIC Pin=R401-1
+Added Pin To Net: NetName=BTN2 Pin=R401-2
+Added Pin To Net: NetName=GND Pin=R402-2
+Added Pin To Net: NetName=GND Pin=R403-2
+Added Pin To Net: NetName=GND Pin=R404-2
+Added Pin To Net: NetName=VDD_PIC Pin=R700-2
+Added Pin To Net: NetName=VDD_PIC Pin=R702-2
+Added Pin To Net: NetName=VDD_PIC Pin=U701-18
+Added Pin To Net: NetName=LED1 Pin=D400-1
+Added Pin To Net: NetName=LED1 Pin=U500-43
+Added Net: Name=LED1
+Added Pin To Net: NetName=LED2 Pin=D401-1
+Added Pin To Net: NetName=LED2 Pin=U500-51
+Added Net: Name=LED2
+Added Pin To Net: NetName=LED3 Pin=D402-1
+Added Pin To Net: NetName=LED3 Pin=U500-52
+Added Net: Name=LED3
+Added Pin To Net: NetName=NetD400_2 Pin=D400-2
+Added Pin To Net: NetName=NetD400_2 Pin=R402-1
+Added Net: Name=NetD400_2
+Added Pin To Net: NetName=NetD401_2 Pin=D401-2
+Added Pin To Net: NetName=NetD401_2 Pin=R403-1
+Added Net: Name=NetD401_2
+Added Pin To Net: NetName=NetD402_2 Pin=D402-2
+Added Pin To Net: NetName=NetD402_2 Pin=R404-1
+Added Net: Name=NetD402_2
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component D400 Red
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component D401 Red
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component D402 Red
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component R400 10k
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component R401 10k
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component R402 150R
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component R403 150R
+Added Member To Class: ClassName=Peripherals_Main_Board Member=Component R404 150R

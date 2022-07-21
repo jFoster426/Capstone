@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=VDD_3V3 Pin=C6-1
+Removed Pin From Net: NetName=VDD_3V3 Pin=R6-2
+Removed Pin From Net: NetName=VDD_3V3 Pin=R7-2
+Removed Pin From Net: NetName=VDD_3V3 Pin=U3-7
+Removed Pin From Net: NetName=VDD_3V3 Pin=U3-8
+Added Pin To Net: NetName=VDD_5V Pin=C6-1
+Added Pin To Net: NetName=VDD_5V Pin=R6-2
+Added Pin To Net: NetName=VDD_5V Pin=R7-2
+Added Pin To Net: NetName=VDD_5V Pin=U3-7
+Added Pin To Net: NetName=VDD_5V Pin=U3-8
+Added Room: Name=Sheet1

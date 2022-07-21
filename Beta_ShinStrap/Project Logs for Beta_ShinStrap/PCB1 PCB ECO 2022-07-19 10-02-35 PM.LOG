@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=I2C_SDA_5V Pin=U4-7
+Removed Pin From Net: NetName=I2C_SCL_5V Pin=U4-8
+Added Pin To Net: NetName=I2C_SCL_5V Pin=U4-7
+Added Pin To Net: NetName=I2C_SDA_5V Pin=U4-8
+Added Member To Class: ClassName=Sheet1 Member=Component C6 100nF
+Added Member To Class: ClassName=Sheet1 Member=Component C7 100nF
+Added Member To Class: ClassName=Sheet1 Member=Component C8 1uF
+Added Member To Class: ClassName=Sheet1 Member=Component C9 100nF
+Added Member To Class: ClassName=Sheet1 Member=Component C10 10uF
+Added Member To Class: ClassName=Sheet1 Member=Component C13 10uF
+Added Member To Class: ClassName=Sheet1 Member=Component R4 10k
+Added Member To Class: ClassName=Sheet1 Member=Component R5 10k
+Added Member To Class: ClassName=Sheet1 Member=Component R11 330R
+Added Member To Class: ClassName=Sheet1 Member=Component R12 10k
+Added Member To Class: ClassName=Sheet1 Member=Component U5 NS5B1G384DFT2G
+Added Room: Name=Sheet1

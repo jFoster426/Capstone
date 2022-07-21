@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "esp_log.h"
+
+#include "adc_st.h"
+#include "dac_st.h"
+#include "i2c_st.h"
+#include "ism330_st.h"
+
+void app_main(void)
+{
+    uint8_t rcv_data = 0;
+    ESP_ERROR_CHECK(i2c_master_init(35, 36, 100000));
+    printf("I2C initialized successfully\n");
+
+    while (1)
+    {
+        ESP_ERROR_CHECK(i2c_register_write(100, 0x12, &rcv_data, 1));
+        ESP_ERROR_CHECK(i2c_register_read(100, 0x12, &rcv_data, 1));
+        printf("recevied data: %d\n", rcv_data);
+        vTaskDelay(100 / portTICK_RATE_MS);
+
+        rcv_data++;
+    }
+
+    ESP_ERROR_CHECK(i2c_driver_delete(0));
+    printf("I2C de-initialized successfully\n");
+}

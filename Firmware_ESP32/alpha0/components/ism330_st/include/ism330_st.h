@@ -2,6 +2,11 @@
 #define ism330_st_h
 
 #include <stdio.h>
+#include "esp_log.h"
+
+#include "../../i2c_st/include/i2c_st.h"
+
+#define ISM330_I2C_ADDR                             (0x6B)
 
 // ISM330 register definitions.
 #define ISM330_REG_FUNC_CGF_ACCESS                  (0x01)
@@ -81,5 +86,30 @@
 #define ISM330_REG_FIFO_DATA_OUT_Y_H                (0x7C)
 #define ISM330_REG_FIFO_DATA_OUT_Z_L                (0x7D)
 #define ISM330_REG_FIFO_DATA_OUT_Z_H                (0x7E)
+
+// ISM330 register settings definitions.
+#define ACC_FS_2G                                   (0x00)
+
+#define GYR_FS_500                                  (0x01)
+
+
+void ism330_init(void);
+
+int16_t ism330_get_acc_x(void);
+float ism330_get_acc_x_g(void);
+int16_t ism330_get_acc_y(void);
+float ism330_get_acc_y_g(void);
+int16_t ism330_get_acc_z(void);
+float ism330_get_acc_z_g(void);
+
+int16_t ism330_get_gyr_x(void);
+float ism330_get_gyr_x_dps(void);
+int16_t ism330_get_gyr_y(void);
+float ism330_get_gyr_y_dps(void);
+int16_t ism330_get_gyr_z(void);
+float ism330_get_gyr_z_dps(void);
+
+int16_t ism330_get_temp(void);
+float ism330_get_temp_celcius(void);
 
 #endif

@@ -71,5 +71,8 @@ C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/usb/libusb
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/ulp/libulp.a
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/main/libmain.a
-C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/adc/libadc.a
-C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/dac/libdac.a
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/adc_st/libadc_st.a
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/dac_st/libdac_st.a
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/i2c_st/libi2c_st.a
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/ism330_st/libism330_st.a
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/rtc_st/librtc_st.a

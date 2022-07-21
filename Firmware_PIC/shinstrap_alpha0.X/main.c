@@ -1,138 +1,76 @@
-// CONFIG1
-#pragma config FEXTOSC = OFF
-#pragma config RSTOSC = HFINTOSC_64MHZ
+/**
+  Generated Main Source File
 
-// CONFIG2
-#pragma config CLKOUTEN = OFF
-#pragma config PR1WAY = ON
-#pragma config CSWEN = ON
-#pragma config FCMEN = ON
-#pragma config FCMENP = ON
-#pragma config FCMENS = ON
+  Company:
+    Microchip Technology Inc.
 
-// CONFIG3
-#pragma config MCLRE = EXTMCLR
-#pragma config PWRTS = PWRT_OFF
-#pragma config MVECEN = ON
-#pragma config IVT1WAY = ON
-#pragma config LPBOREN = OFF
-#pragma config BOREN = SBORDIS
+  File Name:
+    main.c
 
-// CONFIG4
-#pragma config BORV = VBOR_1P9
-#pragma config ZCD = OFF
-#pragma config PPS1WAY = ON
-#pragma config STVREN = ON
-#pragma config LVP = ON
-#pragma config XINST = OFF
+  Summary:
+    This is the main file generated using PIC10 / PIC12 / PIC16 / PIC18 MCUs
 
-// CONFIG5
-#pragma config WDTCPS = WDTCPS_31
-#pragma config WDTE = OFF
+  Description:
+    This header file provides implementations for driver APIs for all modules selected in the GUI.
+    Generation Information :
+        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.81.8
+        Device            :  PIC18F16Q40
+        Driver Version    :  2.00
+*/
 
-// CONFIG6
-#pragma config WDTCWS = WDTCWS_7
-#pragma config WDTCCS = SC
-
-// CONFIG7
-#pragma config BBSIZE = BBSIZE_512
-#pragma config BBEN = OFF
-#pragma config SAFEN = OFF
-#pragma config DEBUG = OFF
-
-// CONFIG8
-#pragma config WRTB = OFF
-#pragma config WRTC = OFF
-#pragma config WRTD = OFF
-#pragma config WRTSAF = OFF
-#pragma config WRTAPP = OFF
-
-// CONFIG9
-#pragma config CP = OFF
-
-#include <xc.h>
-
-void cmp1_init()
-{
-    // Disable global interrupts.
-    //INTCON0bits.GIE = 0;
-    // Enable CM1 hysteresis.
-    CM1CON0bits.C1HYS = 1;
-    // Enable CM1 rising and falling interrupt.
-    //CM1CON1bits.INTP = 1;
-    //CM1CON1bits.INTN = 1;
-    // Reset CM1 interrupt flag and enable CM1 interrupt.
-    //PIR1bits.C1IF = 0;
-    //PIE1bits.CM1IE = 1;
-    // Set the inverting channel to C1IN0-.
-    CM1NCH = 0;
-    // Set the non-inverting channel to C1IN0+.
-    CM1PCH = 0;
-    // Set the C1IN0- and C1IN0+ pins to inputs.
-    TRISAbits.TRISA0 = 1;
-    TRISAbits.TRISA1 = 1;
-    // Set the ANSEL bits for C1IN0- and C1IN0+ to MUX to the comparator.
-    ANSELAbits.ANSELA0 = 1;
-    ANSELAbits.ANSELA1 = 1;
-    // Set RA2 as C1OUT.
-    RA2PPS = 0x19;
-    // Enable CM1.
-    CM1CON0bits.C1EN = 1;
-    // Enable global interrupts.
-    //INTCON0bits.GIE = 1;
-}
-
-void uart1_init()
-{
-    // BRGS high speed; MODE DALI Control Device mode; RXEN enabled; TXEN enabled; ABDEN disabled; 
-    U1CON0 = 0xB8;
-    // RXBIMD Set RXBKIF on rising RX input; BRKOVR disabled; WUE disabled; SENDB disabled; ON enabled; 
-    U1CON1 = 0x80;
-    // TXPOL not inverted; FLO off; C0EN Checksum Mode 0; RXPOL not inverted; RUNOVF RX input shifter stops all activity; STP Transmit 1Stop bit, receiver verifies first Stop bit; 
-    U1CON2 = 0x00;
-    // BRGL 15; 
-    U1BRGL = 0x0F;
-    // BRGH 0; 
-    U1BRGH = 0x00;
-    // STPMD in middle of first Stop bit; TXWRE No error; 
-    U1FIFO = 0x00;
-    // ABDIF Auto-baud not enabled or not complete; WUIF WUE not enabled by software; ABDIE disabled; 
-    U1UIR = 0x00;
-    // ABDOVF Not overflowed; TXCIF 0; RXBKIF No Break detected; RXFOIF not overflowed; CERIF No Checksum error; 
-    U1ERRIR = 0x00;
-    // TXCIE disabled; FERIE disabled; TXMTIE disabled; ABDOVE disabled; CERIE disabled; RXFOIE disabled; PERIE disabled; RXBKIE disabled; 
-    U1ERRIE = 0x00;
-    // Select RC0 as U1RX input.
-    U1RXPPSbits.PORT = 0b010;
-    U1RXPPSbits.PIN = 0;
+/*
+    (c) 2018 Microchip Technology Inc. and its subsidiaries. 
     
-    INTCON0bits.GIE = 0;
-}
+    Subject to your compliance with these terms, you may use Microchip software and any 
+    derivatives exclusively with Microchip products. It is your responsibility to comply with third party 
+    license terms applicable to your use of third party software (including open source software) that 
+    may accompany Microchip software.
+    
+    THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER 
+    EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY 
+    IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS 
+    FOR A PARTICULAR PURPOSE.
+    
+    IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, 
+    INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND 
+    WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP 
+    HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO 
+    THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL 
+    CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT 
+    OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS 
+    SOFTWARE.
+*/
 
-uint8_t uart1_read(void)
-{
-    // Wait for valid data in the receive buffer.
-    while(!PIR4bits.U1RXIF);
-    // Return the data.
-    return U1RXB;
-}
+#include "mcc_generated_files/mcc.h"
 
+/*
+                         Main application
+ */
 void main(void)
 {
-    // PIC_LED.
-    TRISBbits.TRISB4 = 0;
+    // Initialize the device
+    SYSTEM_Initialize();
+
+    // If using interrupts in PIC18 High/Low Priority Mode you need to enable the Global High and Low Interrupts
+    // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global Interrupts
+    // Use the following macros to:
+
+    // Enable the Global Interrupts
+    INTERRUPT_GlobalInterruptEnable();
+
+    // Disable the Global Interrupts
+    //INTERRUPT_GlobalInterruptDisable();
     
-    // VDD_3V3_CE.
-    TRISCbits.TRISC7 = 0;
+    
+    I2C1_Open();
+    
+    // VDD_3V3_CE = RC7.
     LATCbits.LATC7 = 1;
     
-    // VDD_5V_EN.
-    TRISBbits.TRISB5 = 0;
+    // VDD_5V_EN = RB5.
     LATBbits.LATB5 = 1;
     
-    // VDD_3V3_PGOOD.
-    ANSELBbits.ANSELB7 = 0;
-    TRISBbits.TRISB7 = 1;
+    // VDD_3V3_PGOOD = RB7.
     
     for (volatile uint32_t i = 0; i < 500000; i++) Nop();
     
@@ -140,52 +78,20 @@ void main(void)
     {
         if (PORTBbits.RB7 == 1)
         {
-            LATBbits.LATB4 = 1;
-            for (volatile uint32_t i = 0; i < 50000; i++) Nop();
-            LATBbits.LATB4 = 0;
-            for (volatile uint32_t i = 0; i < 50000; i++) Nop();
+//            LATBbits.LATB4 = 1;
+//            for (volatile uint32_t i = 0; i < 500000; i++) Nop();
+//            LATBbits.LATB4 = 0;
+//            for (volatile uint32_t i = 0; i < 50000; i++) Nop();
         }
         else
         {
             LATCbits.LATC7 = 0;
             for (volatile uint32_t i = 0; i < 50000; i++) Nop();
             LATCbits.LATC7 = 1;
-            for (volatile uint32_t i = 0; i < 500000; i++) Nop();
+            for (volatile uint32_t i = 0; i < 50000; i++) Nop();
         }
     }
-    
-//    TRISCbits.TRISC3 = 0;
-//    TRISCbits.TRISC4 = 0;
-//    
-//    LATCbits.LATC3 = 0;
-//    LATCbits.LATC4 = 0;
-//    
-//    cmp1_init();
-//    uart1_init();
-//    
-//    while (1)
-//    {
-//        if (uart1_read() == 'G')
-//        {
-//            LATCbits.LATC4 = 1;
-//        }
-//        else
-//        {
-//            LATCbits.LATC3 = 1;
-//        }
-//        for (uint32_t i = 0; i < 100000; i++) Nop();
-//        LATCbits.LATC3 = 0;
-//        LATCbits.LATC4 = 0;
-//        for (uint32_t i = 0; i < 100000; i++) Nop();
-//    }
-//    return;
 }
-
-/*
-void __interrupt(irq(CMP1), base(8)) CM1_ISR(void)
-{
-    // Clear CM1 interrupt flag.
-    PIR1bits.C1IF = 0;
-    LATCbits.LATC3 = 1;
-}
+/**
+ End of File
 */
