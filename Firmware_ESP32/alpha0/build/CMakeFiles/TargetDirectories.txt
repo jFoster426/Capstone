@@ -411,6 +411,7 @@ C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/asio/CMake
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/asio/CMakeFiles/edit_cache.dir
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/asio/CMakeFiles/rebuild_cache.dir
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/asio/CMakeFiles/list_install_components.dir
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/bt/CMakeFiles/__idf_bt.dir
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/bt/CMakeFiles/install/local.dir
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/bt/CMakeFiles/install.dir
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/bt/CMakeFiles/edit_cache.dir
@@ -687,6 +688,13 @@ C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/adc_st/CMa
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/adc_st/CMakeFiles/edit_cache.dir
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/adc_st/CMakeFiles/list_install_components.dir
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/adc_st/CMakeFiles/install/strip.dir
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/bt_st/CMakeFiles/__idf_bt_st.dir
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/bt_st/CMakeFiles/install/local.dir
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/bt_st/CMakeFiles/install.dir
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/bt_st/CMakeFiles/edit_cache.dir
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/bt_st/CMakeFiles/rebuild_cache.dir
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/bt_st/CMakeFiles/list_install_components.dir
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/bt_st/CMakeFiles/install/strip.dir
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/dac_st/CMakeFiles/__idf_dac_st.dir
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/dac_st/CMakeFiles/install/local.dir
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/dac_st/CMakeFiles/install.dir

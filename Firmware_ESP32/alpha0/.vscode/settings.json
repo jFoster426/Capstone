@@ -1,6 +1,5 @@
 {
     "idf.adapterTargetName": "esp32s3",
-    "git.ignoreLimitWarning": true,
     "idf.openOcdConfigs": [
         "board/esp32s3-builtin.cfg"
     ],

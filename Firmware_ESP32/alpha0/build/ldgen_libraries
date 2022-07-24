@@ -36,6 +36,7 @@ C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/newlib/lib
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/cxx/libcxx.a
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/app_trace/libapp_trace.a
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/asio/libasio.a
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/bt/libbt.a
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/cbor/libcbor.a
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/unity/libunity.a
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/cmock/libcmock.a
@@ -72,6 +73,7 @@ C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/ulp/libulp
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/main/libmain.a
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/adc_st/libadc_st.a
+C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/bt_st/libbt_st.a
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/dac_st/libdac_st.a
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/i2c_st/libi2c_st.a
 C:/Users/juddf/Documents/Capstone/Firmware_ESP32/alpha0/build/esp-idf/ism330_st/libism330_st.a

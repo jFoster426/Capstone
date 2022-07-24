@@ -2,10 +2,21 @@
 #include "esp_log.h"
 
 #include "adc_st.h"
+#include "bt_st.h"
 #include "dac_st.h"
 #include "i2c_st.h"
 #include "ism330_st.h"
 #include "rtc_st.h"
+
+#include "esp_nimble_hci.h"
+#include "nimble/nimble_port.h"
+#include "nimble/nimble_port_freertos.h"
+#include "host/ble_hs.h"
+#include "host/util/util.h"
+#include "console/console.h"
+#include "services/gap/ble_svc_gap.h"
+#include "nimble/ble.h"
+#include "modlog/modlog.h"
 
 void app_main(void)
 {
@@ -14,6 +25,7 @@ void app_main(void)
 
     ism330_init();
     rtc_st_init();
+    bt_init();
 
     while (1)
     {

@@ -125,6 +125,10 @@ static void blehr_tx_hrate_reset(void)
     assert(rc == 0);
 }
 
+extern uint8_t batteryLevel;
+
+uint8_t modify = 0;
+
 /* This function simulates heart beat and notifies it to the client */
 static void ble_transmit_buffer(TimerHandle_t ev)
 {
@@ -134,9 +138,12 @@ static void ble_transmit_buffer(TimerHandle_t ev)
         return;
     }
 
-    // char *buf = "miscfile\nbatteryStatus,charging,shinConnect,shinMalf,testing,deviceStatus\n63,0,0,1,0,0";
-    // struct os_mbuf *om = ble_hs_mbuf_from_flat(buf, strlen(buf));
-    // int rc = ble_gattc_notify_custom(conn_handle, notify_handle, om);
+    char buf[1024];
+    sprintf(buf, "miscFile,0,0,0,0,0\nbatteryStatus,charging,shinConnect,shinMalf,testing,deviceStatus\n%d,0,0,1,%d,1", batteryLevel++, modify = 1 - modify);
+    struct os_mbuf *om = ble_hs_mbuf_from_flat(buf, strlen(buf));
+    int rc = ble_gattc_notify_custom(conn_handle, notify_handle, om);
+
+    printf("sending repeated miscFile\n");
 
     // assert(rc == 0);
 

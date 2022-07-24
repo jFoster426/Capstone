@@ -10,44 +10,88 @@ uint16_t notify_handle;
 
 uint8_t batteryLevel = 0;
 
+uint8_t miscFileWrite = 0;
+uint8_t dataFileWrite = 0;
+
+// Callback function for when computer reads or writes data to the device.
 static int gatt_svr_chr_access(uint16_t conn_handle, uint16_t attr_handle, struct ble_gatt_access_ctxt *ctxt, void *arg)
 {
     printf("gatt_svr_chr_access()\n");
 
+    // The computer wants to read data.
     if (ctxt->op == BLE_GATT_ACCESS_OP_READ_CHR)
     {
         char *buf = "Reading data";
-        if (os_mbuf_append(ctxt->om, buf, strlen(buf))) return BLE_ATT_ERR_INSUFFICIENT_RES;
+        if (os_mbuf_append(ctxt->om, buf, strlen(buf)))
+        {
+            return BLE_ATT_ERR_INSUFFICIENT_RES;
+        }
     }
     
+    // The computer wants to write data.
     if (ctxt->op == BLE_GATT_ACCESS_OP_WRITE_CHR)
     {
         char buf[1024];
         sprintf(buf, "%.*s", ctxt->om->om_len, ctxt->om->om_data);
 
+        if (miscFileWrite == 1)
+        {
+            printf("miscfile data: %.*s\n", ctxt->om->om_len, ctxt->om->om_data);
+            miscFileWrite = 0;
+            return 0;
+        }
+
+        if (strcmp(buf, "miscFile,w") == 0)
+        {
+            // Update the state machine status.
+            miscFileWrite = 1;
+            printf("initializing miscFile write\n");
+            return 0;
+        }
+
+        if (strcmp(buf, "dataFile,w") == 0)
+        {
+            // Update the state machine status.
+            dataFileWrite = 1;
+            printf("initializing dataFile write\n");
+            return 0;
+        }
+
         if (strcmp(buf, "miscFile,r") == 0)
         {
             printf("Sending miscFile\n");
 
-            sprintf(buf, "miscfile\nbatteryStatus,charging,shinConnect,shinMalf,testing,deviceStatus\n%d,0,0,1,0,0", batteryLevel++);
+            sprintf(buf, "miscFile,0,0,0,0,0\nbatteryStatus,charging,shinConnect,shinMalf,testing,deviceStatus\n%d,0,0,1,0,0", batteryLevel++);
             if (batteryLevel > 100) batteryLevel = 0;
             struct os_mbuf *om = ble_hs_mbuf_from_flat(buf, strlen(buf));
             int rc = ble_gattc_notify_custom(conn_handle, notify_handle, om);
+            printf("Data received: %.*s\n", ctxt->om->om_len, ctxt->om->om_data);
+            return 0;
         }
 
         if (strcmp(buf, "dataFile,r") == 0)
         {
             printf("Sending dataFile\n");
 
-            sprintf(buf, "time,faccx,faccy,faccz,fgyrx,fgyry,fgyrz,saccx,saccy,saccz,sgyrx,sgyry,sgyrz,load\n125791,0.02,1.02,-0.10,-1.56,-3.17,-4.12,-0.13,0.61,0.85,-3.39,-1.34,-2.26,16608376\n125801,-0.01,1.01,-0.10,-0.67,-3.02,-1.34,-0.13,0.61,0.85,-3.42,-1.31,-2.75,16607889\n125812,-0.04,1.01,-0.09,3.94,1.62,-0.06,-0.12,0.61,0.84,-3.48,-0.64,-2.62,16607801\n");
-            if (batteryLevel > 100) batteryLevel = 0;
+            sprintf(buf, "dataFile,0,0,0,0,0,0,0,0,0,0,0,0,0\ntime,faccx,faccy,faccz,fgyrx,fgyry,fgyrz,saccx,saccy,saccz,sgyrx,sgyry,sgyrz,load\n125791,0.02,1.02,-0.10,-1.56,-3.17,-4.12,-0.13,0.61,0.85,-3.39,-1.34,-2.26,16608376\n125801,-0.01,1.01,-0.10,-0.67,-3.02,-1.34,-0.13,0.61,0.85,-3.42,-1.31,-2.75,16607889\n125812,-0.04,1.01,-0.09,3.94,1.62,-0.06,-0.12,0.61,0.84,-3.48,-0.64,-2.62,16607801\n");
             struct os_mbuf *om = ble_hs_mbuf_from_flat(buf, strlen(buf));
             int rc = ble_gattc_notify_custom(conn_handle, notify_handle, om);
+            printf("Data received: %.*s\n", ctxt->om->om_len, ctxt->om->om_data);
+            return 0;
         }
 
-        printf("Data received: %.*s\n", ctxt->om->om_len, ctxt->om->om_data);
+        if (strcmp(buf, "numbersFile,r") == 0)
+        {
+            printf("Sending numbersFile\n");
+            for (uint16_t i = 0; i < 10000; i++)
+            {
+                sprintf(buf, "%d", i);
+                struct os_mbuf *om = ble_hs_mbuf_from_flat(buf, strlen(buf));
+                ble_gattc_notify_custom(conn_handle, notify_handle, om);
+                printf("Sent %d\n", i);
+            }
+        }
     }
-
     return 0;
 }
 
