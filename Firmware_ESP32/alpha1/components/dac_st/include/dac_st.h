@@ -12,10 +12,12 @@
 #include <math.h>
 
 #define I2S_NUM         (0)
-#define I2S_BCK_IO      (GPIO_NUM_5)
-#define I2S_MCK_IO      (GPIO_NUM_3)
-#define I2S_WS_IO       (GPIO_NUM_6)
-#define I2S_DO_IO       (GPIO_NUM_4)
+#define I2S_BCK_IO      (GPIO_NUM_18)
+#define I2S_SCK_IO      (GPIO_NUM_48)
+#define I2S_WS_IO       (GPIO_NUM_21)
+#define I2S_DO_IO       (GPIO_NUM_11)
+
+int32_t dac_buffer[128];
 
 void dac_init(uint32_t sample_rate);
 

@@ -49,28 +49,54 @@
 void main(void)
 {
     // Initialize the device
-    SYSTEM_Initialize();
+    // SYSTEM_Initialize();
 
     // If using interrupts in PIC18 High/Low Priority Mode you need to enable the Global High and Low Interrupts
     // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global Interrupts
     // Use the following macros to:
 
     // Enable the Global Interrupts
-    INTERRUPT_GlobalInterruptEnable();
+    // INTERRUPT_GlobalInterruptEnable();
 
     // Disable the Global Interrupts
     //INTERRUPT_GlobalInterruptDisable();
     
+    TRISCbits.TRISC3 = 0;
+    TRISCbits.TRISC4 = 0;
     
-    I2C1_Open();
+    while (1)
+    {
+        LATCbits.LATC3 = 1;
+        LATCbits.LATC4 = 0;
+        for (volatile uint32_t i = 0; i < 50000; i++) Nop();
+        LATCbits.LATC3 = 0;
+        LATCbits.LATC4 = 1;
+        for (volatile uint32_t i = 0; i < 50000; i++) Nop();
+        
+    }
+    
+}
+    
+    
+    
+    /*
+    
+}
+    
+    
+    // I2C1_Open();
     
     // VDD_3V3_CE = RC7.
     LATCbits.LATC7 = 1;
     
-    // VDD_5V_EN = RB5.
+    // VDD_PIC_EN = RB5.
     LATBbits.LATB5 = 1;
     
+    // VDD_5V_EN = RB6.
+    LATBbits.LATB6 = 1;
+    
     // VDD_3V3_PGOOD = RB7.
+    // PIC_LED = RB4.
     
     for (volatile uint32_t i = 0; i < 500000; i++) Nop();
     
@@ -78,10 +104,10 @@ void main(void)
     {
         if (PORTBbits.RB7 == 1)
         {
-//            LATBbits.LATB4 = 1;
-//            for (volatile uint32_t i = 0; i < 500000; i++) Nop();
-//            LATBbits.LATB4 = 0;
-//            for (volatile uint32_t i = 0; i < 50000; i++) Nop();
+            LATBbits.LATB4 = 1;
+            for (volatile uint32_t i = 0; i < 50000; i++) Nop();
+            LATBbits.LATB4 = 0;
+            for (volatile uint32_t i = 0; i < 50000; i++) Nop();
         }
         else
         {
@@ -92,6 +118,4 @@ void main(void)
         }
     }
 }
-/**
- End of File
 */

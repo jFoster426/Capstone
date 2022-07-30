@@ -15,9 +15,9 @@
 
 // These pins define the IO pins used for the SPI bus.
 // CS pin is uniquely defined for each function.
-#define SPI_PIN_NUM_MISO (10)
-#define SPI_PIN_NUM_MOSI (11)
-#define SPI_PIN_NUM_CLK  (12)
+#define SPI_PIN_NUM_MISO (14)
+#define SPI_PIN_NUM_MOSI (13)
+#define SPI_PIN_NUM_CLK  (8)
 
 void spi_transfer(spi_device_handle_t *adc, const uint8_t *tx_data, uint8_t *rx_data, const uint8_t data_len);
 

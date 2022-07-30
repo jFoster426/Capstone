@@ -88,7 +88,6 @@ typedef __uint24 uint24_t;
 
 typedef enum
 {
-    channel_ANB6 =  0xE,
     channel_ANC4 =  0x14,
     channel_ANC5 =  0x15,
     channel_DAC2 =  0x3A,

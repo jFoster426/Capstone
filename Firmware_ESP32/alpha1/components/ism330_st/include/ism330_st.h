@@ -6,6 +6,7 @@
 
 #include "../../i2c_st/include/i2c_st.h"
 
+// ISM330 I2C address definition.
 #define ISM330_I2C_ADDR                             (0x6B)
 
 // ISM330 register definitions.

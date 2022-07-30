@@ -4,7 +4,7 @@
 [d chip 18F16Q40 ]
 [d frameptr 1249 ]
 "68 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\mcc_generated_files/i2c1_slave.c
-[e E12989 . `uc
+[e E12965 . `uc
 I2C1_IDLE 0
 I2C1_ADDR_TX 1
 I2C1_ADDR_RX 2
@@ -12,8 +12,7 @@ I2C1_DATA_TX 3
 I2C1_DATA_RX 4
 ]
 "113 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\mcc_generated_files/adcc.c
-[e E12942 . `uc
-channel_ANB6 14
+[e E12918 . `uc
 channel_ANC4 20
 channel_ANC5 21
 channel_DAC2 58
@@ -23,29 +22,29 @@ channel_DAC1 61
 channel_FVR_Buffer1 62
 channel_FVR_Buffer2 63
 ]
-"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
-"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+"62 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\float.c
 [v ___ftpack __ftpack `(f  1 e 4 0 ]
-"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+"86 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 4 0 ]
-"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+"54 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftdiv.c
 [v ___ftdiv __ftdiv `(f  1 e 4 0 ]
-"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+"62 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftmul.c
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
-"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+"19 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
-"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "245
 [v ___flsub __flsub `(d  1 e 4 0 ]
-"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+"11 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
-"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
-"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+"15 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+"91 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
 "49 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\main.c
 [v _main main `(v  1 e 1 0 ]
@@ -53,8 +52,6 @@ channel_FVR_Buffer2 63
 [v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
 "116 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\mcc_generated_files/i2c1_slave.c
 [v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
-"131
-[v _I2C1_Open I2C1_Open `(v  1 e 1 0 ]
 "185
 [v _I2C1_Isr I2C1_Isr `(v  1 s 1 I2C1_Isr ]
 "258
@@ -127,9 +124,7 @@ channel_FVR_Buffer2 63
 [v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
 "58
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
-"50 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\mcc_generated_files/mcc.c
-[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
-"60
+"60 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 "76
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
@@ -147,7 +142,7 @@ channel_FVR_Buffer2 63
 [v _I2C1_SlaveBusColInterruptHandler I2C1_SlaveBusColInterruptHandler `*.37(v  1 e 2 0 ]
 "147
 [v _I2C1_SlaveWrColInterruptHandler I2C1_SlaveWrColInterruptHandler `*.37(v  1 e 2 0 ]
-"1210 C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic18f16q40.h
+"1210 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-Q_DFP/1.11.185/xc8\pic\include\proc\pic18f16q40.h
 [v _PMD0 PMD0 `VEuc  1 e 1 @99 ]
 "1267
 [v _PMD1 PMD1 `VEuc  1 e 1 @100 ]
@@ -330,59 +325,59 @@ channel_FVR_Buffer2 63
 [v _I2C1PIEbits I2C1PIEbits `VES376  1 e 1 @667 ]
 "13803
 [v _I2C1BAUD I2C1BAUD `VEuc  1 e 1 @669 ]
-"26867
+"26813
 [v _ADLTHL ADLTHL `VEuc  1 e 1 @985 ]
-"26995
+"26941
 [v _ADLTHH ADLTHH `VEuc  1 e 1 @986 ]
-"27130
+"27076
 [v _ADUTHL ADUTHL `VEuc  1 e 1 @987 ]
-"27258
+"27204
 [v _ADUTHH ADUTHH `VEuc  1 e 1 @988 ]
-"27393
+"27339
 [v _ADERRL ADERRL `VEuc  1 e 1 @989 ]
-"27521
+"27467
 [v _ADERRH ADERRH `VEuc  1 e 1 @990 ]
-"27656
+"27602
 [v _ADSTPTL ADSTPTL `VEuc  1 e 1 @991 ]
-"27784
+"27730
 [v _ADSTPTH ADSTPTH `VEuc  1 e 1 @992 ]
-"27919
+"27865
 [v _ADFLTRL ADFLTRL `VEuc  1 e 1 @993 ]
-"28047
+"27993
 [v _ADFLTRH ADFLTRH `VEuc  1 e 1 @994 ]
-"28184
+"28130
 [v _ADACCL ADACCL `VEuc  1 e 1 @995 ]
-"28312
+"28258
 [v _ADACCH ADACCH `VEuc  1 e 1 @996 ]
-"28440
+"28386
 [v _ADACCU ADACCU `VEuc  1 e 1 @997 ]
-"28568
+"28514
 [v _ADCNT ADCNT `VEuc  1 e 1 @998 ]
-"28696
+"28642
 [v _ADRPT ADRPT `VEuc  1 e 1 @999 ]
-"28831
+"28777
 [v _ADPREVL ADPREVL `VEuc  1 e 1 @1000 ]
-"28959
+"28905
 [v _ADPREVH ADPREVH `VEuc  1 e 1 @1001 ]
-"29094
+"29040
 [v _ADRESL ADRESL `VEuc  1 e 1 @1002 ]
-"29222
+"29168
 [v _ADRESH ADRESH `VEuc  1 e 1 @1003 ]
-"29342
+"29288
 [v _ADPCH ADPCH `VEuc  1 e 1 @1004 ]
-"29407
+"29353
 [v _ADACQL ADACQL `VEuc  1 e 1 @1006 ]
-"29535
+"29481
 [v _ADACQH ADACQH `VEuc  1 e 1 @1007 ]
-"29627
+"29573
 [v _ADCAP ADCAP `VEuc  1 e 1 @1008 ]
-"29686
+"29632
 [v _ADPREL ADPREL `VEuc  1 e 1 @1009 ]
-"29814
+"29760
 [v _ADPREH ADPREH `VEuc  1 e 1 @1010 ]
-"29906
+"29852
 [v _ADCON0 ADCON0 `VEuc  1 e 1 @1011 ]
-[s S864 . 1 `uc 1 GO 1 0 :1:0 
+[s S863 . 1 `uc 1 GO 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 FM 1 0 :2:2 
 `uc 1 CS 1 0 :1:4 
@@ -390,8 +385,8 @@ channel_FVR_Buffer2 63
 `uc 1 CONT 1 0 :1:6 
 `uc 1 ON 1 0 :1:7 
 ]
-"29946
-[s S872 . 1 `uc 1 ADGO 1 0 :1:0 
+"29892
+[s S871 . 1 `uc 1 ADGO 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 ADFM 1 0 :2:2 
 `uc 1 ADCS 1 0 :1:4 
@@ -399,46 +394,46 @@ channel_FVR_Buffer2 63
 `uc 1 ADCONT 1 0 :1:6 
 `uc 1 ADON 1 0 :1:7 
 ]
-[s S880 . 1 `uc 1 DONE 1 0 :1:0 
+[s S879 . 1 `uc 1 DONE 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 FM0 1 0 :1:2 
 `uc 1 FM1 1 0 :1:3 
 ]
-[s S885 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+[s S884 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
 ]
-[s S887 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+[s S886 . 1 `uc 1 GO_nDONE 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 ADFM0 1 0 :1:2 
 `uc 1 ADFM1 1 0 :1:3 
 ]
-[u S892 . 1 `S864 1 . 1 0 `S872 1 . 1 0 `S880 1 . 1 0 `S885 1 . 1 0 `S887 1 . 1 0 ]
-[v _ADCON0bits ADCON0bits `VES892  1 e 1 @1011 ]
-"30036
+[u S891 . 1 `S863 1 . 1 0 `S871 1 . 1 0 `S879 1 . 1 0 `S884 1 . 1 0 `S886 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES891  1 e 1 @1011 ]
+"29982
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @1012 ]
-[s S1108 . 1 `uc 1 DSEN 1 0 :1:0 
+[s S1107 . 1 `uc 1 DSEN 1 0 :1:0 
 `uc 1 . 1 0 :4:1 
 `uc 1 GPOL 1 0 :1:5 
 `uc 1 IPEN 1 0 :1:6 
 `uc 1 PPOL 1 0 :1:7 
 ]
-"30057
-[s S1114 . 1 `uc 1 ADDSEN 1 0 :1:0 
+"30003
+[s S1113 . 1 `uc 1 ADDSEN 1 0 :1:0 
 `uc 1 . 1 0 :4:1 
 `uc 1 ADGPOL 1 0 :1:5 
 `uc 1 ADIPEN 1 0 :1:6 
 `uc 1 ADPPOL 1 0 :1:7 
 ]
-[u S1120 . 1 `S1108 1 . 1 0 `S1114 1 . 1 0 ]
-[v _ADCON1bits ADCON1bits `VES1120  1 e 1 @1012 ]
-"30102
+[u S1119 . 1 `S1107 1 . 1 0 `S1113 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES1119  1 e 1 @1012 ]
+"30048
 [v _ADCON2 ADCON2 `VEuc  1 e 1 @1013 ]
-[s S984 . 1 `uc 1 MD 1 0 :3:0 
+[s S983 . 1 `uc 1 MD 1 0 :3:0 
 `uc 1 ACLR 1 0 :1:3 
 `uc 1 CRS 1 0 :3:4 
 `uc 1 PSIS 1 0 :1:7 
 ]
-"30139
-[s S989 . 1 `uc 1 ADMD0 1 0 :1:0 
+"30085
+[s S988 . 1 `uc 1 ADMD0 1 0 :1:0 
 `uc 1 ADMD1 1 0 :1:1 
 `uc 1 ADMD2 1 0 :1:2 
 `uc 1 ADACLR 1 0 :1:3 
@@ -447,11 +442,11 @@ channel_FVR_Buffer2 63
 `uc 1 ADCRS2 1 0 :1:6 
 `uc 1 ADPSIS 1 0 :1:7 
 ]
-[s S998 . 1 `uc 1 ADMD 1 0 :3:0 
+[s S997 . 1 `uc 1 ADMD 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 ADCRS 1 0 :3:4 
 ]
-[s S1002 . 1 `uc 1 MD0 1 0 :1:0 
+[s S1001 . 1 `uc 1 MD0 1 0 :1:0 
 `uc 1 MD1 1 0 :1:1 
 `uc 1 MD2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -459,16 +454,16 @@ channel_FVR_Buffer2 63
 `uc 1 CRS1 1 0 :1:5 
 `uc 1 CRS2 1 0 :1:6 
 ]
-[u S1010 . 1 `S984 1 . 1 0 `S989 1 . 1 0 `S998 1 . 1 0 `S1002 1 . 1 0 ]
-[v _ADCON2bits ADCON2bits `VES1010  1 e 1 @1013 ]
-"30244
+[u S1009 . 1 `S983 1 . 1 0 `S988 1 . 1 0 `S997 1 . 1 0 `S1001 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES1009  1 e 1 @1013 ]
+"30190
 [v _ADCON3 ADCON3 `VEuc  1 e 1 @1014 ]
-[s S929 . 1 `uc 1 TMD 1 0 :3:0 
+[s S928 . 1 `uc 1 TMD 1 0 :3:0 
 `uc 1 SOI 1 0 :1:3 
 `uc 1 CALC 1 0 :3:4 
 ]
-"30279
-[s S933 . 1 `uc 1 ADTMD0 1 0 :1:0 
+"30225
+[s S932 . 1 `uc 1 ADTMD0 1 0 :1:0 
 `uc 1 ADTMD1 1 0 :1:1 
 `uc 1 ADTMD2 1 0 :1:2 
 `uc 1 ADSOI 1 0 :1:3 
@@ -476,11 +471,11 @@ channel_FVR_Buffer2 63
 `uc 1 ADCALC1 1 0 :1:5 
 `uc 1 ADCALC2 1 0 :1:6 
 ]
-[s S941 . 1 `uc 1 ADTMD 1 0 :3:0 
+[s S940 . 1 `uc 1 ADTMD 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 ADCALC 1 0 :3:4 
 ]
-[s S945 . 1 `uc 1 TMD0 1 0 :1:0 
+[s S944 . 1 `uc 1 TMD0 1 0 :1:0 
 `uc 1 TMD1 1 0 :1:1 
 `uc 1 TMD2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -488,19 +483,19 @@ channel_FVR_Buffer2 63
 `uc 1 CALC1 1 0 :1:5 
 `uc 1 CALC2 1 0 :1:6 
 ]
-[u S953 . 1 `S929 1 . 1 0 `S933 1 . 1 0 `S941 1 . 1 0 `S945 1 . 1 0 ]
-[v _ADCON3bits ADCON3bits `VES953  1 e 1 @1014 ]
-"30374
+[u S952 . 1 `S928 1 . 1 0 `S932 1 . 1 0 `S940 1 . 1 0 `S944 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES952  1 e 1 @1014 ]
+"30320
 [v _ADSTAT ADSTAT `VEuc  1 e 1 @1015 ]
-[s S1044 . 1 `uc 1 STAT 1 0 :3:0 
+[s S1043 . 1 `uc 1 STAT 1 0 :3:0 
 `uc 1 . 1 0 :1:3 
 `uc 1 MATH 1 0 :1:4 
 `uc 1 LTHR 1 0 :1:5 
 `uc 1 UTHR 1 0 :1:6 
 `uc 1 AOV 1 0 :1:7 
 ]
-"30411
-[s S1051 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+"30357
+[s S1050 . 1 `uc 1 ADSTAT0 1 0 :1:0 
 `uc 1 ADSTAT1 1 0 :1:1 
 `uc 1 ADSTAT2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -509,53 +504,53 @@ channel_FVR_Buffer2 63
 `uc 1 ADUTHR 1 0 :1:6 
 `uc 1 ADAOV 1 0 :1:7 
 ]
-[s S1060 . 1 `uc 1 ADSTAT 1 0 :3:0 
+[s S1059 . 1 `uc 1 ADSTAT 1 0 :3:0 
 `uc 1 . 1 0 :4:3 
 `uc 1 ADOV 1 0 :1:7 
 ]
-[s S1064 . 1 `uc 1 STAT0 1 0 :1:0 
+[s S1063 . 1 `uc 1 STAT0 1 0 :1:0 
 `uc 1 STAT1 1 0 :1:1 
 `uc 1 STAT2 1 0 :1:2 
 `uc 1 . 1 0 :4:3 
 `uc 1 OV 1 0 :1:7 
 ]
-[u S1070 . 1 `S1044 1 . 1 0 `S1051 1 . 1 0 `S1060 1 . 1 0 `S1064 1 . 1 0 ]
-[v _ADSTATbits ADSTATbits `VES1070  1 e 1 @1015 ]
-"30506
+[u S1069 . 1 `S1043 1 . 1 0 `S1050 1 . 1 0 `S1059 1 . 1 0 `S1063 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES1069  1 e 1 @1015 ]
+"30452
 [v _ADREF ADREF `VEuc  1 e 1 @1016 ]
-"30646
+"30592
 [v _ADACT ADACT `VEuc  1 e 1 @1017 ]
-"30738
+"30684
 [v _ADCLK ADCLK `VEuc  1 e 1 @1018 ]
-"30842
+"30788
 [v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
-"30887
+"30833
 [v _WPUA WPUA `VEuc  1 e 1 @1025 ]
-"30937
+"30883
 [v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
-"30982
+"30928
 [v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
-"31027
+"30973
 [v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
-"31227
+"31173
 [v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
-"31266
+"31212
 [v _WPUB WPUB `VEuc  1 e 1 @1033 ]
-"31305
+"31251
 [v _ODCONB ODCONB `VEuc  1 e 1 @1034 ]
-"31344
+"31290
 [v _SLRCONB SLRCONB `VEuc  1 e 1 @1035 ]
-"31383
+"31329
 [v _INLVLB INLVLB `VEuc  1 e 1 @1036 ]
-"31539
+"31485
 [v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
-"31601
+"31547
 [v _WPUC WPUC `VEuc  1 e 1 @1041 ]
-"31663
+"31609
 [v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
-"31725
+"31671
 [v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
-"31787
+"31733
 [v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
 [s S337 . 1 `uc 1 I2C1RXIE 1 0 :1:0 
 `uc 1 I2C1TXIE 1 0 :1:1 
@@ -566,10 +561,10 @@ channel_FVR_Buffer2 63
 `uc 1 PWM3PIE 1 0 :1:6 
 `uc 1 PWM3IE 1 0 :1:7 
 ]
-"35132
+"35078
 [u S346 . 1 `S337 1 . 1 0 ]
-"35132
-"35132
+"35078
+"35078
 [v _PIE7bits PIE7bits `VES346  1 e 1 @1199 ]
 [s S783 . 1 `uc 1 I2C1RXIF 1 0 :1:0 
 `uc 1 I2C1TXIF 1 0 :1:1 
@@ -580,29 +575,18 @@ channel_FVR_Buffer2 63
 `uc 1 PWM3PIF 1 0 :1:6 
 `uc 1 PWM3IF 1 0 :1:7 
 ]
-"35779
+"35725
 [u S792 . 1 `S783 1 . 1 0 ]
-"35779
-"35779
+"35725
+"35725
 [v _PIR7bits PIR7bits `VES792  1 e 1 @1210 ]
-"35984
+"35930
 [v _LATA LATA `VEuc  1 e 1 @1214 ]
-"36029
+"35975
 [v _LATB LATB `VEuc  1 e 1 @1215 ]
-[s S1253 . 1 `uc 1 . 1 0 :4:0 
-`uc 1 LATB4 1 0 :1:4 
-`uc 1 LATB5 1 0 :1:5 
-`uc 1 LATB6 1 0 :1:6 
-`uc 1 LATB7 1 0 :1:7 
-]
-"36043
-[u S1259 . 1 `S1253 1 . 1 0 ]
-"36043
-"36043
-[v _LATBbits LATBbits `VES1259  1 e 1 @1215 ]
-"36068
+"36014
 [v _LATC LATC `VEuc  1 e 1 @1216 ]
-[s S1232 . 1 `uc 1 LATC0 1 0 :1:0 
+[s S1235 . 1 `uc 1 LATC0 1 0 :1:0 
 `uc 1 LATC1 1 0 :1:1 
 `uc 1 LATC2 1 0 :1:2 
 `uc 1 LATC3 1 0 :1:3 
@@ -611,28 +595,31 @@ channel_FVR_Buffer2 63
 `uc 1 LATC6 1 0 :1:6 
 `uc 1 LATC7 1 0 :1:7 
 ]
-"36085
-[u S1241 . 1 `S1232 1 . 1 0 ]
-"36085
-"36085
-[v _LATCbits LATCbits `VES1241  1 e 1 @1216 ]
-"36130
+"36031
+[u S1244 . 1 `S1235 1 . 1 0 ]
+"36031
+"36031
+[v _LATCbits LATCbits `VES1244  1 e 1 @1216 ]
+"36076
 [v _TRISA TRISA `VEuc  1 e 1 @1222 ]
-"36180
+"36126
 [v _TRISB TRISB `VEuc  1 e 1 @1223 ]
-"36219
+"36165
 [v _TRISC TRISC `VEuc  1 e 1 @1224 ]
-[s S1272 . 1 `uc 1 . 1 0 :4:0 
-`uc 1 RB4 1 0 :1:4 
-`uc 1 RB5 1 0 :1:5 
-`uc 1 RB6 1 0 :1:6 
-`uc 1 RB7 1 0 :1:7 
+[s S1214 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
 ]
-"36345
-[u S1278 . 1 `S1272 1 . 1 0 ]
-"36345
-"36345
-[v _PORTBbits PORTBbits `VES1278  1 e 1 @1231 ]
+"36182
+[u S1223 . 1 `S1214 1 . 1 0 ]
+"36182
+"36182
+[v _TRISCbits TRISCbits `VES1223  1 e 1 @1224 ]
 [s S745 . 1 `uc 1 INT0EDG 1 0 :1:0 
 `uc 1 INT1EDG 1 0 :1:1 
 `uc 1 INT2EDG 1 0 :1:2 
@@ -641,14 +628,14 @@ channel_FVR_Buffer2 63
 `uc 1 GIEL 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
-"36452
+"36398
 [s S753 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 GIEH 1 0 :1:7 
 ]
-"36452
+"36398
 [u S756 . 1 `S745 1 . 1 0 `S753 1 . 1 0 ]
-"36452
-"36452
+"36398
+"36398
 [v _INTCON0bits INTCON0bits `VES756  1 e 1 @1238 ]
 "65 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\mcc_generated_files/i2c1_slave.c
 [v _i2c1WrData i2c1WrData `VEuc  1 e 1 0 ]
@@ -657,7 +644,7 @@ channel_FVR_Buffer2 63
 "67
 [v _i2c1SlaveAddr i2c1SlaveAddr `VEuc  1 e 1 0 ]
 "68
-[v _i2c1SlaveState i2c1SlaveState `VEE12989  1 s 1 i2c1SlaveState ]
+[v _i2c1SlaveState i2c1SlaveState `VEE12965  1 s 1 i2c1SlaveState ]
 "70
 [v _Ji2c_state Ji2c_state `VEuc  1 e 1 0 ]
 "71
@@ -669,117 +656,11 @@ channel_FVR_Buffer2 63
 "49 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"91
-[v main@i_1320 i `VEul  1 a 4 15 ]
-"89
-[v main@i_1319 i `VEul  1 a 4 11 ]
-"75
-[v main@i i `VEul  1 a 4 7 ]
-"94
-} 0
-"50 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\mcc_generated_files/mcc.c
-[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
-{
-"58
-} 0
-"76
-[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
-{
-"90
-} 0
-"55 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\mcc_generated_files/pin_manager.c
-[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-{
-"117
-} 0
-"60 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\mcc_generated_files/mcc.c
-[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
-{
 "74
-} 0
-"52 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\mcc_generated_files/interrupt_manager.c
-[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
-{
-"56
-} 0
-"116 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\mcc_generated_files/i2c1_slave.c
-[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
-{
-"129
-} 0
-"62 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\mcc_generated_files/adcc.c
-[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
-{
-"111
-} 0
-"131 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\mcc_generated_files/i2c1_slave.c
-[v _I2C1_Open I2C1_Open `(v  1 e 1 0 ]
-{
-"143
-} 0
-"296
-[v _I2C1_SlaveSetWriteIntHandler I2C1_SlaveSetWriteIntHandler `(v  1 e 1 0 ]
-{
-[v I2C1_SlaveSetWriteIntHandler@handler handler `*.37(v  1 p 2 5 ]
-"298
-} 0
-"334
-[v _I2C1_SlaveSetWrColIntHandler I2C1_SlaveSetWrColIntHandler `(v  1 e 1 0 ]
-{
-[v I2C1_SlaveSetWrColIntHandler@handler handler `*.37(v  1 p 2 5 ]
-"336
-} 0
-"388
-[v _I2C1_SlaveSetSlaveMask I2C1_SlaveSetSlaveMask `T(v  1 s 1 I2C1_SlaveSetSlaveMask ]
-{
-[v I2C1_SlaveSetSlaveMask@maskAddr maskAddr `uc  1 a 1 wreg ]
-[v I2C1_SlaveSetSlaveMask@maskAddr maskAddr `uc  1 a 1 wreg ]
-"390
-[v I2C1_SlaveSetSlaveMask@maskAddr maskAddr `uc  1 a 1 5 ]
-"392
-} 0
-"382
-[v _I2C1_SlaveSetSlaveAddr I2C1_SlaveSetSlaveAddr `T(v  1 s 1 I2C1_SlaveSetSlaveAddr ]
-{
-[v I2C1_SlaveSetSlaveAddr@slaveAddr slaveAddr `uc  1 a 1 wreg ]
-[v I2C1_SlaveSetSlaveAddr@slaveAddr slaveAddr `uc  1 a 1 wreg ]
-"384
-[v I2C1_SlaveSetSlaveAddr@slaveAddr slaveAddr `uc  1 a 1 5 ]
-"386
-} 0
-"264
-[v _I2C1_SlaveSetReadIntHandler I2C1_SlaveSetReadIntHandler `(v  1 e 1 0 ]
-{
-[v I2C1_SlaveSetReadIntHandler@handler handler `*.37(v  1 p 2 5 ]
-"266
-} 0
-"258
-[v _I2C1_SlaveSetIsrHandler I2C1_SlaveSetIsrHandler `(v  1 e 1 0 ]
-{
-[v I2C1_SlaveSetIsrHandler@handler handler `*.37(v  1 p 2 5 ]
-"261
-} 0
-"350
-[v _I2C1_SlaveSetBusColIntHandler I2C1_SlaveSetBusColIntHandler `(v  1 e 1 0 ]
-{
-[v I2C1_SlaveSetBusColIntHandler@handler handler `*.37(v  1 p 2 5 ]
-"352
-} 0
-"318
-[v _I2C1_SlaveSetAddrIntHandler I2C1_SlaveSetAddrIntHandler `(v  1 e 1 0 ]
-{
-[v I2C1_SlaveSetAddrIntHandler@handler handler `*.37(v  1 p 2 5 ]
-"320
-} 0
-"365
-[v _I2C1_SlaveOpen I2C1_SlaveOpen `T(a  1 s 1 I2C1_SlaveOpen ]
-{
-"373
-} 0
-"394
-[v _I2C1_SlaveEnableIrq I2C1_SlaveEnableIrq `T(v  1 s 1 I2C1_SlaveEnableIrq ]
-{
-"403
+[v main@i_1288 i `VEul  1 a 4 9 ]
+"71
+[v main@i i `VEul  1 a 4 5 ]
+"78
 } 0
 "58 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap_alpha0.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
