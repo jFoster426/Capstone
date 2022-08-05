@@ -23,6 +23,8 @@ void spi_transfer(spi_device_handle_t *adc, const uint8_t *tx_data, uint8_t *rx_
 
 void adc_init(spi_device_handle_t *adc, uint8_t cs_pin);
 
-uint32_t adc_read_raw(spi_device_handle_t *adc, uint8_t cs_pin);
+void adc_read_raw(spi_device_handle_t *adc, uint32_t *ch0, uint32_t *ch1);
+
+void adc_read_voltage(spi_device_handle_t *adc, double *ch0v, double *ch1v);
 
 #endif

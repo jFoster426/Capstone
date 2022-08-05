@@ -38,6 +38,8 @@ struct bt_config_t
     bool notify_enabled;        // Does the connected device have notifications enabled?
     char device_name[32];
     bool connected;
+
+    bool initialized;
 };
 
 // Initialize the bluetooth module. Call with the address of an instantiated

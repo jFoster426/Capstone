@@ -16,14 +16,21 @@ void ism330_init(void)
 
     // Gyroscope ODR = 6.66kHz (high performance), FS = +/- 500DPS, FS125 = off, FS4000 = off.
     uint8_t odr_g = 0b1010;
-    uint8_t fs_g = GYR_FS_500;
+    uint8_t fs_g = 0;
+
+    // TODO: define this as global and use in the other functions.
+    float g_dataRate = GYR_FS_2000;
+
+    // TODO: add other test cases.
+    if (g_dataRate == GYR_FS_500) fs_g = 0x01;
+    else if (g_dataRate == GYR_FS_2000) fs_g = 0x03;
     uint8_t fs_125 = 0;
     uint8_t fs_4000 = 0;
 
     odr_g &= 0xF;
     fs_g &= 0x3;
-    fs_125 &= 1;
-    fs_4000 &= 1;
+    fs_125 &= 0;
+    fs_4000 &= 0;
     i2c_register_write_byte(ISM330_I2C_ADDR, ISM330_REG_CTRL2_G, (odr_g << 4) | (fs_g << 2) | (fs_125 << 1) | fs_4000);
 
 
@@ -112,14 +119,11 @@ int16_t ism330_get_gyr_x(void)
 
 float ism330_get_gyr_x_dps(void)
 {
-    uint8_t fs_g = GYR_FS_500;
+    float fs_g = GYR_FS_2000;
     int16_t raw = ism330_get_gyr_x();
     
     float ret = 0.0;
-    if (fs_g == GYR_FS_500)
-    {
-        ret = ((float)raw * 2.0) / 32768.0;
-    }
+    ret = ((float)raw * fs_g) / 32768.0;
     return ret;
 }
 
@@ -135,14 +139,11 @@ int16_t ism330_get_gyr_y(void)
 
 float ism330_get_gyr_y_dps(void)
 {
-    uint8_t fs_g = GYR_FS_500;
+    float fs_g = GYR_FS_2000;
     int16_t raw = ism330_get_gyr_y();
     
     float ret = 0.0;
-    if (fs_g == GYR_FS_500)
-    {
-        ret = ((float)raw * 2.0) / 32768.0;
-    }
+    ret = ((float)raw * fs_g) / 32768.0;
     return ret;
 }
 
@@ -158,14 +159,11 @@ int16_t ism330_get_gyr_z(void)
 
 float ism330_get_gyr_z_dps(void)
 {
-    uint8_t fs_g = GYR_FS_500;
+    float fs_g = GYR_FS_2000;
     int16_t raw = ism330_get_gyr_z();
     
     float ret = 0.0;
-    if (fs_g == GYR_FS_500)
-    {
-        ret = ((float)raw * 2.0) / 32768.0;
-    }
+    ret = ((float)raw * fs_g) / 32768.0;
     return ret;
 }
 
@@ -184,4 +182,66 @@ float ism330_get_temp_celcius(void)
     int16_t temp = ism330_get_temp();
     float actualTemperature = ((float)temp / 256.0) + 25.0;
     return actualTemperature;
+}
+
+// TODO: Fix accelerometer conversions to match the gyro conversions (boost in performance).
+
+float ism330_convert_acc_x_g(int16_t x)
+{
+    uint8_t fs_xl = ACC_FS_2G;
+    float ret = 0.0;
+    if (fs_xl == ACC_FS_2G)
+    {
+        ret = ((float)x * 2.0) / 32768.0;
+    }
+    return ret;
+}
+
+float ism330_convert_acc_y_g(int16_t y)
+{
+    uint8_t fs_xl = ACC_FS_2G;
+    float ret = 0.0;
+    if (fs_xl == ACC_FS_2G)
+    {
+        ret = ((float)y * 2.0) / 32768.0;
+    }
+    return ret;
+}
+
+float ism330_convert_acc_z_g(int16_t z)
+{
+    uint8_t fs_xl = ACC_FS_2G;
+    float ret = 0.0;
+    if (fs_xl == ACC_FS_2G)
+    {
+        ret = ((float)z * 2.0) / 32768.0;
+    }
+    return ret;
+}
+
+float ism330_convert_gyr_x_dps(int16_t x)
+{
+    float fs_g = GYR_FS_2000;
+    
+    float ret = 0.0;
+    ret = ((float)x * fs_g) / 32768.0;
+    return ret;
+}
+
+float ism330_convert_gyr_y_dps(int16_t y)
+{
+    float fs_g = GYR_FS_2000;
+    
+    float ret = 0.0;
+    ret = ((float)y * fs_g) / 32768.0;
+    return ret;
+}
+
+float ism330_convert_gyr_z_dps(int16_t z)
+{
+    float fs_g = GYR_FS_2000;
+    
+    float ret = 0.0;
+    ret = ((float)z * fs_g) / 32768.0;
+    return ret;
 }

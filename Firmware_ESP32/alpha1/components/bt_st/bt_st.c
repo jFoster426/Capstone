@@ -159,7 +159,6 @@ static int gatt_svr_chr_access(uint16_t conn_handle, uint16_t attr_handle, struc
         {
             // Don't write the same data twice.
             bt_config_handle->write_available = true;
-            printf("write_available = true\n");
             
             // Add the data to the characteristic.
             if (os_mbuf_append(ctxt->om, bt_config_handle->write_data, bt_config_handle->write_len))
@@ -190,6 +189,8 @@ void ble_host_task(void *param)
 
 void bt_init(struct bt_config_t *bt_config_ptr)
 {
+    bt_config_ptr->initialized = false;
+
     // Don't initialize without a valid pointer.
     if (bt_config_ptr == NULL) return;
 
@@ -228,7 +229,7 @@ void bt_init(struct bt_config_t *bt_config_ptr)
     // Initialize the pointer variables to the correct values.
     bt_config_handle->read_len = 0;
     bt_config_handle->write_len = 0;
-    bt_config_handle->read_available = true;
+    bt_config_handle->read_available = false;
     bt_config_handle->write_available = true;
     bt_config_handle->notify_enabled = false;
     bt_config_handle->connected = false;
@@ -237,6 +238,9 @@ void bt_init(struct bt_config_t *bt_config_ptr)
         bt_config_handle->read_data[i] = 0;
         bt_config_handle->write_data[i] = 0;
     }
+
+    // Set initialized to true.
+    bt_config_handle->initialized = true;
 }
 
 void bt_read(uint8_t *data, uint16_t len)

@@ -17,7 +17,9 @@
 #define I2S_WS_IO       (GPIO_NUM_21)
 #define I2S_DO_IO       (GPIO_NUM_11)
 
-int32_t dac_buffer[128];
+#define DAC_BUF_LEN     (128)
+
+int32_t dac_buffer[8 * DAC_BUF_LEN];
 
 void dac_init(uint32_t sample_rate);
 

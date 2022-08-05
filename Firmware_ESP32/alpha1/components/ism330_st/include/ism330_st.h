@@ -91,7 +91,8 @@
 // ISM330 register settings definitions.
 #define ACC_FS_2G                                   (0x00)
 
-#define GYR_FS_500                                  (0x01)
+#define GYR_FS_500                                  (500.0)  // (0x01)
+#define GYR_FS_2000                                 (2000.0) // (0x03)
 
 
 void ism330_init(void);
@@ -112,5 +113,12 @@ float ism330_get_gyr_z_dps(void);
 
 int16_t ism330_get_temp(void);
 float ism330_get_temp_celcius(void);
+
+float ism330_convert_acc_x_g(int16_t x);
+float ism330_convert_acc_y_g(int16_t y);
+float ism330_convert_acc_z_g(int16_t z);
+float ism330_convert_gyr_x_dps(int16_t x);
+float ism330_convert_gyr_y_dps(int16_t y);
+float ism330_convert_gyr_z_dps(int16_t z);
 
 #endif
