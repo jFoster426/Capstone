@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\juddf\AppData\Local\Temp\xcAslio.o
+$C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
 idloc IDLOC 5 200000 200000 20 1 1
 init CODE 0 FFFC FFFC 4 1 2
 reset_vec CODE 0 0 0 4 1 2
@@ -671,18 +671,18 @@ $dist/default/production\shinstrap.X.production.o
 17D4 text0 CODE >109:C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\main.c
 17E0 text0 CODE >110:C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\main.c
 17E6 text0 CODE >111:C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\main.c
-220E cinit CODE >7266:C:\Users\juddf\AppData\Local\Temp\xcAslio.s
-220E cinit CODE >7268:C:\Users\juddf\AppData\Local\Temp\xcAslio.s
-220E cinit CODE >7271:C:\Users\juddf\AppData\Local\Temp\xcAslio.s
-220E cinit CODE >7285:C:\Users\juddf\AppData\Local\Temp\xcAslio.s
-2212 cinit CODE >7286:C:\Users\juddf\AppData\Local\Temp\xcAslio.s
-2214 cinit CODE >7287:C:\Users\juddf\AppData\Local\Temp\xcAslio.s
-2214 cinit CODE >7288:C:\Users\juddf\AppData\Local\Temp\xcAslio.s
-2216 cinit CODE >7289:C:\Users\juddf\AppData\Local\Temp\xcAslio.s
-2218 cinit CODE >7290:C:\Users\juddf\AppData\Local\Temp\xcAslio.s
-221A cinit CODE >7296:C:\Users\juddf\AppData\Local\Temp\xcAslio.s
-221A cinit CODE >7298:C:\Users\juddf\AppData\Local\Temp\xcAslio.s
-221C cinit CODE >7299:C:\Users\juddf\AppData\Local\Temp\xcAslio.s
+220E cinit CODE >7266:C:\Users\juddf\AppData\Local\Temp\xcAsua0.s
+220E cinit CODE >7268:C:\Users\juddf\AppData\Local\Temp\xcAsua0.s
+220E cinit CODE >7271:C:\Users\juddf\AppData\Local\Temp\xcAsua0.s
+220E cinit CODE >7285:C:\Users\juddf\AppData\Local\Temp\xcAsua0.s
+2212 cinit CODE >7286:C:\Users\juddf\AppData\Local\Temp\xcAsua0.s
+2214 cinit CODE >7287:C:\Users\juddf\AppData\Local\Temp\xcAsua0.s
+2214 cinit CODE >7288:C:\Users\juddf\AppData\Local\Temp\xcAsua0.s
+2216 cinit CODE >7289:C:\Users\juddf\AppData\Local\Temp\xcAsua0.s
+2218 cinit CODE >7290:C:\Users\juddf\AppData\Local\Temp\xcAsua0.s
+221A cinit CODE >7296:C:\Users\juddf\AppData\Local\Temp\xcAsua0.s
+221A cinit CODE >7298:C:\Users\juddf\AppData\Local\Temp\xcAsua0.s
+221C cinit CODE >7299:C:\Users\juddf\AppData\Local\Temp\xcAsua0.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -703,7 +703,7 @@ __Hspace_1 549 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 __Hspace_4 60000A 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\shinstrap.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\juddf\AppData\Local\Temp\xcAslio.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\shinstrap.X.production.o
 __end_of_I2C1_SetBuffer 20A8 0 CODE 0 text62 dist/default/production\shinstrap.X.production.o
 __end_of_UART1_SetFramingErrorHandler 2286 0 CODE 0 text5 dist/default/production\shinstrap.X.production.o
@@ -726,9 +726,9 @@ _PMD5 68 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 _WPUA 401 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 _WPUB 409 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 _WPUC 411 0 ABS 0 - dist/default/production\shinstrap.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\juddf\AppData\Local\Temp\xcAslio.o
+___sp 0 0 STACK 2 stack C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
 _main 1746 0 CODE 0 text0 dist/default/production\shinstrap.X.production.o
-start FFFC 0 CODE 0 init C:\Users\juddf\AppData\Local\Temp\xcAslio.o
+start FFFC 0 CODE 0 init C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
 I2C1_Close@returnValue 526 0 COMRAM 1 cstackCOMRAM dist/default/production\shinstrap.X.production.o
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\shinstrap.X.production.o
 _I2C1_MasterSendAck 22E8 0 CODE 0 text45 dist/default/production\shinstrap.X.production.o
@@ -744,11 +744,11 @@ __end_of_I2C1_SetDataCompleteCallback 2160 0 CODE 0 text60 dist/default/producti
 _I2C1_DO_RX_EMPTY 1800 0 CODE 0 text32 dist/default/production\shinstrap.X.production.o
 __LnvCOMRAM 0 0 ABS 0 nvCOMRAM dist/default/production\shinstrap.X.production.o
 rd1RegCompleteHandler@ptr 52F 0 COMRAM 1 cstackCOMRAM dist/default/production\shinstrap.X.production.o
-__accesstop 560 0 ABS 0 - C:\Users\juddf\AppData\Local\Temp\xcAslio.o
-intlevel0 0 0 CODE 0 text C:\Users\juddf\AppData\Local\Temp\xcAslio.o
-intlevel1 0 0 CODE 0 text C:\Users\juddf\AppData\Local\Temp\xcAslio.o
-intlevel2 0 0 CODE 0 text C:\Users\juddf\AppData\Local\Temp\xcAslio.o
-intlevel3 0 0 CODE 0 text C:\Users\juddf\AppData\Local\Temp\xcAslio.o
+__accesstop 560 0 ABS 0 - C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
+intlevel0 0 0 CODE 0 text C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
+intlevel1 0 0 CODE 0 text C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
+intlevel2 0 0 CODE 0 text C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
+intlevel3 0 0 CODE 0 text C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\shinstrap.X.production.o
 __end_of_I2C1_DO_TX_EMPTY 1ABC 0 CODE 0 text33 dist/default/production\shinstrap.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\shinstrap.X.production.o
@@ -771,14 +771,14 @@ _ANSELB 408 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 _ANSELC 410 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 __end_of_I2C1_DO_RX_NACK_STOP 225A 0 CODE 0 text26 dist/default/production\shinstrap.X.production.o
 _I2C1_MasterEnableRestart 22F4 0 CODE 0 text50 dist/default/production\shinstrap.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\juddf\AppData\Local\Temp\xcAslio.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
 _I2C1BAUD 29D 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 _I2C1CNTH 28D 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 _I2C1CNTL 28C 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 _I2C1CON0 294 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 _I2C1CON1 295 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 _I2C1CON2 296 0 ABS 0 - dist/default/production\shinstrap.X.production.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\juddf\AppData\Local\Temp\xcAslio.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
 __end_of_rdBlkRegCompleteHandler 1EFE 0 CODE 0 text55 dist/default/production\shinstrap.X.production.o
 _I2C1_ClearInterruptFlags 1E14 0 CODE 0 text63 dist/default/production\shinstrap.X.production.o
 I2C1_Write1ByteRegister@address 53D 0 COMRAM 1 cstackCOMRAM dist/default/production\shinstrap.X.production.o
@@ -839,7 +839,7 @@ _U1CON1 2AC 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 _U1CON2 2AD 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 _U1FIFO 2B0 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 _I2C1_MasterIsNackFlagSet 21CE 0 CODE 0 text65 dist/default/production\shinstrap.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\juddf\AppData\Local\Temp\xcAslio.o
+isa$xinst 0 0 ABS 0 - C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
 _I2C1_Status 501 0 COMRAM 1 bssCOMRAM dist/default/production\shinstrap.X.production.o
 I2C1_Read1ByteRegister@returnValue 53D 0 COMRAM 1 cstackCOMRAM dist/default/production\shinstrap.X.production.o
 _rd2RegCompleteHandler 1F86 0 CODE 0 text57 dist/default/production\shinstrap.X.production.o
@@ -883,7 +883,7 @@ __Hbank21 0 0 ABS 0 bank21 dist/default/production\shinstrap.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\shinstrap.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\shinstrap.X.production.o
 __Hbigsfr 0 0 ABS 0 bigsfr dist/default/production\shinstrap.X.production.o
-__smallconst 1600 0 SMALLCONST 0 smallconst C:\Users\juddf\AppData\Local\Temp\xcAslio.o
+__smallconst 1600 0 SMALLCONST 0 smallconst C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\shinstrap.X.production.o
 __Hconfig 30000A 0 CONFIG 4 config dist/default/production\shinstrap.X.production.o
 I2C1_MasterOperation@read 539 0 COMRAM 1 cstackCOMRAM dist/default/production\shinstrap.X.production.o
@@ -1148,13 +1148,13 @@ _I2C1SDAPPS 270 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\shinstrap.X.production.o
 _I2C1_MasterWrite 22AE 0 CODE 0 text16 dist/default/production\shinstrap.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\shinstrap.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\juddf\AppData\Local\Temp\xcAslio.o
+isa$std 1 0 ABS 0 - C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
 __end_of_rd1RegCompleteHandler 1FDE 0 CODE 0 text58 dist/default/production\shinstrap.X.production.o
 __end_of_I2C1_MasterClearNackFlag 230C 0 CODE 0 text68 dist/default/production\shinstrap.X.production.o
 __end_of_UART1_Write 2130 0 CODE 0 text1 dist/default/production\shinstrap.X.production.o
 _I2C1_MasterSendTxData 229A 0 CODE 0 text48 dist/default/production\shinstrap.X.production.o
-stackhi 0 0 ABS 0 - C:\Users\juddf\AppData\Local\Temp\xcAslio.o
-stacklo 0 0 ABS 0 - C:\Users\juddf\AppData\Local\Temp\xcAslio.o
+stackhi 0 0 ABS 0 - C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
+stacklo 0 0 ABS 0 - C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
 I2C1_Open@returnValue 527 0 COMRAM 1 cstackCOMRAM dist/default/production\shinstrap.X.production.o
 __end_of_I2C1_MasterSendNack 22E8 0 CODE 0 text44 dist/default/production\shinstrap.X.production.o
 _OSCCON1 AD 0 ABS 0 - dist/default/production\shinstrap.X.production.o
@@ -1276,7 +1276,7 @@ __Ltext72 0 0 ABS 0 text72 dist/default/production\shinstrap.X.production.o
 __Ltext73 0 0 ABS 0 text73 dist/default/production\shinstrap.X.production.o
 __Ltext74 0 0 ABS 0 text74 dist/default/production\shinstrap.X.production.o
 __end_of_I2C1_MasterIsNackFlagSet 21E4 0 CODE 0 text65 dist/default/production\shinstrap.X.production.o
-__ramtop 1600 0 RAM 0 ramtop C:\Users\juddf\AppData\Local\Temp\xcAslio.o
+__ramtop 1600 0 RAM 0 ramtop C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\shinstrap.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\shinstrap.X.production.o
 _I2C1_SetDataCompleteCallback 2148 0 CODE 0 text60 dist/default/production\shinstrap.X.production.o
@@ -1294,8 +1294,8 @@ I2C1_SetCallback@cb 526 0 COMRAM 1 cstackCOMRAM dist/default/production\shinstra
 _SLRCONA 403 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 _SLRCONB 40B 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 _SLRCONC 413 0 ABS 0 - dist/default/production\shinstrap.X.production.o
-___heap_hi 0 0 ABS 0 - C:\Users\juddf\AppData\Local\Temp\xcAslio.o
-___heap_lo 0 0 ABS 0 - C:\Users\juddf\AppData\Local\Temp\xcAslio.o
+___heap_hi 0 0 ABS 0 - C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
+___heap_lo 0 0 ABS 0 - C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
 __end_of_I2C1_MasterWrite 22B6 0 CODE 0 text16 dist/default/production\shinstrap.X.production.o
 ___param_bank 0 0 ABS 0 - dist/default/production\shinstrap.X.production.o
 __end_of_I2C1_DO_SEND_ADR_READ 2034 0 CODE 0 text37 dist/default/production\shinstrap.X.production.o

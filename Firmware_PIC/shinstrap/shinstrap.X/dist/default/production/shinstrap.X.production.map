@@ -5,9 +5,9 @@ Linker command line:
 -W-3 --edf=C:\Program Files\Microchip\xc8\v2.35\pic\dat\en_msgs.txt -cn \
   -h+dist/default/production\shinstrap.X.production.sym \
   --cmf=dist/default/production\shinstrap.X.production.cmf -z -Q18F16Q40 \
-  -oC:\Users\juddf\AppData\Local\Temp\xcAslio.4 --defsym=__MPLAB_BUILD=1 \
+  -oC:\Users\juddf\AppData\Local\Temp\xcAsua0.4 --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/shinstrap.X.production.map \
-  --md=C:\Users\juddf\AppData\Local\Temp\xcAslio.dat -E1 -ver=XC8 Compiler \
+  --md=C:\Users\juddf\AppData\Local\Temp\xcAsua0.dat -E1 -ver=XC8 Compiler \
   --acfsm=1493 -ACODE=00h-0FFFFh -ACONST=00h-0FFFFh \
   -ASMALLCONST=01600h-016FFhx234 -AMEDIUMCONST=01600h-0FFFFh \
   -ACOMRAM=0501h-055Fh -AABS1=0500h-015FFh -ABIGRAM=0501h-015FFh \
@@ -26,7 +26,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\juddf\AppData\Local\Temp\xcAslio.o \
+  C:\Users\juddf\AppData\Local\Temp\xcAsua0.o \
   dist/default/production\shinstrap.X.production.o 
 
 Object code version is 3.11
@@ -36,7 +36,7 @@ Machine type is 18F16Q40
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\juddf\AppData\Local\Temp\xcAslio.o
+C:\Users\juddf\AppData\Local\Temp\xcAsua0.o
                 idloc                            200000   200000       20        0       5
                 config                           300000   300000        A        0       4
                 init                               FFFC     FFFC        4     7FFE       0

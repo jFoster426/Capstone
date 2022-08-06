@@ -26,11 +26,20 @@
 // 0x13             V_BATT_FB ADC reading MSB               R
 // 0x14             Empty                                   N/A
 // 0x15             Sleep counter                           R/W
+// 0x16             Shin strap connected                    R
 
 extern volatile uint8_t Ji2c_registers[128];
 
+uint8_t uartTimeout = 0;
+
 uint8_t acquire_sync(void)
 {
+    // Turn off the LED to show sync loss.
+    LATBbits.LATB4 = 0;
+    
+    // Show that the shin strap is not connected.
+    Ji2c_registers[0x16] = 0;
+    
     // First sync character.
     while (UART1_Read() != 0xAA);
     
@@ -74,6 +83,12 @@ void main(void)
         acquire_sync();
         while (1)
         {
+            // Turn on the PIC LED.
+            LATBbits.LATB4 = 1;
+            
+            // Show that the shin strap is connected.
+            Ji2c_registers[0x16] = 1;
+            
             for (uint8_t i = 0; i < 12; i++)
                 Ji2c_registers[i] = UART1_Read();
             

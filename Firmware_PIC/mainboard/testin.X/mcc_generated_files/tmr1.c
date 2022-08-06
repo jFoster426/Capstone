@@ -62,6 +62,8 @@ volatile uint32_t millis = 0;
 
 extern volatile uint8_t Ji2c_registers[128];
 
+extern uint8_t uartTimeout;
+
 /**
   Section: TMR1 APIs
 */
@@ -187,6 +189,7 @@ void TMR1_DefaultInterruptHandler(void){
     // add your TMR1 interrupt custom code
     // or set custom function using TMR1_SetInterruptHandler()
     millis++;
+    uartTimeout++;
     
     Ji2c_registers[0x0D] = 1 - PORTAbits.RA4;
     Ji2c_registers[0x0E] = 1 - PORTAbits.RA5;

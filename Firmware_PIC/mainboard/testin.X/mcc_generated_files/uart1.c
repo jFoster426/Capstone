@@ -52,6 +52,8 @@
 
 static volatile uart1_status_t uart1RxLastError;
 
+extern uint8_t uartTimeout;
+
 /**
   Section: UART1 APIs
 */
@@ -144,8 +146,10 @@ uart1_status_t UART1_get_last_status(void){
 
 uint8_t UART1_Read(void)
 {
+    uartTimeout = 0;
     while(!PIR4bits.U1RXIF)
     {
+        if (uartTimeout >= 10) return 0;
     }
 
     uart1RxLastError.status = 0;

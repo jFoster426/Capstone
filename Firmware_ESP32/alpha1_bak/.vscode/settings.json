@@ -1,0 +1,14 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.portWin": "COM26",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "blehr_sens.h": "c",
+        "bt_st.h": "c",
+        "dac_st.h": "c",
+        "ipu_st.h": "c"
+    }
+}

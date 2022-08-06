@@ -333,6 +333,26 @@ void ADCC_DefaultInterruptHandler(void){
     Ji2c_registers[0x10 + (ADPCHSelector << 1)] = ADRESL;
     Ji2c_registers[0x11 + (ADPCHSelector << 1)] = ADRESH;
     
+    // Drain the capacitor to make sure the voltage updates for the next
+    // reading.
+//    if (ADPCHSelector == 0)
+//    {
+//        LATCbits.LATC4 = 0;
+//        TRISCbits.TRISC4 = 0;
+//        for (uint16_t i = 0; i < 1000; i++) Nop();
+//        TRISCbits.TRISC4 = 1;
+//    }
+    
+    // Drain the capacitor to make sure the voltage updates for the next
+    // reading.
+//    if (ADPCHSelector == 1)
+//    {
+//        LATCbits.LATC5 = 0;
+//        TRISCbits.TRISC5 = 0;
+//        for (uint16_t i = 0; i < 1000; i++) Nop();
+//        TRISCbits.TRISC5 = 1;
+//    }
+    
     // Change channel for next conversion.
     ADPCH = 0b010100 | (ADPCHSelector = 1 - ADPCHSelector);
 }

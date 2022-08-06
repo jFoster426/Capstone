@@ -94,9 +94,9 @@ void main(void)
     
     // ISM330 initial initialization.
     I2C1_Write1ByteRegister(0x6B, 0x18, 0b00000010);
-    I2C1_Write1ByteRegister(0x6B, 0x10, 0b10100000);
+    I2C1_Write1ByteRegister(0x6B, 0x10, 0b01000000);
     // 2000DPS.
-    I2C1_Write1ByteRegister(0x6B, 0x11, 0b10101100);
+    I2C1_Write1ByteRegister(0x6B, 0x11, 0b01001100);
     I2C1_Write1ByteRegister(0x6B, 0x18, 0b00000000);
     
     while (1)

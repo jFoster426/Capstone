@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.35 build 20211206165544 
-                                                                                               Thu Aug 04 16:05:39 2022
+                                                                                               Fri Aug 05 04:02:27 2022
 
 Microchip MPLAB XC8 C Compiler v2.35 (Free license) build 20211206165544 Og1 
      1                           	processor	18F16Q40
@@ -586,18 +586,18 @@ Microchip MPLAB XC8 C Compiler v2.35 (Free license) build 20211206165544 Og1
    566  00179A  0E6B               	movlw	107
    567  00179C  EC08  F00E         	call	_I2C1_Write1ByteRegister
    568                           
-   569                           ;main.c: 97:     I2C1_Write1ByteRegister(0x6B, 0x10, 0b10100000);
+   569                           ;main.c: 97:     I2C1_Write1ByteRegister(0x6B, 0x10, 0b01000000);
    570  0017A0  0E10               	movlw	16
    571  0017A2  6E3B               	movwf	I2C1_Write1ByteRegister@reg^(0+1280),c
-   572  0017A4  0EA0               	movlw	160
+   572  0017A4  0E40               	movlw	64
    573  0017A6  6E3C               	movwf	I2C1_Write1ByteRegister@data^(0+1280),c
    574  0017A8  0E6B               	movlw	107
    575  0017AA  EC08  F00E         	call	_I2C1_Write1ByteRegister
    576                           
-   577                           ;main.c: 99:     I2C1_Write1ByteRegister(0x6B, 0x11, 0b10101100);
+   577                           ;main.c: 99:     I2C1_Write1ByteRegister(0x6B, 0x11, 0b01001100);
    578  0017AE  0E11               	movlw	17
    579  0017B0  6E3B               	movwf	I2C1_Write1ByteRegister@reg^(0+1280),c
-   580  0017B2  0EAC               	movlw	172
+   580  0017B2  0E4C               	movlw	76
    581  0017B4  6E3C               	movwf	I2C1_Write1ByteRegister@data^(0+1280),c
    582  0017B6  0E6B               	movlw	107
    583  0017B8  EC08  F00E         	call	_I2C1_Write1ByteRegister
@@ -7456,7 +7456,7 @@ CODE                 0      0       0       0        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V2.35 build 20211206165544 
-Symbol Table                                                                                   Thu Aug 04 16:05:39 2022
+Symbol Table                                                                                   Fri Aug 05 04:02:27 2022
 
                                           l33 1B2E                                            l51 1C7C  
                                           l90 1FDC                                            l93 1FB0  
