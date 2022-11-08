@@ -60,17 +60,33 @@ void main(void)
     // Initialize the device
     SYSTEM_Initialize();
     
-    I2C1_Open();
+//    PMD0 = 0xFF;
+//    PMD1 = 0xFF;
+//    PMD2 = 0xFF;
+//    PMD3 = 0xFF;
+//    PMD4 = 0xFF;
+//    PMD5 = 0xFF;
+    
+    //VREGCON = 0b00100010;
+    
+    CPUDOZEbits.IDLEN = 0;
+    //CPUDOZEbits.DOZE = 0b111;
+    // DSEN = 1;
+    Sleep();
+    
+    Nop();
+    
+    //I2C1_Open();
 
     // If using interrupts in PIC18 High/Low Priority Mode you need to enable the Global High and Low Interrupts
     // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global Interrupts
     // Use the following macros to:
 
     // Enable high priority global interrupts
-    INTERRUPT_GlobalInterruptHighEnable();
+    //INTERRUPT_GlobalInterruptHighEnable();
 
     // Enable low priority global interrupts.
-    INTERRUPT_GlobalInterruptLowEnable();
+    //INTERRUPT_GlobalInterruptLowEnable();
 
     // Disable high priority global interrupts
     //INTERRUPT_GlobalInterruptHighDisable();
@@ -78,24 +94,7 @@ void main(void)
     // Disable low priority global interrupts.
     //INTERRUPT_GlobalInterruptLowDisable();
 
-    while (1)
-    {
-        acquire_sync();
-        while (1)
-        {
-            // Turn on the PIC LED.
-            LATBbits.LATB4 = 1;
-            
-            // Show that the shin strap is connected.
-            Ji2c_registers[0x16] = 1;
-            
-            for (uint8_t i = 0; i < 12; i++)
-                Ji2c_registers[i] = UART1_Read();
-            
-            if (UART1_Read() != 0xAA)
-                break;
-        }
-    }
+    while (1);
 }
 /**
  End of File

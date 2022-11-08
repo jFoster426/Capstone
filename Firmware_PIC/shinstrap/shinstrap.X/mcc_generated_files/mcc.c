@@ -49,11 +49,14 @@
 
 void SYSTEM_Initialize(void)
 {
+    INTERRUPT_Initialize();
     PMD_Initialize();
     I2C1_Initialize();
     PIN_MANAGER_Initialize();
     OSCILLATOR_Initialize();
+    DMA1_Initialize();
     UART1_Initialize();
+    SystemArbiter_Initialize();
 }
 
 void OSCILLATOR_Initialize(void)
@@ -89,6 +92,13 @@ void PMD_Initialize(void)
 }
 
 
+void SystemArbiter_Initialize(void)
+{
+    // This function is dependant on the PR1WAY CONFIG bit
+    PRLOCK = 0x55;
+    PRLOCK = 0xAA;
+    PRLOCKbits.PRLOCKED = 1;
+}
 /**
  End of File
 */

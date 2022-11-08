@@ -16,7 +16,7 @@ int MPU_addr = 0x68;
 
 float A_cal[6] = {0., 0., 0., 1., 1., 1.}; // 0..2 offset xyz, 3..5 scale xyz
 float G_off[3] = {0., 0., 0.}; //raw offsets, determined for gyro at rest
-#define gscale ((250./32768.0)*(PI/180.0))  //gyro default 250 LSB per d/s -> rad/s
+#define gscale ((2000./32768.0)*(PI/180.0))  //gyro default 250 LSB per d/s -> rad/s
 
 // ^^^^^^^^^^^^^^^^^^^ VERY VERY IMPORTANT ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -47,6 +47,11 @@ void setup() {
   Wire.beginTransmission(MPU_addr);
   Wire.write(0x6B);  // PWR_MGMT_1 register
   Wire.write(0);     // set to zero (wakes up the MPU-6050)
+  Wire.endTransmission(true);
+
+  Wire.beginTransmission(MPU_addr);
+  Wire.write(27);    // GYRO_CONFIG register
+  Wire.write(0b00011000);     // self test off, 2000DPS
   Wire.endTransmission(true);
 
 }

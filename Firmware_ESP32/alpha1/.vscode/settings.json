@@ -3,7 +3,7 @@
     "idf.openOcdConfigs": [
         "board/esp32s3-builtin.cfg"
     ],
-    "idf.portWin": "COM26",
+    "idf.portWin": "COM27",
     "idf.flashType": "UART",
     "files.associations": {
         "blehr_sens.h": "c",

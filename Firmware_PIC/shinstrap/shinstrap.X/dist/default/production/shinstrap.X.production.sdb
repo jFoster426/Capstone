@@ -18,7 +18,7 @@ I2C1_CONTINUE 4
 I2C1_RESET_LINK 5
 ]
 "159 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/i2c1_master.c
-[e E13306 . `uc
+[e E13330 . `uc
 I2C1_IDLE 0
 I2C1_SEND_ADR_READ 1
 I2C1_SEND_ADR_WRITE 2
@@ -53,7 +53,7 @@ I2C1_BUSY 1
 I2C1_FAIL 2
 ]
 "222
-[e E13327 . `uc
+[e E13351 . `uc
 I2C1_DATA_COMPLETE 0
 I2C1_WRITE_COLLISION 1
 I2C1_ADDR_NACK 2
@@ -61,32 +61,34 @@ I2C1_DATA_NACK 3
 I2C1_TIMEOUT 4
 I2C1_NULL 5
 ]
-"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\fleq.c
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
-"62 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\float.c
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
 [v ___ftpack __ftpack `(f  1 e 4 0 ]
-"86 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftadd.c
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 4 0 ]
-"54 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftdiv.c
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
 [v ___ftdiv __ftdiv `(f  1 e 4 0 ]
-"62 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftmul.c
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
-"19 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftsub.c
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
-"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcadd.c
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "245
 [v ___flsub __flsub `(d  1 e 4 0 ]
-"11 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcdiv.c
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
-"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcmul.c
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
-"15 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul32.c
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"91 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul64.c
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
 "50 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\main.c
 [v _main main `(v  1 e 1 0 ]
+"59 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/dma1.c
+[v _DMA1_Initialize DMA1_Initialize `(v  1 e 1 0 ]
 "63 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/examples/i2c1_master_example.c
 [v _I2C1_Read1ByteRegister I2C1_Read1ByteRegister `(uc  1 e 1 0 ]
 "91
@@ -128,43 +130,43 @@ I2C1_NULL 5
 "365
 [v _I2C1_ClearInterruptFlags I2C1_ClearInterruptFlags `T(v  1 s 1 I2C1_ClearInterruptFlags ]
 "381
-[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E13306  1 s 1 I2C1_DO_IDLE ]
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E13330  1 s 1 I2C1_DO_IDLE ]
 "388
-[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E13306  1 s 1 I2C1_DO_SEND_ADR_READ ]
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E13330  1 s 1 I2C1_DO_SEND_ADR_READ ]
 "399
-[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E13306  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E13330  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
 "406
-[v _I2C1_DO_TX I2C1_DO_TX `(E13306  1 s 1 I2C1_DO_TX ]
+[v _I2C1_DO_TX I2C1_DO_TX `(E13330  1 s 1 I2C1_DO_TX ]
 "439
-[v _I2C1_DO_RX I2C1_DO_RX `(E13306  1 s 1 I2C1_DO_RX ]
+[v _I2C1_DO_RX I2C1_DO_RX `(E13330  1 s 1 I2C1_DO_RX ]
 "463
-[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E13306  1 s 1 I2C1_DO_TX_EMPTY ]
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E13330  1 s 1 I2C1_DO_TX_EMPTY ]
 "482
-[v _I2C1_DO_RX_EMPTY I2C1_DO_RX_EMPTY `(E13306  1 s 1 I2C1_DO_RX_EMPTY ]
+[v _I2C1_DO_RX_EMPTY I2C1_DO_RX_EMPTY `(E13330  1 s 1 I2C1_DO_RX_EMPTY ]
 "507
-[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E13306  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E13330  1 s 1 I2C1_DO_SEND_RESTART_READ ]
 "513
-[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E13306  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E13330  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
 "519
-[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E13306  1 s 1 I2C1_DO_SEND_RESTART ]
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E13330  1 s 1 I2C1_DO_SEND_RESTART ]
 "524
-[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E13306  1 s 1 I2C1_DO_SEND_STOP ]
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E13330  1 s 1 I2C1_DO_SEND_STOP ]
 "535
-[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E13306  1 s 1 I2C1_DO_RX_ACK ]
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E13330  1 s 1 I2C1_DO_RX_ACK ]
 "541
-[v _I2C1_DO_TX_ACK I2C1_DO_TX_ACK `(E13306  1 s 1 I2C1_DO_TX_ACK ]
+[v _I2C1_DO_TX_ACK I2C1_DO_TX_ACK `(E13330  1 s 1 I2C1_DO_TX_ACK ]
 "547
-[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E13306  1 s 1 I2C1_DO_RX_NACK_STOP ]
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E13330  1 s 1 I2C1_DO_RX_NACK_STOP ]
 "554
-[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E13306  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E13330  1 s 1 I2C1_DO_RX_NACK_RESTART ]
 "560
-[v _I2C1_DO_RESET I2C1_DO_RESET `(E13306  1 s 1 I2C1_DO_RESET ]
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E13330  1 s 1 I2C1_DO_RESET ]
 "567
-[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E13306  1 s 1 I2C1_DO_ADDRESS_NACK ]
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E13330  1 s 1 I2C1_DO_ADDRESS_NACK ]
 "582
-[v _I2C1_DO_BUS_COLLISION I2C1_DO_BUS_COLLISION `(E13306  1 s 1 I2C1_DO_BUS_COLLISION ]
+[v _I2C1_DO_BUS_COLLISION I2C1_DO_BUS_COLLISION `(E13330  1 s 1 I2C1_DO_BUS_COLLISION ]
 "598
-[v _I2C1_DO_BUS_ERROR I2C1_DO_BUS_ERROR `(E13306  1 s 1 I2C1_DO_BUS_ERROR ]
+[v _I2C1_DO_BUS_ERROR I2C1_DO_BUS_ERROR `(E13330  1 s 1 I2C1_DO_BUS_ERROR ]
 "612
 [v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
 "617
@@ -221,18 +223,22 @@ I2C1_NULL 5
 [v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
 "818
 [v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+"52 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"74
+[v _Default_ISR Default_ISR `IIH(v  1 e 1 0 ]
 "50 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
-"59
+"62
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
-"75
+"78
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"95
+[v _SystemArbiter_Initialize SystemArbiter_Initialize `(v  1 e 1 0 ]
 "55 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 "66 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/uart1.c
 [v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
-"170
-[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
 "183
 [v _UART1_DefaultFramingErrorHandler UART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
 "185
@@ -245,7 +251,9 @@ I2C1_NULL 5
 [v _UART1_SetOverrunErrorHandler UART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
 "198
 [v _UART1_SetErrorHandler UART1_SetErrorHandler `(v  1 e 1 0 ]
-"1210 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-Q_DFP/1.11.185/xc8\pic\include\proc\pic18f16q40.h
+"55 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X/mcc_generated_files/dma1.h
+[v _uart_dma_data uart_dma_data `[13]uc  1 e 13 0 ]
+"1210 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-Q_DFP/1.13.211/xc8\pic\include\proc\pic18f16q40.h
 [v _PMD0 PMD0 `VEuc  1 e 1 @99 ]
 "1267
 [v _PMD1 PMD1 `VEuc  1 e 1 @100 ]
@@ -269,6 +277,57 @@ I2C1_NULL 5
 [v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
 "5566
 [v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"5623
+[v _PRLOCK PRLOCK `VEuc  1 e 1 @180 ]
+[s S1017 . 1 `uc 1 PRLOCKED 1 0 :1:0 
+]
+"5633
+[u S1019 . 1 `S1017 1 . 1 0 ]
+[v _PRLOCKbits PRLOCKbits `VES1019  1 e 1 @180 ]
+"5711
+[v _DMA1PR DMA1PR `VEuc  1 e 1 @182 ]
+"6805
+[v _DMASELECT DMASELECT `VEuc  1 e 1 @232 ]
+"7032
+[v _DMAnDPTR DMAnDPTR `VEus  1 e 2 @236 ]
+"7179
+[v _DMAnDSZ DMAnDSZ `VEus  1 e 2 @238 ]
+"7302
+[v _DMAnDSA DMAnDSA `VEus  1 e 2 @240 ]
+"7573
+[v _DMAnSPTR DMAnSPTR `VEum  1 e 3 @244 ]
+"7779
+[v _DMAnSSZ DMAnSSZ `VEus  1 e 2 @247 ]
+"7903
+[v _DMAnSSA DMAnSSA `VEum  1 e 3 @249 ]
+"8109
+[v _DMAnCON0 DMAnCON0 `VEuc  1 e 1 @252 ]
+[s S1378 . 1 `uc 1 XIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 AIRQEN 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DGO 1 0 :1:5 
+`uc 1 SIRQEN 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"8125
+[u S1386 . 1 `S1378 1 . 1 0 ]
+[v _DMAnCON0bits DMAnCON0bits `VES1386  1 e 1 @252 ]
+"8155
+[v _DMAnCON1 DMAnCON1 `VEuc  1 e 1 @253 ]
+[s S1361 . 1 `uc 1 SSTP 1 0 :1:0 
+`uc 1 SMODE 1 0 :2:1 
+`uc 1 SMR 1 0 :2:3 
+`uc 1 DSTP 1 0 :1:5 
+`uc 1 DMODE 1 0 :2:6 
+]
+"8169
+[u S1367 . 1 `S1361 1 . 1 0 ]
+[v _DMAnCON1bits DMAnCON1bits `VES1367  1 e 1 @253 ]
+"8199
+[v _DMAnAIRQ DMAnAIRQ `VEuc  1 e 1 @254 ]
+"8263
+[v _DMAnSIRQ DMAnSIRQ `VEuc  1 e 1 @255 ]
 "8347
 [v _RA0PPS RA0PPS `VEuc  1 e 1 @513 ]
 "8697
@@ -426,31 +485,31 @@ I2C1_NULL 5
 [v _U1P3H U1P3H `VEuc  1 e 1 @682 ]
 "14252
 [v _U1CON0 U1CON0 `VEuc  1 e 1 @683 ]
-[s S1086 . 1 `uc 1 MODE0 1 0 :1:0 
+[s S1109 . 1 `uc 1 MODE0 1 0 :1:0 
 `uc 1 MODE1 1 0 :1:1 
 `uc 1 MODE2 1 0 :1:2 
 `uc 1 MODE3 1 0 :1:3 
 ]
 "14285
-[s S1091 . 1 `uc 1 U1MODE 1 0 :4:0 
+[s S1114 . 1 `uc 1 U1MODE 1 0 :4:0 
 `uc 1 U1RXEN 1 0 :1:4 
 `uc 1 U1TXEN 1 0 :1:5 
 `uc 1 U1ABDEN 1 0 :1:6 
 `uc 1 U1BRGS 1 0 :1:7 
 ]
-[s S1097 . 1 `uc 1 U1MODE0 1 0 :1:0 
+[s S1120 . 1 `uc 1 U1MODE0 1 0 :1:0 
 `uc 1 U1MODE1 1 0 :1:1 
 `uc 1 U1MODE2 1 0 :1:2 
 `uc 1 U1MODE3 1 0 :1:3 
 ]
-[s S1102 . 1 `uc 1 MODE 1 0 :4:0 
+[s S1125 . 1 `uc 1 MODE 1 0 :4:0 
 `uc 1 RXEN 1 0 :1:4 
 `uc 1 TXEN 1 0 :1:5 
 `uc 1 ABDEN 1 0 :1:6 
 `uc 1 BRGS 1 0 :1:7 
 ]
-[u S1108 . 1 `S1086 1 . 1 0 `S1091 1 . 1 0 `S1097 1 . 1 0 `S1102 1 . 1 0 ]
-[v _U1CON0bits U1CON0bits `VES1108  1 e 1 @683 ]
+[u S1131 . 1 `S1109 1 . 1 0 `S1114 1 . 1 0 `S1120 1 . 1 0 `S1125 1 . 1 0 ]
+[v _U1CON0bits U1CON0bits `VES1131  1 e 1 @683 ]
 "14380
 [v _U1CON1 U1CON1 `VEuc  1 e 1 @684 ]
 "14460
@@ -465,7 +524,7 @@ I2C1_NULL 5
 [v _U1UIR U1UIR `VEuc  1 e 1 @689 ]
 "14835
 [v _U1ERRIR U1ERRIR `VEuc  1 e 1 @690 ]
-[s S1136 . 1 `uc 1 TXCIF 1 0 :1:0 
+[s S1159 . 1 `uc 1 TXCIF 1 0 :1:0 
 `uc 1 RXFOIF 1 0 :1:1 
 `uc 1 RXBKIF 1 0 :1:2 
 `uc 1 FERIF 1 0 :1:3 
@@ -475,7 +534,7 @@ I2C1_NULL 5
 `uc 1 TXMTIF 1 0 :1:7 
 ]
 "14862
-[s S1145 . 1 `uc 1 U1TXCIF 1 0 :1:0 
+[s S1168 . 1 `uc 1 U1TXCIF 1 0 :1:0 
 `uc 1 U1RXFOIF 1 0 :1:1 
 `uc 1 U1RXBKIF 1 0 :1:2 
 `uc 1 U1FERIF 1 0 :1:3 
@@ -484,40 +543,67 @@ I2C1_NULL 5
 `uc 1 U1PERIF 1 0 :1:6 
 `uc 1 U1TXMTIF 1 0 :1:7 
 ]
-[u S1154 . 1 `S1136 1 . 1 0 `S1145 1 . 1 0 ]
-[v _U1ERRIRbits U1ERRIRbits `VES1154  1 e 1 @690 ]
+[u S1177 . 1 `S1159 1 . 1 0 `S1168 1 . 1 0 ]
+[v _U1ERRIRbits U1ERRIRbits `VES1177  1 e 1 @690 ]
 "14947
 [v _U1ERRIE U1ERRIE `VEuc  1 e 1 @691 ]
-"30788
+"30842
 [v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
-"30833
+"30887
 [v _WPUA WPUA `VEuc  1 e 1 @1025 ]
-"30883
+"30937
 [v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
-"30928
+"30982
 [v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
-"30973
+"31027
 [v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
-"31173
+"31227
 [v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
-"31212
+"31266
 [v _WPUB WPUB `VEuc  1 e 1 @1033 ]
-"31251
+"31305
 [v _ODCONB ODCONB `VEuc  1 e 1 @1034 ]
-"31290
+"31344
 [v _SLRCONB SLRCONB `VEuc  1 e 1 @1035 ]
-"31329
+"31383
 [v _INLVLB INLVLB `VEuc  1 e 1 @1036 ]
-"31485
+"31539
 [v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
-"31547
+"31601
 [v _WPUC WPUC `VEuc  1 e 1 @1041 ]
-"31609
+"31663
 [v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
-"31671
+"31725
 [v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
-"31733
+"31787
 [v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
+"33079
+[v _IVTLOCK IVTLOCK `VEuc  1 e 1 @1113 ]
+[s S1291 . 1 `uc 1 IVTLOCKED 1 0 :1:0 
+]
+"33089
+[u S1293 . 1 `S1291 1 . 1 0 ]
+"33089
+"33089
+[v _IVTLOCKbits IVTLOCKbits `VES1293  1 e 1 @1113 ]
+"33285
+[v _IVTBASEL IVTBASEL `VEuc  1 e 1 @1117 ]
+"33347
+[v _IVTBASEH IVTBASEH `VEuc  1 e 1 @1118 ]
+"33409
+[v _IVTBASEU IVTBASEU `VEuc  1 e 1 @1119 ]
+[s S1343 . 1 `uc 1 ADTIE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 DMA1SCNTIE 1 0 :1:4 
+`uc 1 DMA1DCNTIE 1 0 :1:5 
+`uc 1 DMA1ORIE 1 0 :1:6 
+`uc 1 DMA1AIE 1 0 :1:7 
+]
+"34838
+[u S1350 . 1 `S1343 1 . 1 0 ]
+"34838
+"34838
+[v _PIE2bits PIE2bits `VES1350  1 e 1 @1194 ]
 [s S630 . 1 `uc 1 I2C1RXIE 1 0 :1:0 
 `uc 1 I2C1TXIE 1 0 :1:1 
 `uc 1 I2C1IE 1 0 :1:2 
@@ -527,12 +613,24 @@ I2C1_NULL 5
 `uc 1 PWM3PIE 1 0 :1:6 
 `uc 1 PWM3IE 1 0 :1:7 
 ]
-"35078
+"35132
 [u S639 . 1 `S630 1 . 1 0 ]
-"35078
-"35078
+"35132
+"35132
 [v _PIE7bits PIE7bits `VES639  1 e 1 @1199 ]
-[s S1065 . 1 `uc 1 U1RXIF 1 0 :1:0 
+[s S1326 . 1 `uc 1 ADTIF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 DMA1SCNTIF 1 0 :1:4 
+`uc 1 DMA1DCNTIF 1 0 :1:5 
+`uc 1 DMA1ORIF 1 0 :1:6 
+`uc 1 DMA1AIF 1 0 :1:7 
+]
+"35485
+[u S1333 . 1 `S1326 1 . 1 0 ]
+"35485
+"35485
+[v _PIR2bits PIR2bits `VES1333  1 e 1 @1205 ]
+[s S1088 . 1 `uc 1 U1RXIF 1 0 :1:0 
 `uc 1 U1TXIF 1 0 :1:1 
 `uc 1 U1EIF 1 0 :1:2 
 `uc 1 U1IF 1 0 :1:3 
@@ -541,11 +639,11 @@ I2C1_NULL 5
 `uc 1 PWM1PIF 1 0 :1:6 
 `uc 1 PWM1IF 1 0 :1:7 
 ]
-"35540
-[u S1074 . 1 `S1065 1 . 1 0 ]
-"35540
-"35540
-[v _PIR4bits PIR4bits `VES1074  1 e 1 @1207 ]
+"35594
+[u S1097 . 1 `S1088 1 . 1 0 ]
+"35594
+"35594
+[v _PIR4bits PIR4bits `VES1097  1 e 1 @1207 ]
 [s S691 . 1 `uc 1 I2C1RXIF 1 0 :1:0 
 `uc 1 I2C1TXIF 1 0 :1:1 
 `uc 1 I2C1IF 1 0 :1:2 
@@ -555,18 +653,18 @@ I2C1_NULL 5
 `uc 1 PWM3PIF 1 0 :1:6 
 `uc 1 PWM3IF 1 0 :1:7 
 ]
-"35725
+"35779
 [u S700 . 1 `S691 1 . 1 0 ]
-"35725
-"35725
+"35779
+"35779
 [v _PIR7bits PIR7bits `VES700  1 e 1 @1210 ]
-"35930
+"35984
 [v _LATA LATA `VEuc  1 e 1 @1214 ]
-"35975
+"36029
 [v _LATB LATB `VEuc  1 e 1 @1215 ]
-"36014
+"36068
 [v _LATC LATC `VEuc  1 e 1 @1216 ]
-[s S1241 . 1 `uc 1 LATC0 1 0 :1:0 
+[s S1467 . 1 `uc 1 LATC0 1 0 :1:0 
 `uc 1 LATC1 1 0 :1:1 
 `uc 1 LATC2 1 0 :1:2 
 `uc 1 LATC3 1 0 :1:3 
@@ -575,34 +673,67 @@ I2C1_NULL 5
 `uc 1 LATC6 1 0 :1:6 
 `uc 1 LATC7 1 0 :1:7 
 ]
-"36031
-[u S1250 . 1 `S1241 1 . 1 0 ]
-"36031
-"36031
-[v _LATCbits LATCbits `VES1250  1 e 1 @1216 ]
-"36076
+"36085
+[u S1476 . 1 `S1467 1 . 1 0 ]
+"36085
+"36085
+[v _LATCbits LATCbits `VES1476  1 e 1 @1216 ]
+"36130
 [v _TRISA TRISA `VEuc  1 e 1 @1222 ]
-"36126
+"36180
 [v _TRISB TRISB `VEuc  1 e 1 @1223 ]
-"36165
+"36219
 [v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+[s S1496 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"36387
+[u S1505 . 1 `S1496 1 . 1 0 ]
+"36387
+"36387
+[v _PORTCbits PORTCbits `VES1505  1 e 1 @1232 ]
+[s S1263 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"36452
+[s S1271 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"36452
+[u S1274 . 1 `S1263 1 . 1 0 `S1271 1 . 1 0 ]
+"36452
+"36452
+[v _INTCON0bits INTCON0bits `VES1274  1 e 1 @1238 ]
+"41108
+[v _GIE GIE `VEb  1 e 0 @9911 ]
 "159 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/i2c1_master.c
-[v _i2c1_fsmStateTable i2c1_fsmStateTable `C[19]*.37(E13306  1 e 38 0 ]
-[s S263 . 36 `[6]*.37(E360 1 callbackTable 12 0 `[6]*.39v 1 callbackPayload 12 12 `us 1 time_out 2 24 `us 1 time_out_value 2 26 `uc 1 address 1 28 `*.39uc 1 data_ptr 2 29 `ui 1 data_length 2 31 `E13306 1 state 1 33 `E355 1 error 1 34 `uc 1 addressNackCheck 1 35 :2:0 
+[v _i2c1_fsmStateTable i2c1_fsmStateTable `C[19]*.37(E13330  1 e 38 0 ]
+[s S263 . 36 `[6]*.37(E360 1 callbackTable 12 0 `[6]*.39v 1 callbackPayload 12 12 `us 1 time_out 2 24 `us 1 time_out_value 2 26 `uc 1 address 1 28 `*.39uc 1 data_ptr 2 29 `ui 1 data_length 2 31 `E13330 1 state 1 33 `E355 1 error 1 34 `uc 1 addressNackCheck 1 35 :2:0 
 `uc 1 busy 1 35 :1:2 
 `uc 1 inUse 1 35 :1:3 
 `uc 1 bufferFree 1 35 :1:4 
 ]
 "181
 [v _I2C1_Status I2C1_Status `S263  1 e 36 0 ]
-[s S1009 . 1 `uc 1 perr 1 0 :1:0 
+[s S1032 . 1 `uc 1 perr 1 0 :1:0 
 `uc 1 ferr 1 0 :1:1 
 `uc 1 oerr 1 0 :1:2 
 `uc 1 reserved 1 0 :5:3 
 ]
 "53 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/uart1.c
-[u S1014 . 1 `S1009 1 . 1 0 `uc 1 status 1 0 ]
-[v _uart1RxLastError uart1RxLastError `VES1014  1 s 1 uart1RxLastError ]
+[u S1037 . 1 `S1032 1 . 1 0 `uc 1 status 1 0 ]
+[v _uart1RxLastError uart1RxLastError `VES1037  1 s 1 uart1RxLastError ]
 "58
 [v _UART1_FramingErrorHandler UART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
 "59
@@ -612,26 +743,16 @@ I2C1_NULL 5
 "50 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"109
-[v main@dataByte dataByte `uc  1 a 1 27 ]
-"107
-[v main@i i `uc  1 a 1 28 ]
-"71
+"103
+[v main@i i `uc  1 a 1 27 ]
+"67
 [v main@who_am_i who_am_i `uc  1 a 1 26 ]
-"113
-} 0
-"170 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/uart1.c
-[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
-{
-[v UART1_Write@txData txData `uc  1 a 1 wreg ]
-[v UART1_Write@txData txData `uc  1 a 1 wreg ]
-[v UART1_Write@txData txData `uc  1 a 1 0 ]
-"177
+"111
 } 0
 "50 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
-"57
+"60
 } 0
 "66 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/uart1.c
 [v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
@@ -656,25 +777,42 @@ I2C1_NULL 5
 [v UART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
 "200
 } 0
-"75 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/mcc.c
+"95 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/mcc.c
+[v _SystemArbiter_Initialize SystemArbiter_Initialize `(v  1 e 1 0 ]
+{
+"101
+} 0
+"78
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
 {
-"89
+"92
 } 0
 "55 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "119
 } 0
-"59 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/mcc.c
+"62 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
-"73
+"76
+} 0
+"52 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+[v INTERRUPT_Initialize@state state `a  1 a 1 0 ]
+"72
 } 0
 "183 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/i2c1_master.c
 [v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
 {
 "205
+} 0
+"59 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/dma1.c
+[v _DMA1_Initialize DMA1_Initialize `(v  1 e 1 0 ]
+{
+"95
 } 0
 "91 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/examples/i2c1_master_example.c
 [v _I2C1_Write1ByteRegister I2C1_Write1ByteRegister `(v  1 e 1 0 ]
@@ -756,103 +894,103 @@ I2C1_NULL 5
 "363
 } 0
 "598
-[v _I2C1_DO_BUS_ERROR I2C1_DO_BUS_ERROR `(E13306  1 s 1 I2C1_DO_BUS_ERROR ]
+[v _I2C1_DO_BUS_ERROR I2C1_DO_BUS_ERROR `(E13330  1 s 1 I2C1_DO_BUS_ERROR ]
 {
 "604
 } 0
 "582
-[v _I2C1_DO_BUS_COLLISION I2C1_DO_BUS_COLLISION `(E13306  1 s 1 I2C1_DO_BUS_COLLISION ]
+[v _I2C1_DO_BUS_COLLISION I2C1_DO_BUS_COLLISION `(E13330  1 s 1 I2C1_DO_BUS_COLLISION ]
 {
 "596
 } 0
 "567
-[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E13306  1 s 1 I2C1_DO_ADDRESS_NACK ]
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E13330  1 s 1 I2C1_DO_ADDRESS_NACK ]
 {
 "580
 } 0
 "560
-[v _I2C1_DO_RESET I2C1_DO_RESET `(E13306  1 s 1 I2C1_DO_RESET ]
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E13330  1 s 1 I2C1_DO_RESET ]
 {
 "566
 } 0
 "554
-[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E13306  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E13330  1 s 1 I2C1_DO_RX_NACK_RESTART ]
 {
 "558
 } 0
 "547
-[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E13306  1 s 1 I2C1_DO_RX_NACK_STOP ]
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E13330  1 s 1 I2C1_DO_RX_NACK_STOP ]
 {
 "552
 } 0
 "535
-[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E13306  1 s 1 I2C1_DO_RX_ACK ]
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E13330  1 s 1 I2C1_DO_RX_ACK ]
 {
 "539
 } 0
 "524
-[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E13306  1 s 1 I2C1_DO_SEND_STOP ]
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E13330  1 s 1 I2C1_DO_SEND_STOP ]
 {
 "533
 } 0
 "519
-[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E13306  1 s 1 I2C1_DO_SEND_RESTART ]
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E13330  1 s 1 I2C1_DO_SEND_RESTART ]
 {
 "522
 } 0
 "513
-[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E13306  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E13330  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
 {
 "516
 } 0
 "507
-[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E13306  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E13330  1 s 1 I2C1_DO_SEND_RESTART_READ ]
 {
 "511
 } 0
 "482
-[v _I2C1_DO_RX_EMPTY I2C1_DO_RX_EMPTY `(E13306  1 s 1 I2C1_DO_RX_EMPTY ]
+[v _I2C1_DO_RX_EMPTY I2C1_DO_RX_EMPTY `(E13330  1 s 1 I2C1_DO_RX_EMPTY ]
 {
 "505
 } 0
 "463
-[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E13306  1 s 1 I2C1_DO_TX_EMPTY ]
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E13330  1 s 1 I2C1_DO_TX_EMPTY ]
 {
 "480
 } 0
 "439
-[v _I2C1_DO_RX I2C1_DO_RX `(E13306  1 s 1 I2C1_DO_RX ]
+[v _I2C1_DO_RX I2C1_DO_RX `(E13330  1 s 1 I2C1_DO_RX ]
 {
 "457
-[v I2C1_DO_RX@retFsmState retFsmState `E13306  1 a 1 15 ]
+[v I2C1_DO_RX@retFsmState retFsmState `E13330  1 a 1 15 ]
 "461
 } 0
 "406
-[v _I2C1_DO_TX I2C1_DO_TX `(E13306  1 s 1 I2C1_DO_TX ]
+[v _I2C1_DO_TX I2C1_DO_TX `(E13330  1 s 1 I2C1_DO_TX ]
 {
 "429
-[v I2C1_DO_TX@retFsmState retFsmState `E13306  1 a 1 16 ]
+[v I2C1_DO_TX@retFsmState retFsmState `E13330  1 a 1 16 ]
 "428
 [v I2C1_DO_TX@dataTx dataTx `uc  1 a 1 15 ]
 "437
 } 0
 "399
-[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E13306  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E13330  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
 {
 "404
 } 0
 "388
-[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E13306  1 s 1 I2C1_DO_SEND_ADR_READ ]
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E13330  1 s 1 I2C1_DO_SEND_ADR_READ ]
 {
 "397
 } 0
 "381
-[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E13306  1 s 1 I2C1_DO_IDLE ]
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E13330  1 s 1 I2C1_DO_IDLE ]
 {
 "386
 } 0
 "541
-[v _I2C1_DO_TX_ACK I2C1_DO_TX_ACK `(E13306  1 s 1 I2C1_DO_TX_ACK ]
+[v _I2C1_DO_TX_ACK I2C1_DO_TX_ACK `(E13330  1 s 1 I2C1_DO_TX_ACK ]
 {
 "545
 } 0
@@ -980,12 +1118,12 @@ I2C1_NULL 5
 "331
 [v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
 {
-[v I2C1_SetCallback@idx idx `E13327  1 a 1 wreg ]
-[v I2C1_SetCallback@idx idx `E13327  1 a 1 wreg ]
+[v I2C1_SetCallback@idx idx `E13351  1 a 1 wreg ]
+[v I2C1_SetCallback@idx idx `E13351  1 a 1 wreg ]
 [v I2C1_SetCallback@cb cb `*.37(E360  1 p 2 0 ]
 [v I2C1_SetCallback@ptr ptr `*.39v  1 p 2 2 ]
 "333
-[v I2C1_SetCallback@idx idx `E13327  1 a 1 4 ]
+[v I2C1_SetCallback@idx idx `E13351  1 a 1 4 ]
 "343
 } 0
 "296
@@ -1051,4 +1189,9 @@ I2C1_NULL 5
 [v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
 {
 "816
+} 0
+"74 C:\Users\juddf\Documents\Capstone\Firmware_PIC\shinstrap\shinstrap.X\mcc_generated_files/interrupt_manager.c
+[v _Default_ISR Default_ISR `IIH(v  1 e 1 0 ]
+{
+"76
 } 0

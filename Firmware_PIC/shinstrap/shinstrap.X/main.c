@@ -16,7 +16,7 @@
         Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.81.8
         Device            :  PIC18F16Q40
         Driver Version    :  2.00
-*/
+ */
 
 /*
     (c) 2018 Microchip Technology Inc. and its subsidiaries. 
@@ -39,7 +39,7 @@
     CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT 
     OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS 
     SOFTWARE.
-*/
+ */
 
 #include "mcc_generated_files/mcc.h"
 #include "mcc_generated_files/examples/i2c1_master_example.h"
@@ -49,22 +49,18 @@
  */
 void main(void)
 {
-    // Initialize the device
+    // Initialize the device.
     SYSTEM_Initialize();
 
-    // If using interrupts in PIC18 High/Low Priority Mode you need to enable the Global High and Low Interrupts
-    // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global Interrupts
-    // Use the following macros to:
+    // Enable high priority global interrupts.
+    INTERRUPT_GlobalInterruptHighEnable();
 
-    // Enable the Global Interrupts
-    //INTERRUPT_GlobalInterruptEnable();
+    // Enable low priority global interrupts.
+    INTERRUPT_GlobalInterruptLowEnable();
 
-    // Disable the Global Interrupts
-    //INTERRUPT_GlobalInterruptDisable();
-    
     // nSS_TX_EN.
     LATCbits.LATC2 = 0;
-    
+
     while (1)
     {
         // Attempt to communicate to the IMU.
@@ -73,44 +69,47 @@ void main(void)
         {
             // Green LED on.
             LATCbits.LATC4 = 1;
-            
+
             // Red LED off.
             LATCbits.LATC3 = 0;
-            
+
             // IMU communication was successful, proceed to the main program.
             break;
-        }
-        else
+        } else
         {
             // Red LED on.
             LATCbits.LATC3 = 1;
-            
+
             // Green LED off.
             LATCbits.LATC4 = 0;
         }
         // Small delay as to not spam the I2C bus unnecessarily.
         __delay_ms(100);
     }
-    
+
     // ISM330 initial initialization.
+    // +/- 2G
     I2C1_Write1ByteRegister(0x6B, 0x18, 0b00000010);
     I2C1_Write1ByteRegister(0x6B, 0x10, 0b01000000);
-    // 2000DPS.
+    // +/- 2000DPS.
     I2C1_Write1ByteRegister(0x6B, 0x11, 0b01001100);
     I2C1_Write1ByteRegister(0x6B, 0x18, 0b00000000);
+
+    uart_dma_data[0] = 0xAA;
     
     while (1)
     {
-        // Sync bit.
-        UART1_Write(0xAA);
-        // Data registers for accelerometer and gyroscope.
+        // Fill dma registers for accelerometer and gyroscope.
         for (uint8_t i = 0x22; i <= 0x2D; i++)
         {
-            uint8_t dataByte = I2C1_Read1ByteRegister(0x6B, i);
-            UART1_Write(dataByte);
+            uart_dma_data[i - 0x21] = I2C1_Read1ByteRegister(0x6B, i);
         }
+
+        if (PORTCbits.RC3 == 1) LATCbits.LATC3 = 0;
+        else LATCbits.LATC3 = 1;
     }
 }
+
 /**
  End of File
-*/
+ */

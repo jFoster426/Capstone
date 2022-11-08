@@ -604,12 +604,12 @@ void calibrateLoadCells(void)
         sar /= 2.0;
     }
 
-    printf("final calibration values: %.4f, %.4f\n", cal0, cal1);
+    // printf("final calibration values: %.4f, %.4f\n", cal0, cal1);
     
     ch0_offset = ch0v;
     ch1_offset = ch1v;
 
-    printf("final adc offset values: %.4f, %.4f\n", ch0_offset, ch1_offset);
+    // printf("final adc offset values: %.4f, %.4f\n", ch0_offset, ch1_offset);
 }
 
 
@@ -794,10 +794,160 @@ void gpio_init(void)
     };
     gpio_config(&nCHG_EN);
     gpio_set_direction(GPIO_NUM_17, GPIO_MODE_OUTPUT);
+
+    // Set LED1 as output.
+    gpio_config_t LED1 = 
+    {
+        .pin_bit_mask = GPIO_NUM_38,
+        .mode = GPIO_MODE_OUTPUT,
+    };
+    gpio_config(&LED1);
+    gpio_set_direction(GPIO_NUM_38, GPIO_MODE_OUTPUT);
+
+    // Set LED2 as output.
+    gpio_config_t LED2 = 
+    {
+        .pin_bit_mask = GPIO_NUM_45,
+        .mode = GPIO_MODE_OUTPUT,
+    };
+    gpio_config(&LED2);
+    gpio_set_direction(GPIO_NUM_45, GPIO_MODE_OUTPUT);
+
+    // Set LED3 as output.
+    gpio_config_t LED3 = 
+    {
+        .pin_bit_mask = GPIO_NUM_46,
+        .mode = GPIO_MODE_OUTPUT,
+    };
+    gpio_config(&LED3);
+    gpio_set_direction(GPIO_NUM_46, GPIO_MODE_OUTPUT);
 }
 
 void app_main(void)
 {
+    uart_config_t uart_config = {
+        .baud_rate = 2000000,
+        .data_bits = UART_DATA_8_BITS,
+        .parity = UART_PARITY_DISABLE,
+        .stop_bits = UART_STOP_BITS_1,
+        .flow_ctrl = UART_HW_FLOWCTRL_DISABLE,
+        .rx_flow_ctrl_thresh = 122,
+    };
+    // Configure UART parameters
+    ESP_ERROR_CHECK(uart_param_config(UART_NUM_2, &uart_config));
+
+    // Set UART pins(TX RX RTS CTS)
+    ESP_ERROR_CHECK(uart_set_pin(UART_NUM_2, 4, 10, 5, 6));
+
+    // Setup UART buffered IO with event queue
+    const int uart_buffer_size = (1024 * 2);
+    QueueHandle_t uart_queue;
+    // Install UART driver using an event queue here
+    ESP_ERROR_CHECK(uart_driver_install(UART_NUM_2, uart_buffer_size, uart_buffer_size, 10, &uart_queue, 0));
+
+    gpio_init();
+
+    // Initialize ADC.
+    adc_init(&adc, 7);
+
+    // Initialize DAC. Use a high sampling rate for now minimize avoid noise on the output (how to avoid this?).
+    dac_init(22050);
+
+    // calibrateLoadCells();
+
+    // printf("Completed initialization.\n");
+
+    while (1)
+    {
+        // Read data from UART.
+        uint8_t data[32];
+
+        uart_flush(UART_NUM_2);
+        data[0] = '\0';
+        while (data[0] != '$')
+        {
+            uart_read_bytes(UART_NUM_2, data, 1, 1); // length = 1
+        }
+        uart_read_bytes(UART_NUM_2, &data[1], 31, 100); // length = 31
+
+        // Convert to human readable data.
+        int16_t fgx = data[2] << 8 | data[1];
+        int16_t fgy = data[4] << 8 | data[3];
+        int16_t fgz = data[6] << 8 | data[5];
+        int16_t fax = data[8] << 8 | data[7];
+        int16_t fay = data[10] << 8 | data[9];
+        int16_t faz = data[12] << 8 | data[11];
+
+        int16_t sgx = data[14] << 8 | data[13];
+        int16_t sgy = data[16] << 8 | data[15];
+        int16_t sgz = data[18] << 8 | data[17];
+        int16_t sax = data[20] << 8 | data[19];
+        int16_t say = data[22] << 8 | data[21];
+        int16_t saz = data[24] << 8 | data[23];
+
+        // Error checking data packet for corrupted frame.
+        if (data[30] != '\n' || data[31] != '\0') continue; // printf("Corrupted.\n");
+
+        if (data[0] == '$' && sgx == 9252 && sgy == 9252 && sgz == 9252 && sax == 9252 && say == 9252 && saz == 9252)
+        {
+            // Measurement not started.
+            gpio_set_level(GPIO_NUM_45, 1);
+            gpio_set_level(GPIO_NUM_46, 0);
+            continue;
+        }
+
+        // Valid data from shin strap co-processor (button was pressed).
+        gpio_set_level(GPIO_NUM_45, 0);
+        gpio_set_level(GPIO_NUM_46, 1);
+        
+        // float fa[3] = { (float)fax * 2.0 / 32768.0 , (float)fay * 2.0 / 32768.0 , (float)faz * 2.0 / 32768.0 };
+        // printf("%.2f\t%.2f\t%.2f\n", fa[0], fa[1], fa[2]);
+
+        // float fg[3] = { (float)fgx * 2000.0 / 32768.0 , (float)fgy * 2000.0 / 32768.0 , (float)fgz * 2000.0 / 32768.0 };
+        // printf("%.2f\t%.2f\t%.2f\n", fg[0], fg[1], fg[2]);
+
+        // float sa[3] = { (float)sax * 2.0 / 32768.0 , (float)say * 2.0 / 32768.0 , (float)saz * 2.0 / 32768.0 };
+        // printf("%.2f\t%.2f\t%.2f\n", sa[0], sa[1], sa[2]);
+
+        // float sg[3] = { (float)sgx * 2000.0 / 32768.0 , (float)sgy * 2000.0 / 32768.0 , (float)sgz * 2000.0 / 32768.0 };
+        // printf("%.2f\t%.2f\t%.2f\n", sg[0], sg[1], sg[2]);
+        
+        // printf("%d, %d, %d, %d, %d, %d, %d ,%d ,%d ,%d ,%d ,%d\n", fax, fay, faz, fgx, fgy, fgz, sax, say, saz, sgx, sgy, sgz);
+
+        // Print raw data.
+        // printf("%.*s\n", 32, data);
+
+        double ch0v, ch1v;
+        // Collect load cell data.
+        adc_read_voltage(&adc, &ch0v, &ch1v);
+
+        // printf("%.4f, %.4f\n", ch0v * 100.0, ch1v * 100.0);
+
+        // Print everything.
+        printf("%d, %d, %d, %d, %d, %d, %d, %d ,%d ,%d ,%d ,%d ,%d, %.4f, %.4f\n", xTaskGetTickCount(), fax, fay, faz, fgx, fgy, fgz, sax, say, saz, sgx, sgy, sgz, ch0v * 10000.0, ch1v * 10000.0);
+
+        // vTaskDelay(10 / portTICK_RATE_MS);
+        fflush(stdout);
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    while (1);
     gpio_init();
 
     // Initialize the sensors.

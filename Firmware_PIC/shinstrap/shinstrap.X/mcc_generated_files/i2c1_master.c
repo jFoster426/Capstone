@@ -199,8 +199,8 @@ void I2C1_Initialize()
     //Count register
     I2C1CNTL = 0x00;
     I2C1CNTH = 0x00;
-    //BAUD 39; 
-    I2C1BAUD = 0x27;
+    //BAUD 15; 
+    I2C1BAUD = 0x0F;
     return;
 }
 
@@ -645,8 +645,8 @@ static inline bool I2C1_MasterOpen(void)
         //Count register
         I2C1CNTL = 0x00;
         I2C1CNTH = 0x00;
-        //BAUD 39; 
-        I2C1BAUD = 0x27;
+        //BAUD 15; 
+        I2C1BAUD = 0x0F;
         //Data PadReg Configuration
         RB6I2C   = 0x51;
         //Enable I2C1

@@ -111,8 +111,8 @@ void draw() {
 
     // draw main body in red
     fill(255, 0, 0, 200);
-    box(10, 10, 200);
     
+    box(10, 10, 200);
     // draw front-facing tip in blue
     fill(0, 0, 255, 200);
     pushMatrix();
